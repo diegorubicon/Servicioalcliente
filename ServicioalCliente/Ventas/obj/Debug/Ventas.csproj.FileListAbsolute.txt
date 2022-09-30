@@ -1,0 +1,15 @@
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Ventas\obj\Debug\Ventas.csprojResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Ventas\bin\Debug\Ventas.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Ventas\bin\Debug\Ventas.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Ventas\bin\Debug\DataManager.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Ventas\bin\Debug\Personas.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Ventas\bin\Debug\Ubicaciones.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Ventas\bin\Debug\DataManager.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Ventas\bin\Debug\Personas.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Ventas\bin\Debug\Ubicaciones.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Ventas\obj\Debug\Ventas.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Ventas\obj\Debug\Ventas.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Ventas\bin\Debug\ClosuresSales.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Ventas\bin\Debug\ClosuresSales.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Ventas\bin\Debug\Vendedores.BusinessObjects.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Ventas\bin\Debug\Vendedores.BusinessObjects.pdb

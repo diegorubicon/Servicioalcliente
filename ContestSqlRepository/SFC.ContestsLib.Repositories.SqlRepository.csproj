@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2F9D7EF4-EEA4-4636-BA7F-F3BCD0DE5D96}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SFC.ContestsLib.Repositories</RootNamespace>
+    <AssemblyName>SFC.ContestsLib.Repositories.SqlRepository</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ConnectionWrapper">
+      <HintPath>..\..\..\Mapped Team Projects\Connection\bin\Debug\ConnectionWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="DataManager">
+      <HintPath>..\..\..\Mapped Team Projects\DataManager\DataManager\bin\Debug\DataManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CompetitionRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Clases .net\ConnectionStringManager\ConnectionStringManager.csproj">
+      <Project>{31B84870-3ED3-4581-856B-67DBDD3BBCFE}</Project>
+      <Name>ConnectionStringManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Clases .net\Contests\SFC.Contest.Repositories.Contract\SFC.ContestsLib.Repositories.Contracts.csproj">
+      <Project>{53A0297A-CA17-46B6-AF4E-19F96C4BAADC}</Project>
+      <Name>SFC.ContestsLib.Repositories.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Clases .net\Contests\SFC.ContestsLib.Entities\SFC.ContestsLib.Entities.csproj">
+      <Project>{6244404D-CFA3-44D9-8083-6F92013F16A3}</Project>
+      <Name>SFC.ContestsLib.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

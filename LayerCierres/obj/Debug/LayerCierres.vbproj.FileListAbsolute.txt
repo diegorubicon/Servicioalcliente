@@ -1,0 +1,54 @@
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\bin\Debug\LayerCierres.dll
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\bin\Debug\LayerCierres.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\bin\Debug\LayerCierres.xml
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\bin\Debug\DataProvider.dll
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\bin\Debug\DataProvider.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\bin\Debug\DataProvider.xml
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.vbprojResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.Resources.resources
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.vbproj.GenerateResource.Cache
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.dll
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.xml
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerCierres\bin\Debug\LayerCierres.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerCierres\bin\Debug\LayerCierres.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerCierres\bin\Debug\LayerCierres.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerCierres\bin\Debug\DataProvider.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerCierres\bin\Debug\DataProvider.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerCierres\bin\Debug\DataProvider.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.Resources.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.vbproj.GenerateResource.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.vbproj.CoreCompileInputs.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.vbproj.CopyComplete
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.vbprojAssemblyReference.cache
+C:\Diego\Production Developments\ServicioalCliente\LayerCierres\bin\Debug\LayerCierres.dll
+C:\Diego\Production Developments\ServicioalCliente\LayerCierres\bin\Debug\LayerCierres.pdb
+C:\Diego\Production Developments\ServicioalCliente\LayerCierres\bin\Debug\LayerCierres.xml
+C:\Diego\Production Developments\ServicioalCliente\LayerCierres\bin\Debug\DataProvider.dll
+C:\Diego\Production Developments\ServicioalCliente\LayerCierres\bin\Debug\DataProvider.pdb
+C:\Diego\Production Developments\ServicioalCliente\LayerCierres\bin\Debug\DataProvider.xml
+C:\Diego\Production Developments\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.vbprojAssemblyReference.cache
+C:\Diego\Production Developments\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.Resources.resources
+C:\Diego\Production Developments\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.vbproj.GenerateResource.cache
+C:\Diego\Production Developments\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.vbproj.CoreCompileInputs.cache
+C:\Diego\Production Developments\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.vbproj.CopyComplete
+C:\Diego\Production Developments\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.dll
+C:\Diego\Production Developments\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.xml
+C:\Diego\Production Developments\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.pdb
+C:\Diego\src\ServicioalCliente\LayerCierres\bin\Debug\LayerCierres.dll
+C:\Diego\src\ServicioalCliente\LayerCierres\bin\Debug\LayerCierres.pdb
+C:\Diego\src\ServicioalCliente\LayerCierres\bin\Debug\LayerCierres.xml
+C:\Diego\src\ServicioalCliente\LayerCierres\bin\Debug\DataProvider.dll
+C:\Diego\src\ServicioalCliente\LayerCierres\bin\Debug\DataProvider.pdb
+C:\Diego\src\ServicioalCliente\LayerCierres\bin\Debug\DataProvider.xml
+C:\Diego\src\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.vbproj.AssemblyReference.cache
+C:\Diego\src\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.Resources.resources
+C:\Diego\src\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.vbproj.GenerateResource.cache
+C:\Diego\src\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.vbproj.CoreCompileInputs.cache
+C:\Diego\src\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.vbproj.CopyComplete
+C:\Diego\src\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.dll
+C:\Diego\src\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.xml
+C:\Diego\src\ServicioalCliente\LayerCierres\obj\Debug\LayerCierres.pdb

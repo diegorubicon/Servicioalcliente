@@ -1,0 +1,54 @@
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\bin\Debug\LayerPayments.dll
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\bin\Debug\LayerPayments.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\bin\Debug\LayerPayments.xml
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\bin\Debug\DataProvider.dll
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\bin\Debug\DataProvider.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\bin\Debug\DataProvider.xml
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.Resources.resources
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.vbproj.GenerateResource.Cache
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.dll
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.xml
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.vbprojResolveAssemblyReference.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerPayments\bin\Debug\LayerPayments.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerPayments\bin\Debug\LayerPayments.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerPayments\bin\Debug\LayerPayments.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerPayments\bin\Debug\DataProvider.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerPayments\bin\Debug\DataProvider.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerPayments\bin\Debug\DataProvider.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.vbprojAssemblyReference.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.Resources.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.vbproj.GenerateResource.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.vbproj.CoreCompileInputs.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.vbproj.CopyComplete
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.pdb
+C:\Diego\Production Developments\ServicioalCliente\LayerPayments\bin\Debug\LayerPayments.dll
+C:\Diego\Production Developments\ServicioalCliente\LayerPayments\bin\Debug\LayerPayments.pdb
+C:\Diego\Production Developments\ServicioalCliente\LayerPayments\bin\Debug\LayerPayments.xml
+C:\Diego\Production Developments\ServicioalCliente\LayerPayments\bin\Debug\DataProvider.dll
+C:\Diego\Production Developments\ServicioalCliente\LayerPayments\bin\Debug\DataProvider.pdb
+C:\Diego\Production Developments\ServicioalCliente\LayerPayments\bin\Debug\DataProvider.xml
+C:\Diego\Production Developments\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.vbprojAssemblyReference.cache
+C:\Diego\Production Developments\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.Resources.resources
+C:\Diego\Production Developments\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.vbproj.GenerateResource.cache
+C:\Diego\Production Developments\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.vbproj.CoreCompileInputs.cache
+C:\Diego\Production Developments\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.vbproj.CopyComplete
+C:\Diego\Production Developments\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.dll
+C:\Diego\Production Developments\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.xml
+C:\Diego\Production Developments\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.pdb
+C:\Diego\src\ServicioalCliente\LayerPayments\bin\Debug\LayerPayments.dll
+C:\Diego\src\ServicioalCliente\LayerPayments\bin\Debug\LayerPayments.pdb
+C:\Diego\src\ServicioalCliente\LayerPayments\bin\Debug\LayerPayments.xml
+C:\Diego\src\ServicioalCliente\LayerPayments\bin\Debug\DataProvider.dll
+C:\Diego\src\ServicioalCliente\LayerPayments\bin\Debug\DataProvider.pdb
+C:\Diego\src\ServicioalCliente\LayerPayments\bin\Debug\DataProvider.xml
+C:\Diego\src\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.vbproj.AssemblyReference.cache
+C:\Diego\src\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.Resources.resources
+C:\Diego\src\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.vbproj.GenerateResource.cache
+C:\Diego\src\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.vbproj.CoreCompileInputs.cache
+C:\Diego\src\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.vbproj.CopyComplete
+C:\Diego\src\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.dll
+C:\Diego\src\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.xml
+C:\Diego\src\ServicioalCliente\LayerPayments\obj\Debug\LayerPayments.pdb

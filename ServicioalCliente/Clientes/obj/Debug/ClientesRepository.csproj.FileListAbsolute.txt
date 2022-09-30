@@ -1,0 +1,12 @@
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Clientes\bin\Debug\Clientes.dll.config
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Clientes\bin\Debug\Clientes.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Clientes\bin\Debug\Clientes.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Clientes\obj\Debug\Clientes.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Clientes\obj\Debug\Clientes.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\Clientes\bin\Debug\Clientes.dll.config
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\Clientes\bin\Debug\Clientes.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\Clientes\bin\Debug\Clientes.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\Clientes\obj\Debug\ClientesRepository.csprojAssemblyReference.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\Clientes\obj\Debug\ClientesRepository.csproj.CoreCompileInputs.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\Clientes\obj\Debug\Clientes.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\Clientes\obj\Debug\Clientes.pdb

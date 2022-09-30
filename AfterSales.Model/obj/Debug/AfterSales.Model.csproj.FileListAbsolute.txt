@@ -1,0 +1,22 @@
+C:\Desarrollo Local\ServicioalCliente\AfterSales.Model\bin\Debug\AfterSales.Model.dll
+C:\Desarrollo Local\ServicioalCliente\AfterSales.Model\bin\Debug\AfterSales.Model.pdb
+C:\Desarrollo Local\ServicioalCliente\AfterSales.Model\obj\Debug\AfterSales.Model.dll
+C:\Desarrollo Local\ServicioalCliente\AfterSales.Model\obj\Debug\AfterSales.Model.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\AfterSales.Model\bin\Debug\AfterSales.Model.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\AfterSales.Model\bin\Debug\AfterSales.Model.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\AfterSales.Model\obj\Debug\AfterSales.Model.csproj.CoreCompileInputs.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\AfterSales.Model\obj\Debug\AfterSales.Model.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\AfterSales.Model\obj\Debug\AfterSales.Model.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\AfterSales.Model\obj\Debug\AfterSales.Model.csprojAssemblyReference.cache
+C:\Diego\Production Developments\ServicioalCliente\AfterSales.Model\bin\Debug\AfterSales.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\AfterSales.Model\bin\Debug\AfterSales.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\AfterSales.Model\obj\Debug\AfterSales.Model.csprojAssemblyReference.cache
+C:\Diego\Production Developments\ServicioalCliente\AfterSales.Model\obj\Debug\AfterSales.Model.csproj.CoreCompileInputs.cache
+C:\Diego\Production Developments\ServicioalCliente\AfterSales.Model\obj\Debug\AfterSales.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\AfterSales.Model\obj\Debug\AfterSales.Model.pdb
+C:\Diego\src\ServicioalCliente\AfterSales.Model\bin\Debug\AfterSales.Model.dll
+C:\Diego\src\ServicioalCliente\AfterSales.Model\bin\Debug\AfterSales.Model.pdb
+C:\Diego\src\ServicioalCliente\AfterSales.Model\obj\Debug\AfterSales.Model.csproj.CoreCompileInputs.cache
+C:\Diego\src\ServicioalCliente\AfterSales.Model\obj\Debug\AfterSales.Model.dll
+C:\Diego\src\ServicioalCliente\AfterSales.Model\obj\Debug\AfterSales.Model.pdb
+C:\Diego\src\ServicioalCliente\AfterSales.Model\obj\Debug\AfterSales.Model.csproj.AssemblyReference.cache

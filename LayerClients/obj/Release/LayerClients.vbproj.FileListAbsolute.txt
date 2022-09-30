@@ -1,0 +1,16 @@
+C:\Desarrollo Local\ServicioalCliente\LayerClients\bin\Release\LayerClients.dll
+C:\Desarrollo Local\ServicioalCliente\LayerClients\bin\Release\LayerClients.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerClients\bin\Release\LayerClients.xml
+C:\Desarrollo Local\ServicioalCliente\LayerClients\bin\Release\DataProvider.dll
+C:\Desarrollo Local\ServicioalCliente\LayerClients\bin\Release\LayerAdress.dll
+C:\Desarrollo Local\ServicioalCliente\LayerClients\bin\Release\DataProvider.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerClients\bin\Release\DataProvider.xml
+C:\Desarrollo Local\ServicioalCliente\LayerClients\bin\Release\LayerAdress.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerClients\bin\Release\LayerAdress.xml
+C:\Desarrollo Local\ServicioalCliente\LayerClients\obj\Release\ResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\LayerClients\obj\Release\LayerClients.Resources.resources
+C:\Desarrollo Local\ServicioalCliente\LayerClients\obj\Release\ResGen.read.1.tlog
+C:\Desarrollo Local\ServicioalCliente\LayerClients\obj\Release\ResGen.write.1.tlog
+C:\Desarrollo Local\ServicioalCliente\LayerClients\obj\Release\LayerClients.dll
+C:\Desarrollo Local\ServicioalCliente\LayerClients\obj\Release\LayerClients.xml
+C:\Desarrollo Local\ServicioalCliente\LayerClients\obj\Release\LayerClients.pdb

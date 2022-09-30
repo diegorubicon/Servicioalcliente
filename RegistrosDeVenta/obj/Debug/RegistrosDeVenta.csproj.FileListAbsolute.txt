@@ -1,0 +1,6 @@
+C:\Desarrollo Local\ServicioalCliente\RegistrosDeVenta\bin\Debug\RegistrosDeVenta.dll.config
+C:\Desarrollo Local\ServicioalCliente\RegistrosDeVenta\bin\Debug\RegistrosDeVenta.dll
+C:\Desarrollo Local\ServicioalCliente\RegistrosDeVenta\bin\Debug\RegistrosDeVenta.pdb
+C:\Desarrollo Local\ServicioalCliente\RegistrosDeVenta\obj\Debug\ResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\RegistrosDeVenta\obj\Debug\RegistrosDeVenta.dll
+C:\Desarrollo Local\ServicioalCliente\RegistrosDeVenta\obj\Debug\RegistrosDeVenta.pdb

@@ -1,0 +1,39 @@
+C:\Diego\Production Developments\ServicioalCliente\ClassLibrary1\obj\Debug\AccessDataLib.csprojAssemblyReference.cache
+C:\Diego\Production Developments\ServicioalCliente\ClassLibrary1\obj\Debug\AccessDataLib.csproj.CoreCompileInputs.cache
+C:\Diego\Production Developments\ServicioalCliente\AccessDataLib\bin\Debug\AccessDataLib.dll
+C:\Diego\Production Developments\ServicioalCliente\AccessDataLib\bin\Debug\AccessDataLib.pdb
+C:\Diego\Production Developments\ServicioalCliente\AccessDataLib\bin\Debug\AutoMapper.dll
+C:\Diego\Production Developments\ServicioalCliente\AccessDataLib\bin\Debug\Dapper.dll
+C:\Diego\Production Developments\ServicioalCliente\AccessDataLib\bin\Debug\Dapper.SimpleCRUD.dll
+C:\Diego\Production Developments\ServicioalCliente\AccessDataLib\bin\Debug\Serilog.dll
+C:\Diego\Production Developments\ServicioalCliente\AccessDataLib\bin\Debug\Serilog.Sinks.File.dll
+C:\Diego\Production Developments\ServicioalCliente\AccessDataLib\bin\Debug\AutoMapper.xml
+C:\Diego\Production Developments\ServicioalCliente\AccessDataLib\bin\Debug\Dapper.xml
+C:\Diego\Production Developments\ServicioalCliente\AccessDataLib\bin\Debug\Dapper.SimpleCRUD.pdb
+C:\Diego\Production Developments\ServicioalCliente\AccessDataLib\bin\Debug\Dapper.SimpleCRUD.xml
+C:\Diego\Production Developments\ServicioalCliente\AccessDataLib\bin\Debug\Serilog.xml
+C:\Diego\Production Developments\ServicioalCliente\AccessDataLib\bin\Debug\Serilog.Sinks.File.pdb
+C:\Diego\Production Developments\ServicioalCliente\AccessDataLib\bin\Debug\Serilog.Sinks.File.xml
+C:\Diego\Production Developments\ServicioalCliente\AccessDataLib\obj\Debug\AccessDataLib.csproj.CoreCompileInputs.cache
+C:\Diego\Production Developments\ServicioalCliente\AccessDataLib\obj\Debug\AccessDataLib.csproj.CopyComplete
+C:\Diego\Production Developments\ServicioalCliente\AccessDataLib\obj\Debug\AccessDataLib.dll
+C:\Diego\Production Developments\ServicioalCliente\AccessDataLib\obj\Debug\AccessDataLib.pdb
+C:\Diego\src\ServicioalCliente\AccessDataLib\bin\Debug\AccessDataLib.dll
+C:\Diego\src\ServicioalCliente\AccessDataLib\bin\Debug\AccessDataLib.pdb
+C:\Diego\src\ServicioalCliente\AccessDataLib\bin\Debug\AutoMapper.dll
+C:\Diego\src\ServicioalCliente\AccessDataLib\bin\Debug\Dapper.dll
+C:\Diego\src\ServicioalCliente\AccessDataLib\bin\Debug\Dapper.SimpleCRUD.dll
+C:\Diego\src\ServicioalCliente\AccessDataLib\bin\Debug\Serilog.dll
+C:\Diego\src\ServicioalCliente\AccessDataLib\bin\Debug\Serilog.Sinks.File.dll
+C:\Diego\src\ServicioalCliente\AccessDataLib\bin\Debug\AutoMapper.xml
+C:\Diego\src\ServicioalCliente\AccessDataLib\bin\Debug\Dapper.xml
+C:\Diego\src\ServicioalCliente\AccessDataLib\bin\Debug\Dapper.SimpleCRUD.pdb
+C:\Diego\src\ServicioalCliente\AccessDataLib\bin\Debug\Dapper.SimpleCRUD.xml
+C:\Diego\src\ServicioalCliente\AccessDataLib\bin\Debug\Serilog.xml
+C:\Diego\src\ServicioalCliente\AccessDataLib\bin\Debug\Serilog.Sinks.File.pdb
+C:\Diego\src\ServicioalCliente\AccessDataLib\bin\Debug\Serilog.Sinks.File.xml
+C:\Diego\src\ServicioalCliente\AccessDataLib\obj\Debug\AccessDataLib.csproj.AssemblyReference.cache
+C:\Diego\src\ServicioalCliente\AccessDataLib\obj\Debug\AccessDataLib.csproj.CoreCompileInputs.cache
+C:\Diego\src\ServicioalCliente\AccessDataLib\obj\Debug\AccessDataLib.csproj.CopyComplete
+C:\Diego\src\ServicioalCliente\AccessDataLib\obj\Debug\AccessDataLib.dll
+C:\Diego\src\ServicioalCliente\AccessDataLib\obj\Debug\AccessDataLib.pdb

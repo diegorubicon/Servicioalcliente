@@ -1,0 +1,1034 @@
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.exe.config
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.exe.manifest
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.application
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.exe
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.xml
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Actividades.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Model.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\BonosExcelencia.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CirculosExcelencia.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Clientes.BusinessLayer.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Clientes.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Clientes.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ClosuresSalesLib.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CnnStrMng.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Common.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Common.Model.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Concursos.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ConnectionWrapper.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DashBoard.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DataSource.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Facturacion.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerAdress.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerCierres.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerClients.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerOrders.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerPayments.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerSellers.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerShipping.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerWarranty.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\MonthlyMeeting.Model.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\MonthlyMeetingLib.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Orders.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Personas.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\PuntosPremiate.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\RegistrosDeVenta.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Sales.Opportunities.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceLib.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceLib.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesMansLibrary.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SellerLevel.BusinessLayer.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SellerLevel.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.WinForms.exe
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivision.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivisionLib.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.Windows.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.Domain.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Ubicaciones2.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\UserAccessManager.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.Domain.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Business.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Reporting.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.Business.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SqlRepository.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AdressBook.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Generic.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Repositories.AdoRepository.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Clientes.DataAccess.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivision.BusinessLayer.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DataProvider.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivision.DataAccess.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.BusinessLayer.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Docking.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Navigator.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SellerLevel.DataAccess.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AttributesLib.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ForceSalesLib.Model.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ForceSalesLib.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\MonthlyMeetingLib.DataAccess.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivisionLib.Model.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivisionLib.DataAccess.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.Domain2.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Ribbon.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ExControls.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.DataAccess.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DataManager.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.Repositories.SqlRepository.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.DataAccess.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.DataAccess.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.SalesForceLib.Repositories.Contracts.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Repositories.Contracts.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ConnectionStringManager.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.DataAccess.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Workspace.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.Model.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.DataAccess.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.Repositories.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.WinForms.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.WinForms.xml
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.xml
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ClosuresSalesLib.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Personas.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceLib.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceLib.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Actividades.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Model.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\BonosExcelencia.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CirculosExcelencia.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Clientes.BusinessLayer.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Clientes.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Clientes.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Clientes.xml
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Common.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Concursos.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DashBoard.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Facturacion.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerAdress.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerAdress.xml
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerCierres.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerCierres.xml
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerClients.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerClients.xml
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerOrders.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerOrders.xml
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerPayments.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerPayments.xml
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerSellers.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerSellers.xml
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerShipping.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerShipping.xml
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerWarranty.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerWarranty.xml
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Orders.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\PuntosPremiate.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\RegistrosDeVenta.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Sales.Opportunities.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesMansLibrary.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SellerLevel.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\UserAccessManager.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SellerLevel.BusinessLayer.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivision.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CnnStrMng.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Common.Model.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ConnectionWrapper.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DataSource.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\MonthlyMeeting.Model.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\MonthlyMeetingLib.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivisionLib.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.Windows.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.Windows.xml
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.xml
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.Domain.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Ubicaciones2.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.Domain.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.xml
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Business.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Reporting.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Reporting.xml
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.Business.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SqlRepository.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AdressBook.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Generic.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Repositories.AdoRepository.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Clientes.DataAccess.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivision.BusinessLayer.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DataProvider.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DataProvider.xml
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivision.DataAccess.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.BusinessLayer.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SellerLevel.DataAccess.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AttributesLib.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ForceSalesLib.Model.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ForceSalesLib.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\MonthlyMeetingLib.DataAccess.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivisionLib.Model.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivisionLib.DataAccess.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.Domain2.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Ribbon.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Ribbon.xml
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ExControls.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.DataAccess.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DataManager.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.Repositories.SqlRepository.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.DataAccess.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.DataAccess.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.SalesForceLib.Repositories.Contracts.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Repositories.Contracts.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ConnectionStringManager.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.DataAccess.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.Model.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.DataAccess.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.Repositories.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.vbprojResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmActividades.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmAgregarMetas.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmAgregarObservacion.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmBitacoraVendedores.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.FrmBitacoraVendedoresExtend.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmDeactivateVendedor.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmDesbloquearBitacoras.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmDesbloquearBitacoraVendedor.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmEditEmail.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmFiltrarEjecutivosVentas.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmFiltrarNuevosContratos.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmFiltroActividades.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmFiltroSeguimientoLlamadas.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.FrmJoinMeeting.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmMain.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmAgregarServidor.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmBuscaCliente.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmBuscaGarantia.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmBuscarOrden.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmBuscaVendedor.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmFiltrarCategorias.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmLogin.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmMakeMeeting.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmNiveles.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmOportunidades.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmOrdenesCanceladas.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmPassword.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmPerfiles.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmPostVentaDeshabilitadas.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmReporteCategorias.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmReporteContratosNuevos.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmReporteCumpleaños.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmSeguimiento.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmVendedores.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmVistaPrevia.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.Resources.resources
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.vbproj.GenerateResource.Cache
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.exe.manifest
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.application
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.exe
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.xml
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.exe.config
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.exe.manifest
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.application
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.exe
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Actividades.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Model.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\BillingLib.Model.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\BonosExcelencia.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CirculosExcelencia.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ClosuresSalesLib.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Common.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Common.Model.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CompensationPlan.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CompensationPlan.Model.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Concursos.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ConnectionWrapper.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.Shared.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CustomerPortfolioLib.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CustomerPortfolioLib.Model.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DashBoard.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DataToBusinessParserLib.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Facturacion.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ForceSalesLib.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ForceSalesLib.Model.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerCierres.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerPayments.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerShipping.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerWarranty.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Personas.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\PuntosPremiate.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\RegistrosDeVenta.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Sales.Opportunities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesSummary.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesSummary.Model.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.WinForms.exe
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivisionLib.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivisionLib.Model.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.Windows.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\UserAccessManager.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.Domain.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Business.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Reporting.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.Business.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CustomORMLib.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\IDTypesLib.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\IDTypesLib.Model.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Generic.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Repositories.AdoRepository.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DataProvider.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.BusinessLayer.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Docking.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Navigator.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\FlashControlV71.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DataWarehouseLib.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ForceSalesLib.DataAccess.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.Model.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Ribbon.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DataManager.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.Repositories.SqlRepository.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.DataAccess.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.DataAccess.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Repositories.Contracts.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ConnectionStringManager.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.DataAccess.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Workspace.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\stdole.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ShockwaveFlashObjects.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\System.Data.SQLite.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LogsLib.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.DataAccess.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.Repositories.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.WinForms.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.WinForms.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.dll.config
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ClosuresSalesLib.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Personas.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceLib.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Actividades.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Actividades.dll.config
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Model.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\BonosExcelencia.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\BonosExcelencia.dll.config
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CirculosExcelencia.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CirculosExcelencia.dll.config
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Common.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Concursos.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Concursos.dll.config
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DashBoard.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DashBoard.dll.config
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Facturacion.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerCierres.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerCierres.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerPayments.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerPayments.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerShipping.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerShipping.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerWarranty.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LayerWarranty.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\PuntosPremiate.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\PuntosPremiate.dll.config
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\RegistrosDeVenta.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\RegistrosDeVenta.dll.config
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Sales.Opportunities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\UserAccessManager.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\BillingLib.Model.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Common.Model.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CompensationPlan.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CompensationPlan.Model.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ConnectionWrapper.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CustomerPortfolioLib.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CustomerPortfolioLib.Model.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DataToBusinessParserLib.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ForceSalesLib.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ForceSalesLib.Model.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\InvoicingLib.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\MonthlyMeetingLib.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceLib.Model.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceTracking.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceTracking.Model.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesSummary.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesSummary.Model.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivisionLib.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivisionLib.Model.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.Windows.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.Windows.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.Windows.dll.config
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.Domain.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Business.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Reporting.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Reporting.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.Business.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\CustomORMLib.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\IDTypesLib.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\IDTypesLib.Model.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Generic.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Repositories.AdoRepository.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DataProvider.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DataProvider.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.BusinessLayer.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DataWarehouseLib.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DataWarehouseLib.dll.config
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ForceSalesLib.DataAccess.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.Model.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\DataManager.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.Repositories.SqlRepository.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.DataAccess.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.DataAccess.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Repositories.Contracts.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\ConnectionStringManager.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.DataAccess.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\System.Data.SQLite.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\System.Data.SQLite.dll.config
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\LogsLib.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.DataAccess.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.ContestsLib.Repositories.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.vbprojAssemblyReference.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmActividades.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmAgregarMetas.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmAgregarObservacion.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.FrmBitacoraVendedoresExtend.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmDeactivateVendedor.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmDesbloquearBitacoras.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmDesbloquearBitacoraVendedor.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmEditEmail.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmFiltrarEjecutivosVentas.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmFiltrarNuevosContratos.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmFiltroActividades.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmFiltroSeguimientoLlamadas.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.FrmJoinMeeting.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmMain.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmAgregarServidor.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmBuscaCliente.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmBuscaGarantia.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmBuscarOrden.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmBuscaVendedor.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmFiltrarCategorias.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmLogin.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmMakeMeeting.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmNiveles.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmOportunidades.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmOrdenesCanceladas.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmPassword.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmPerfiles.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmPostVentaDeshabilitadas.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmReporteCategorias.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmReporteContratosNuevos.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmReporteCumpleaños.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmSeguimiento.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmVendedores.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmVistaPrevia.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.Resources.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.vbproj.GenerateResource.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.vbproj.CoreCompileInputs.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.exe.manifest
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.application
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.vbproj.CopyComplete
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.exe
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\InvoicingLib.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceTracking.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceTracking.Model.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\MonthlyMeetingLib.Model.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\MonthlyMeetingLib.Model.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\MonthlyMeetingLib.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceLib.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceLib.Model.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AutoUpdater.NET.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\AutoUpdater.NET.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.Model.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.Model.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.WindowsView.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.WindowsView.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.WindowsView.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.WindowsView.dll.config
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\UserManagementLib.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\UserManagementLib.Model.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\UserManagementLib.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\bin\Debug\UserManagementLib.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.vbprojAssemblyReference.cache
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmActividades.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmAgregarMetas.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmAgregarObservacion.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.FrmBitacoraVendedoresExtend.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmDeactivateVendedor.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmDesbloquearBitacoras.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmDesbloquearBitacoraVendedor.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmEditEmail.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmFiltrarEjecutivosVentas.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmFiltrarNuevosContratos.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmFiltroActividades.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmFiltroSeguimientoLlamadas.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.FrmJoinMeeting.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmMain.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmAgregarServidor.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmBuscaCliente.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmBuscaGarantia.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmBuscarOrden.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmBuscaVendedor.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmFiltrarCategorias.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmLogin.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmMakeMeeting.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmNiveles.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmOportunidades.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmOrdenesCanceladas.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmPassword.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmPerfiles.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmPostVentaDeshabilitadas.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmReporteCategorias.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmReporteContratosNuevos.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmReporteCumpleaños.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmSeguimiento.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmVendedores.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmVistaPrevia.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.Resources.resources
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.vbproj.GenerateResource.cache
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.vbproj.CoreCompileInputs.cache
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.exe.config
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.exe.manifest
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.application
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.exe
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Entities.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Actividades.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\AutoUpdater.NET.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\BillingLib.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\BonosExcelencia.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\CirculosExcelencia.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\ClosuresSalesLib.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Common.Entities.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\CompensationPlan.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\CompensationPlan.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Concursos.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\CTILib.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\CustomerPortfolioLib.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\CustomerPortfolioLib.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\CustomORM2.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\CustomORMLib.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\DashBoard.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\DataToBusiness.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\DataToBusinessParser2.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\DataWarehouseLib2.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Facturacion.Entities.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\InvoicingLib.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\LayerCierres.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\LayerPayments.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\LayerShipping.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\LayerWarranty.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\MonthlyMeetingLib.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\MonthlyMeetingLib.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\PuntosPremiate.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\RegistrosDeVenta.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Sales.Opportunities.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceLib.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceLib.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceTracking.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceTracking.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SalesSummary.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SalesSummary.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.Services.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.DependencyInjector.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivisionLib.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivisionLib.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.WindowsView.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Unity.Abstractions.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Unity.Container.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\UserAccessManager.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\UserManagementLib.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\UserManagementLib.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Generic.Entities.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Repositories.AdoRepository.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\AccessDataLib.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.Infrastructure.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\DataProvider.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.BusinessLayer.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.Entities.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Docking.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Navigator.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.Entities.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Business.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Reporting.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.Business.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\IDTypesLib.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\IDTypesLib.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\MyORMLib.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\DataWarehouseLib.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\System.Data.SQLite.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\LogsLib.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Ribbon.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Repositories.Contracts.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\ConnectionStringManager.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Dapper.SimpleCRUD.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\AutoMapper.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Dapper.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Serilog.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Serilog.Sinks.File.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.DataAccess.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Workspace.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.DataAccess.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.DataAccess.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\stdole.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\UserManagementLib.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Entities.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Actividades.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Actividades.dll.config
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\BonosExcelencia.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\BonosExcelencia.dll.config
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\CirculosExcelencia.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\CirculosExcelencia.dll.config
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Common.Entities.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Concursos.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Concursos.dll.config
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\DashBoard.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\DashBoard.dll.config
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.DependencyInjector.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Facturacion.Entities.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\LayerCierres.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\LayerCierres.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\LayerPayments.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\LayerPayments.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\LayerShipping.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\LayerShipping.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\LayerWarranty.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\LayerWarranty.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\PuntosPremiate.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\PuntosPremiate.dll.config
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\RegistrosDeVenta.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\RegistrosDeVenta.dll.config
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Sales.Opportunities.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.Services.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\UserAccessManager.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.dll.config
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\ClosuresSalesLib.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\AutoUpdater.NET.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\BillingLib.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\CompensationPlan.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\CompensationPlan.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\CTILib.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\CustomerPortfolioLib.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\CustomerPortfolioLib.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\CustomORM2.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\CustomORMLib.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\DataToBusiness.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\DataToBusinessParser2.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\DataWarehouseLib2.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\DataWarehouseLib2.dll.config
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\InvoicingLib.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\MonthlyMeetingLib.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\MonthlyMeetingLib.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceLib.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceLib.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceTracking.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceTracking.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SalesSummary.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SalesSummary.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivisionLib.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivisionLib.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.WindowsView.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.WindowsView.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.WindowsView.dll.config
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Unity.Abstractions.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Unity.Container.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\UserManagementLib.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Generic.Entities.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Repositories.AdoRepository.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\AccessDataLib.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.Infrastructure.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\DataProvider.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\DataProvider.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.BusinessLayer.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.Entities.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.Entities.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Business.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Reporting.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Reporting.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.Business.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\IDTypesLib.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\IDTypesLib.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\MyORMLib.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\DataWarehouseLib.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\DataWarehouseLib.dll.config
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\System.Data.SQLite.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\System.Data.SQLite.dll.config
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\LogsLib.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Repositories.Contracts.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\ConnectionStringManager.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Dapper.SimpleCRUD.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Dapper.SimpleCRUD.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\AutoMapper.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Dapper.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Serilog.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Serilog.Sinks.File.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Serilog.Sinks.File.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.DataAccess.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.DataAccess.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.DataAccess.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.exe.manifest
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.application
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.vbproj.CopyComplete
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.exe
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.exe.config
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.exe.manifest
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.application
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.exe
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Entities.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Actividades.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Model.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\AutoUpdater.NET.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\BillingLib.Model.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\BonosExcelencia.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CirculosExcelencia.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ClosuresSalesLib.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Common.Entities.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Common.Model.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CompensationPlan.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CompensationPlan.Model.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Concursos.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ConnectionWrapper.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CustomerPortfolioLib.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CustomerPortfolioLib.Model.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CustomORM2.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CustomORMLib.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\DashBoard.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\DataToBusinessParser2.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\DataWarehouseLib2.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Facturacion.Entities.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ForceSalesLib.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ForceSalesLib.Model.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\InvoicingLib.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\LayerCierres.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\LayerPayments.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\LayerShipping.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\LayerWarranty.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\MonthlyMeetingLib.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\MonthlyMeetingLib.Model.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Personas.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\PuntosPremiate.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\RegistrosDeVenta.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Sales.Opportunities.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceLib.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceLib.Model.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceTracking.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceTracking.Model.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SalesSummary.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SalesSummary.Model.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.Model.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.Services.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.DependencyInjector.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivisionLib.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivisionLib.Model.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.Windows.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.Model.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.WindowsView.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Unity.Abstractions.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Unity.Container.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\UserAccessManager.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\UserManagementLib.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\UserManagementLib.Model.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Generic.Entities.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Repositories.AdoRepository.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\AccessDataLib.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.Infrastructure.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\DataProvider.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.BusinessLayer.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.Entities.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Docking.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Navigator.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.Entities.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Business.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Reporting.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.Business.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\FlashControlV71.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\IDTypesLib.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\IDTypesLib.Model.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\MyORMLib.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\DataWarehouseLib.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\System.Data.SQLite.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\LogsLib.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ForceSalesLib.DataAccess.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.Model.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Ribbon.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Repositories.Contracts.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ConnectionStringManager.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Dapper.SimpleCRUD.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\AutoMapper.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Dapper.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Serilog.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Serilog.Sinks.File.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.DataAccess.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ComponentFactory.Krypton.Workspace.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.DataAccess.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.DataAccess.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\stdole.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ShockwaveFlashObjects.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.DataAccess.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\UserManagementLib.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Personas.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Entities.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Actividades.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Actividades.dll.config
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Model.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\BonosExcelencia.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\BonosExcelencia.dll.config
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CirculosExcelencia.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CirculosExcelencia.dll.config
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Common.Entities.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Concursos.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Concursos.dll.config
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\DashBoard.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\DashBoard.dll.config
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SFC.DependencyInjector.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Facturacion.Entities.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\LayerCierres.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\LayerCierres.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\LayerPayments.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\LayerPayments.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\LayerShipping.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\LayerShipping.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\LayerWarranty.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\LayerWarranty.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\PuntosPremiate.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\PuntosPremiate.dll.config
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\RegistrosDeVenta.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\RegistrosDeVenta.dll.config
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Sales.Opportunities.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.Model.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.Services.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\UserAccessManager.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.dll.config
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ClosuresSalesLib.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\AutoUpdater.NET.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\BillingLib.Model.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Common.Model.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CompensationPlan.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CompensationPlan.Model.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ConnectionWrapper.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CTILib.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CustomerPortfolioLib.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CustomerPortfolioLib.Model.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CustomORM2.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\CustomORMLib.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\DataToBusiness.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\DataToBusinessParser2.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\DataWarehouseLib2.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\DataWarehouseLib2.dll.config
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ForceSalesLib.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ForceSalesLib.Model.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\InvoicingLib.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\MonthlyMeetingLib.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\MonthlyMeetingLib.Model.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceLib.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceLib.Model.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceTracking.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForceTracking.Model.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SalesSummary.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SalesSummary.Model.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivisionLib.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TerritorialDivisionLib.Model.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.Windows.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.Windows.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.Windows.dll.config
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.Model.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.WindowsView.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.WindowsView.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TrackingContactsLib.WindowsView.dll.config
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Unity.Abstractions.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Unity.Container.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\UserManagementLib.Model.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Generic.Entities.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Repositories.AdoRepository.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\AccessDataLib.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ServicioalCliente.Infrastructure.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\DataProvider.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\DataProvider.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.BusinessLayer.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.Entities.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.Entities.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Business.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Reporting.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.Reporting.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.Business.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\IDTypesLib.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\IDTypesLib.Model.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\MyORMLib.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\DataWarehouseLib.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\DataWarehouseLib.dll.config
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\System.Data.SQLite.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\System.Data.SQLite.dll.config
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\LogsLib.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ForceSalesLib.DataAccess.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.Model.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\AfterSales.Repositories.Contracts.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\ConnectionStringManager.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Dapper.SimpleCRUD.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Dapper.SimpleCRUD.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\AutoMapper.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Dapper.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Serilog.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Serilog.Sinks.File.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Serilog.Sinks.File.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Survey.DataAccess.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\Academic.DataAccess.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\SalesForce.DataAccess.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\TextMessageLib.DataAccess.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.vbproj.AssemblyReference.cache
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmActividades.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmAgregarMetas.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmAgregarObservacion.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.FrmBitacoraVendedoresExtend.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmDeactivateVendedor.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmDesbloquearBitacoras.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmDesbloquearBitacoraVendedor.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmEditEmail.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmFiltrarEjecutivosVentas.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmFiltrarNuevosContratos.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmFiltroActividades.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmFiltroSeguimientoLlamadas.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.FrmJoinMeeting.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmMain.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmAgregarServidor.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmBuscaCliente.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmBuscaGarantia.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmBuscarOrden.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmBuscaVendedor.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmFiltrarCategorias.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmLogin.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmMakeMeeting.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmNiveles.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmOportunidades.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmOrdenesCanceladas.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmPassword.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmPerfiles.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmPostVentaDeshabilitadas.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmReporteCategorias.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmReporteContratosNuevos.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmReporteCumpleaños.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmSeguimiento.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmVendedores.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.frmVistaPrevia.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.Resources.resources
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.vbproj.GenerateResource.cache
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.vbproj.CoreCompileInputs.cache
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.exe.manifest
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.application
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.vbproj.CopyComplete
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.exe
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente\obj\Debug\ServicioalCliente.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\DataToBusinessParserLib.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente\bin\Debug\DataToBusinessParserLib.pdb

@@ -1,0 +1,4 @@
+C:\Desarrollo Local\ServicioalCliente\ContestSqlRepository\bin\Debug\SFC.ContestsLib.Repositories.SqlRepository.dll
+C:\Desarrollo Local\ServicioalCliente\ContestSqlRepository\bin\Debug\SFC.ContestsLib.Repositories.SqlRepository.pdb
+C:\Desarrollo Local\ServicioalCliente\ContestSqlRepository\obj\Debug\SFC.ContestsLib.Repositories.SqlRepository.dll
+C:\Desarrollo Local\ServicioalCliente\ContestSqlRepository\obj\Debug\SFC.ContestsLib.Repositories.SqlRepository.pdb

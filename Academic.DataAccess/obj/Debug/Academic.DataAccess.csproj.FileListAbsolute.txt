@@ -1,0 +1,56 @@
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.DataAccess.dll.config
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.DataAccess.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.DataAccess.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Academic.DataAccess\bin\Debug\Generic.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Academic.DataAccess\bin\Debug\Generic.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Academic.DataAccess\obj\Debug\Academic.DataAccess.csprojResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Academic.DataAccess\obj\Debug\Academic.DataAccess.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Academic.DataAccess\obj\Debug\Academic.DataAccess.pdb
+C:\Desarrollo Local\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.DataAccess.dll.config
+C:\Desarrollo Local\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.DataAccess.dll
+C:\Desarrollo Local\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.DataAccess.pdb
+C:\Desarrollo Local\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\Academic.DataAccess\bin\Debug\Generic.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\Academic.DataAccess\bin\Debug\Generic.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\Academic.DataAccess\obj\Debug\Academic.DataAccess.csprojResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\Academic.DataAccess\obj\Debug\Academic.DataAccess.dll
+C:\Desarrollo Local\ServicioalCliente\Academic.DataAccess\obj\Debug\Academic.DataAccess.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.DataAccess.dll.config
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.DataAccess.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.DataAccess.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.DataAccess\bin\Debug\Generic.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.DataAccess\bin\Debug\Generic.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.DataAccess\obj\Debug\Academic.DataAccess.csprojAssemblyReference.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.DataAccess\obj\Debug\Academic.DataAccess.csproj.CoreCompileInputs.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.DataAccess\obj\Debug\Academic.DataAccess.csproj.CopyComplete
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.DataAccess\obj\Debug\Academic.DataAccess.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.DataAccess\obj\Debug\Academic.DataAccess.pdb
+C:\Diego\Production Developments\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.DataAccess.dll.config
+C:\Diego\Production Developments\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.DataAccess.dll
+C:\Diego\Production Developments\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.DataAccess.pdb
+C:\Diego\Production Developments\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.Entities.dll
+C:\Diego\Production Developments\ServicioalCliente\Academic.DataAccess\bin\Debug\Generic.Entities.dll
+C:\Diego\Production Developments\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.Entities.pdb
+C:\Diego\Production Developments\ServicioalCliente\Academic.DataAccess\bin\Debug\Generic.Entities.pdb
+C:\Diego\Production Developments\ServicioalCliente\Academic.DataAccess\obj\Debug\Academic.DataAccess.csprojAssemblyReference.cache
+C:\Diego\Production Developments\ServicioalCliente\Academic.DataAccess\obj\Debug\Academic.DataAccess.csproj.CoreCompileInputs.cache
+C:\Diego\Production Developments\ServicioalCliente\Academic.DataAccess\obj\Debug\Academic.DataAccess.csproj.CopyComplete
+C:\Diego\Production Developments\ServicioalCliente\Academic.DataAccess\obj\Debug\Academic.DataAccess.dll
+C:\Diego\Production Developments\ServicioalCliente\Academic.DataAccess\obj\Debug\Academic.DataAccess.pdb
+C:\Diego\src\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.DataAccess.dll.config
+C:\Diego\src\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.DataAccess.dll
+C:\Diego\src\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.DataAccess.pdb
+C:\Diego\src\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.Entities.dll
+C:\Diego\src\ServicioalCliente\Academic.DataAccess\bin\Debug\Generic.Entities.dll
+C:\Diego\src\ServicioalCliente\Academic.DataAccess\bin\Debug\Academic.Entities.pdb
+C:\Diego\src\ServicioalCliente\Academic.DataAccess\bin\Debug\Generic.Entities.pdb
+C:\Diego\src\ServicioalCliente\Academic.DataAccess\obj\Debug\Academic.DataAccess.csproj.AssemblyReference.cache
+C:\Diego\src\ServicioalCliente\Academic.DataAccess\obj\Debug\Academic.DataAccess.csproj.CoreCompileInputs.cache
+C:\Diego\src\ServicioalCliente\Academic.DataAccess\obj\Debug\Academic.DataAccess.csproj.CopyComplete
+C:\Diego\src\ServicioalCliente\Academic.DataAccess\obj\Debug\Academic.DataAccess.dll
+C:\Diego\src\ServicioalCliente\Academic.DataAccess\obj\Debug\Academic.DataAccess.pdb

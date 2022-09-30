@@ -1,0 +1,53 @@
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\bin\Debug\LayerShipping.dll
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\bin\Debug\LayerShipping.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\bin\Debug\LayerShipping.xml
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\bin\Debug\DataProvider.dll
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\bin\Debug\DataProvider.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\bin\Debug\DataProvider.xml
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.Resources.resources
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.vbproj.GenerateResource.Cache
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.dll
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.xml
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.vbprojResolveAssemblyReference.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerShipping\bin\Debug\LayerShipping.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerShipping\bin\Debug\LayerShipping.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerShipping\bin\Debug\LayerShipping.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerShipping\bin\Debug\DataProvider.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerShipping\bin\Debug\DataProvider.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerShipping\bin\Debug\DataProvider.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.Resources.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.vbproj.GenerateResource.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.vbproj.CoreCompileInputs.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.vbproj.CopyComplete
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.vbprojAssemblyReference.cache
+C:\Diego\Production Developments\ServicioalCliente\LayerShipping\bin\Debug\LayerShipping.dll
+C:\Diego\Production Developments\ServicioalCliente\LayerShipping\bin\Debug\LayerShipping.pdb
+C:\Diego\Production Developments\ServicioalCliente\LayerShipping\bin\Debug\LayerShipping.xml
+C:\Diego\Production Developments\ServicioalCliente\LayerShipping\bin\Debug\DataProvider.dll
+C:\Diego\Production Developments\ServicioalCliente\LayerShipping\bin\Debug\DataProvider.pdb
+C:\Diego\Production Developments\ServicioalCliente\LayerShipping\bin\Debug\DataProvider.xml
+C:\Diego\Production Developments\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.Resources.resources
+C:\Diego\Production Developments\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.vbproj.GenerateResource.cache
+C:\Diego\Production Developments\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.vbproj.CoreCompileInputs.cache
+C:\Diego\Production Developments\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.vbproj.CopyComplete
+C:\Diego\Production Developments\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.dll
+C:\Diego\Production Developments\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.xml
+C:\Diego\Production Developments\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.pdb
+C:\Diego\src\ServicioalCliente\LayerShipping\bin\Debug\LayerShipping.dll
+C:\Diego\src\ServicioalCliente\LayerShipping\bin\Debug\LayerShipping.pdb
+C:\Diego\src\ServicioalCliente\LayerShipping\bin\Debug\LayerShipping.xml
+C:\Diego\src\ServicioalCliente\LayerShipping\bin\Debug\DataProvider.dll
+C:\Diego\src\ServicioalCliente\LayerShipping\bin\Debug\DataProvider.pdb
+C:\Diego\src\ServicioalCliente\LayerShipping\bin\Debug\DataProvider.xml
+C:\Diego\src\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.vbproj.AssemblyReference.cache
+C:\Diego\src\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.Resources.resources
+C:\Diego\src\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.vbproj.GenerateResource.cache
+C:\Diego\src\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.vbproj.CoreCompileInputs.cache
+C:\Diego\src\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.vbproj.CopyComplete
+C:\Diego\src\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.dll
+C:\Diego\src\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.xml
+C:\Diego\src\ServicioalCliente\LayerShipping\obj\Debug\LayerShipping.pdb

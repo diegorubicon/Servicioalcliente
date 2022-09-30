@@ -1,0 +1,13 @@
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\bin\Release\LayerShipping.dll
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\bin\Release\LayerShipping.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\bin\Release\LayerShipping.xml
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\bin\Release\DataProvider.dll
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\bin\Release\DataProvider.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\bin\Release\DataProvider.xml
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\obj\Release\ResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\obj\Release\LayerShipping.Resources.resources
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\obj\Release\ResGen.read.1.tlog
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\obj\Release\ResGen.write.1.tlog
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\obj\Release\LayerShipping.dll
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\obj\Release\LayerShipping.xml
+C:\Desarrollo Local\ServicioalCliente\LayerShipping\obj\Release\LayerShipping.pdb

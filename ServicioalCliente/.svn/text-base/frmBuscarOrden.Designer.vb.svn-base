@@ -1,0 +1,182 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class frmBuscarOrden
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.lvArticulos = New System.Windows.Forms.ListView
+        Me.ColumnHeader1 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader2 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader3 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader4 = New System.Windows.Forms.ColumnHeader
+        Me.txtBuscarOrden = New System.Windows.Forms.TextBox
+        Me.txtBuscarDescripcion = New System.Windows.Forms.TextBox
+        Me.cmdSeleccionar = New System.Windows.Forms.Button
+        Me.cmdSalir = New System.Windows.Forms.Button
+        Me.Label2 = New System.Windows.Forms.Label
+        Me.Label1 = New System.Windows.Forms.Label
+        Me.Label3 = New System.Windows.Forms.Label
+        Me.ckOrdenesSaldo = New System.Windows.Forms.CheckBox
+        Me.SuspendLayout()
+        '
+        'lvArticulos
+        '
+        Me.lvArticulos.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4})
+        Me.lvArticulos.FullRowSelect = True
+        Me.lvArticulos.GridLines = True
+        Me.lvArticulos.Location = New System.Drawing.Point(19, 86)
+        Me.lvArticulos.Name = "lvArticulos"
+        Me.lvArticulos.Size = New System.Drawing.Size(582, 315)
+        Me.lvArticulos.TabIndex = 0
+        Me.lvArticulos.UseCompatibleStateImageBehavior = False
+        Me.lvArticulos.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader1
+        '
+        Me.ColumnHeader1.Text = "Orden"
+        Me.ColumnHeader1.Width = 77
+        '
+        'ColumnHeader2
+        '
+        Me.ColumnHeader2.Text = "Fecha"
+        Me.ColumnHeader2.Width = 99
+        '
+        'ColumnHeader3
+        '
+        Me.ColumnHeader3.Text = "Articulo"
+        Me.ColumnHeader3.Width = 305
+        '
+        'ColumnHeader4
+        '
+        Me.ColumnHeader4.Text = "Monto Total"
+        Me.ColumnHeader4.Width = 95
+        '
+        'txtBuscarOrden
+        '
+        Me.txtBuscarOrden.Location = New System.Drawing.Point(19, 59)
+        Me.txtBuscarOrden.Name = "txtBuscarOrden"
+        Me.txtBuscarOrden.Size = New System.Drawing.Size(79, 21)
+        Me.txtBuscarOrden.TabIndex = 1
+        '
+        'txtBuscarDescripcion
+        '
+        Me.txtBuscarDescripcion.Location = New System.Drawing.Point(104, 59)
+        Me.txtBuscarDescripcion.Name = "txtBuscarDescripcion"
+        Me.txtBuscarDescripcion.Size = New System.Drawing.Size(497, 21)
+        Me.txtBuscarDescripcion.TabIndex = 3
+        '
+        'cmdSeleccionar
+        '
+        Me.cmdSeleccionar.Location = New System.Drawing.Point(188, 407)
+        Me.cmdSeleccionar.Name = "cmdSeleccionar"
+        Me.cmdSeleccionar.Size = New System.Drawing.Size(114, 24)
+        Me.cmdSeleccionar.TabIndex = 6
+        Me.cmdSeleccionar.Text = "Seleccionar"
+        Me.cmdSeleccionar.UseVisualStyleBackColor = True
+        '
+        'cmdSalir
+        '
+        Me.cmdSalir.Location = New System.Drawing.Point(308, 407)
+        Me.cmdSalir.Name = "cmdSalir"
+        Me.cmdSalir.Size = New System.Drawing.Size(114, 24)
+        Me.cmdSalir.TabIndex = 7
+        Me.cmdSalir.Text = "Salir"
+        Me.cmdSalir.UseVisualStyleBackColor = True
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(16, 43)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(37, 13)
+        Me.Label2.TabIndex = 8
+        Me.Label2.Text = "Orden"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(16, 18)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(62, 13)
+        Me.Label1.TabIndex = 9
+        Me.Label1.Text = "Busqueda"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(101, 43)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(43, 13)
+        Me.Label3.TabIndex = 10
+        Me.Label3.Text = "Articulo"
+        '
+        'ckOrdenesSaldo
+        '
+        Me.ckOrdenesSaldo.AutoSize = True
+        Me.ckOrdenesSaldo.Checked = True
+        Me.ckOrdenesSaldo.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.ckOrdenesSaldo.Location = New System.Drawing.Point(19, 412)
+        Me.ckOrdenesSaldo.Name = "ckOrdenesSaldo"
+        Me.ckOrdenesSaldo.Size = New System.Drawing.Size(116, 17)
+        Me.ckOrdenesSaldo.TabIndex = 11
+        Me.ckOrdenesSaldo.Text = "Ordenes con Saldo"
+        Me.ckOrdenesSaldo.UseVisualStyleBackColor = True
+        '
+        'frmBuscarOrden
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(611, 443)
+        Me.Controls.Add(Me.ckOrdenesSaldo)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.cmdSalir)
+        Me.Controls.Add(Me.cmdSeleccionar)
+        Me.Controls.Add(Me.txtBuscarDescripcion)
+        Me.Controls.Add(Me.txtBuscarOrden)
+        Me.Controls.Add(Me.lvArticulos)
+        Me.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MinimizeBox = False
+        Me.Name = "frmBuscarOrden"
+        Me.Opacity = 0.95
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Buscar Ordenes de Pedido"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents lvArticulos As System.Windows.Forms.ListView
+    Friend WithEvents ColumnHeader1 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader2 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader3 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents txtBuscarOrden As System.Windows.Forms.TextBox
+    Friend WithEvents txtBuscarDescripcion As System.Windows.Forms.TextBox
+    Friend WithEvents ColumnHeader4 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents cmdSeleccionar As System.Windows.Forms.Button
+    Friend WithEvents cmdSalir As System.Windows.Forms.Button
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents ckOrdenesSaldo As System.Windows.Forms.CheckBox
+End Class

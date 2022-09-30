@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Sakif" Class="dbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.0.2;Initial Catalog=Sakif;User ID=sa" SettingsObjectName="SalesMansLibrary.Properties.Settings" SettingsPropertyName="SakifConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.vendedores" Member="vendedors">
+    <Type Name="vendedor">
+      <Column Name="vendedor" Member="Codigo" Storage="_vendedor" Type="System.String" DbType="VarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="compania" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="num_contrato" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="tipo_de_identificacion" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="identificacion" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="apellido_01" Member="Apellido01" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="apellido_02" Member="Apellido02" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="telefono" Member="TelefonoHabitacion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="telefono_02" Member="TelefonoCelular" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="descuento" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="descripcion" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="creado_por" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="creado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="modificado_por" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="modificado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="zona" Type="System.String" DbType="VarChar(16) NOT NULL" CanBeNull="true" />
+      <Column Name="provincia" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="canton" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="distrito" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="fecha_ingreso" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="observacion" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="estado" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="mostrar_obs_fact" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="venta_actual" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="promotor_asignado" Member="Padre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="patrocinador" Member="Reclutador" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="fax" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="correo" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="cierre_ingreso" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cierre_primer_venta" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="nivel02" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cod_cliente" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PlanMercadeoActual" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="gerente" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="Ventas_totales" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="incentivo_inicial" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="referencia_incentivo" Type="System.String" DbType="VarChar(16)" CanBeNull="true" />
+      <Column Name="referencia_primer_venta" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="fecha_nacimiento" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="referencia_ingreso" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cierre_manager_01" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cierre_manager_02" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cierre_manager_03" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="nombre_cuenta" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="activo" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="fecha_inactivo" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="zona_ventas" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="calificacion_ventas" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="celular" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="cierre_ejecutivo_ventas" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="fecha_ult_venta" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="estado_seguimiento" Type="System.Decimal" DbType="Decimal(3,0)" CanBeNull="true" />
+      <Association Name="vendedor_metas_vendedor" Member="metas_vendedors" ThisKey="Codigo" OtherKey="vendedor" Type="metas_vendedor" />
+      <Association Name="vendedor_nota" Member="notas" ThisKey="Codigo" OtherKey="vendedor" Type="nota" />
+      <Association Name="vendedor_PlanMercadeo" Member="PlanMercadeos" ThisKey="Codigo" OtherKey="vendedor" Type="PlanMercadeo" Cardinality="One" />
+      <Association Name="vendedor_Premiate" Member="Premiates" ThisKey="Codigo" OtherKey="vendedor" Type="Premiate" />
+      <Association Name="vendedor_RecordMensual" Member="RecordMensuals" ThisKey="Codigo" OtherKey="vendedor" Type="RecordMensual" />
+    </Type>
+  </Table>
+  <Table Name="dbo.metas_vendedor" Member="metas_vendedors">
+    <Type Name="metas_vendedor">
+      <Column Name="vendedor" Type="System.String" DbType="VarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cierre" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="venta_personal" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="venta_generacion" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="nuevos_reclutas" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="activos_directos" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="activos_indirectos" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="conventa_directos" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="conventa_indirectos" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="creado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="creado_por" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="vendedor_metas_vendedor" Member="vendedor1" ThisKey="vendedor" OtherKey="Codigo" Type="vendedor" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.notas_vendedores" Member="notas">
+    <Type Name="nota">
+      <Column Name="consecutivo" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="fecha" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="vendedor" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="observacion" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="fecha_proxima_llamada" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="estado" Type="System.Decimal" DbType="Decimal(1,0)" CanBeNull="true" />
+      <Column Name="gestion" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="creado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="creado_por" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="vendedor_nota" Member="vendedor1" ThisKey="vendedor" OtherKey="Codigo" Type="vendedor" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vendedores_plan_mercadeo" Member="PlanMercadeos">
+    <Type Name="PlanMercadeo">
+      <Column Name="vendedor" Type="System.String" DbType="VarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="plan_mercadeo" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nivel" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="creado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="creado_por" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="modificado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="modificado_por" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="vendedor_PlanMercadeo" Member="vendedor1" ThisKey="vendedor" OtherKey="Codigo" Type="vendedor" IsForeignKey="true" />
+      <Association Name="Nivel_PlanMercadeo" Member="Nivel1" ThisKey="plan_mercadeo,nivel" OtherKey="plan_mercadeo,id_nivel" Type="Nivel" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Plan_mercadeo_Niveles" Member="Nivels">
+    <Type Name="Nivel">
+      <Column Name="plan_mercadeo" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nivel" Member="id_nivel" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="descripcion" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="creado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="creado_por" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Nivel_PlanMercadeo" Member="PlanMercadeos" ThisKey="plan_mercadeo,id_nivel" OtherKey="plan_mercadeo,nivel" Type="PlanMercadeo" />
+      <Association Name="Nivel_Mantenimiento" Member="Mantenimientos" ThisKey="plan_mercadeo,id_nivel" OtherKey="plan_mercadeo,nivel" Type="Mantenimiento" />
+    </Type>
+  </Table>
+  <Table Name="dbo.plan_mercadeo_mantenimiento" Member="Mantenimientos">
+    <Type Name="Mantenimiento">
+      <Column Name="plan_mercadeo" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nivel" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="opcion" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ventas_personales" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ventas_equipo" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="rad" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="rai" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="rv" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="rvd" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="rvi" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="NQRD" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="NQRI" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="NVRD" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="NVRI" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Association Name="Nivel_Mantenimiento" Member="Nivel1" ThisKey="plan_mercadeo,nivel" OtherKey="plan_mercadeo,id_nivel" Type="Nivel" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.puntos_vendedor" Member="Premiates">
+    <Type Name="Premiate">
+      <Column Name="id_puntos" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="premiate" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="linea" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="vendedor" Type="System.String" DbType="VarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cierre" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Descripcion" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="puntos" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="canjeados" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Association Name="vendedor_Premiate" Member="vendedor1" ThisKey="vendedor" OtherKey="Codigo" Type="vendedor" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Ventas" Member="RecordMensuals">
+    <Type Name="RecordMensual">
+      <Column Name="consecutivo" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="vendedor" Type="System.String" DbType="VarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cierre" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="venta" Member="venta1" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="venta_equipo" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="venta_unidad" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="NR" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NQRD" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="NQRI" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="RAD" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="RAI" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="NVRD" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="NVRI" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="RVD" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="RVI" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="NVRI2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NVRI3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="creado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="creado_por" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="modificado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="modificado_por" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="vendedor_RecordMensual" Member="vendedor1" ThisKey="vendedor" OtherKey="Codigo" Type="vendedor" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.spObtenerNuevosReclutasxEquipo" Method="spObtenerNuevosReclutasxEquipo">
+    <Parameter Name="lider" Type="System.String" DbType="VarChar(30)" />
+    <Parameter Name="cierre" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <ElementType Name="spObtenerNuevosReclutasxEquipoResult">
+      <Column Name="recluta" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="generacion" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_ObtenerVentasporEquipo" Method="sp_ObtenerVentasporEquipo">
+    <Parameter Name="lider" Type="System.String" DbType="VarChar(30)" />
+    <Parameter Name="cierre" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <Parameter Name="generacion" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <ElementType Name="sp_ObtenerVentasporEquipoResult">
+      <Column Name="recluta" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="generacion" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="venta" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>

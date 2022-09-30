@@ -1,0 +1,41 @@
+C:\Desarrollo Local\AfterSales.Repositories.Contracts\bin\Debug\AfterSales.Repositories.Contracts.dll
+C:\Desarrollo Local\AfterSales.Repositories.Contracts\bin\Debug\AfterSales.Repositories.Contracts.pdb
+C:\Desarrollo Local\AfterSales.Repositories.Contracts\bin\Debug\AfterSales.Model.dll
+C:\Desarrollo Local\AfterSales.Repositories.Contracts\bin\Debug\AfterSales.Model.pdb
+C:\Desarrollo Local\AfterSales.Repositories.Contracts\obj\Debug\AfterSales.Repositories.Contracts.csprojResolveAssemblyReference.cache
+C:\Desarrollo Local\AfterSales.Repositories.Contracts\obj\Debug\AfterSales.Repositories.Contracts.dll
+C:\Desarrollo Local\AfterSales.Repositories.Contracts\obj\Debug\AfterSales.Repositories.Contracts.pdb
+C:\Desarrollo Local\ServicioalCliente\AfterSales.Repositories.Contracts\bin\Debug\AfterSales.Repositories.Contracts.dll
+C:\Desarrollo Local\ServicioalCliente\AfterSales.Repositories.Contracts\bin\Debug\AfterSales.Repositories.Contracts.pdb
+C:\Desarrollo Local\ServicioalCliente\AfterSales.Repositories.Contracts\bin\Debug\AfterSales.Model.dll
+C:\Desarrollo Local\ServicioalCliente\AfterSales.Repositories.Contracts\bin\Debug\AfterSales.Model.pdb
+C:\Desarrollo Local\ServicioalCliente\AfterSales.Repositories.Contracts\obj\Debug\AfterSales.Repositories.Contracts.csprojResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\AfterSales.Repositories.Contracts\obj\Debug\AfterSales.Repositories.Contracts.dll
+C:\Desarrollo Local\ServicioalCliente\AfterSales.Repositories.Contracts\obj\Debug\AfterSales.Repositories.Contracts.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\AfterSales.Repositories.Contracts\bin\Debug\AfterSales.Repositories.Contracts.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\AfterSales.Repositories.Contracts\bin\Debug\AfterSales.Repositories.Contracts.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\AfterSales.Repositories.Contracts\bin\Debug\AfterSales.Model.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\AfterSales.Repositories.Contracts\bin\Debug\AfterSales.Model.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\AfterSales.Repositories.Contracts\obj\Debug\AfterSales.Repositories.Contracts.csprojAssemblyReference.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\AfterSales.Repositories.Contracts\obj\Debug\AfterSales.Repositories.Contracts.csproj.CoreCompileInputs.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\AfterSales.Repositories.Contracts\obj\Debug\AfterSales.Repositories.Contracts.csproj.CopyComplete
+C:\Docs\Desarrollo Local\ServicioalCliente\AfterSales.Repositories.Contracts\obj\Debug\AfterSales.Repositories.Contracts.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\AfterSales.Repositories.Contracts\obj\Debug\AfterSales.Repositories.Contracts.pdb
+C:\Diego\Production Developments\ServicioalCliente\AfterSales.Repositories.Contracts\bin\Debug\AfterSales.Repositories.Contracts.dll
+C:\Diego\Production Developments\ServicioalCliente\AfterSales.Repositories.Contracts\bin\Debug\AfterSales.Repositories.Contracts.pdb
+C:\Diego\Production Developments\ServicioalCliente\AfterSales.Repositories.Contracts\bin\Debug\AfterSales.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\AfterSales.Repositories.Contracts\bin\Debug\AfterSales.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\AfterSales.Repositories.Contracts\obj\Debug\AfterSales.Repositories.Contracts.csprojAssemblyReference.cache
+C:\Diego\Production Developments\ServicioalCliente\AfterSales.Repositories.Contracts\obj\Debug\AfterSales.Repositories.Contracts.csproj.CoreCompileInputs.cache
+C:\Diego\Production Developments\ServicioalCliente\AfterSales.Repositories.Contracts\obj\Debug\AfterSales.Repositories.Contracts.csproj.CopyComplete
+C:\Diego\Production Developments\ServicioalCliente\AfterSales.Repositories.Contracts\obj\Debug\AfterSales.Repositories.Contracts.dll
+C:\Diego\Production Developments\ServicioalCliente\AfterSales.Repositories.Contracts\obj\Debug\AfterSales.Repositories.Contracts.pdb
+C:\Diego\src\ServicioalCliente\AfterSales.Repositories.Contracts\bin\Debug\AfterSales.Repositories.Contracts.dll
+C:\Diego\src\ServicioalCliente\AfterSales.Repositories.Contracts\bin\Debug\AfterSales.Repositories.Contracts.pdb
+C:\Diego\src\ServicioalCliente\AfterSales.Repositories.Contracts\bin\Debug\AfterSales.Model.dll
+C:\Diego\src\ServicioalCliente\AfterSales.Repositories.Contracts\bin\Debug\AfterSales.Model.pdb
+C:\Diego\src\ServicioalCliente\AfterSales.Repositories.Contracts\obj\Debug\AfterSales.Repositories.Contracts.csproj.AssemblyReference.cache
+C:\Diego\src\ServicioalCliente\AfterSales.Repositories.Contracts\obj\Debug\AfterSales.Repositories.Contracts.csproj.CoreCompileInputs.cache
+C:\Diego\src\ServicioalCliente\AfterSales.Repositories.Contracts\obj\Debug\AfterSales.Repositories.Contracts.csproj.CopyComplete
+C:\Diego\src\ServicioalCliente\AfterSales.Repositories.Contracts\obj\Debug\AfterSales.Repositories.Contracts.dll
+C:\Diego\src\ServicioalCliente\AfterSales.Repositories.Contracts\obj\Debug\AfterSales.Repositories.Contracts.pdb

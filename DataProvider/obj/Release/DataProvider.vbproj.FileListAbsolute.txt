@@ -1,0 +1,10 @@
+C:\Desarrollo Local\ServicioalCliente\DataProvider\bin\Release\DataProvider.dll
+C:\Desarrollo Local\ServicioalCliente\DataProvider\bin\Release\DataProvider.pdb
+C:\Desarrollo Local\ServicioalCliente\DataProvider\bin\Release\DataProvider.xml
+C:\Desarrollo Local\ServicioalCliente\DataProvider\obj\Release\ResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\DataProvider\obj\Release\DataProvider.Resources.resources
+C:\Desarrollo Local\ServicioalCliente\DataProvider\obj\Release\ResGen.read.1.tlog
+C:\Desarrollo Local\ServicioalCliente\DataProvider\obj\Release\ResGen.write.1.tlog
+C:\Desarrollo Local\ServicioalCliente\DataProvider\obj\Release\DataProvider.dll
+C:\Desarrollo Local\ServicioalCliente\DataProvider\obj\Release\DataProvider.xml
+C:\Desarrollo Local\ServicioalCliente\DataProvider\obj\Release\DataProvider.pdb

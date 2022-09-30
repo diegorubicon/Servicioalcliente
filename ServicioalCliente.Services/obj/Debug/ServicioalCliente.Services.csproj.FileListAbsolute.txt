@@ -1,0 +1,18 @@
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Services\bin\Debug\ServicioalCliente.Services.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Services\bin\Debug\ServicioalCliente.Services.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Services\bin\Debug\ServicioalCliente.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Services\bin\Debug\ServicioalCliente.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Services\obj\Debug\ServicioalCliente.Services.csprojAssemblyReference.cache
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Services\obj\Debug\ServicioalCliente.Services.csproj.CoreCompileInputs.cache
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Services\obj\Debug\ServicioalCliente.Services.csproj.CopyComplete
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Services\obj\Debug\ServicioalCliente.Services.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Services\obj\Debug\ServicioalCliente.Services.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Services\bin\Debug\ServicioalCliente.Services.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Services\bin\Debug\ServicioalCliente.Services.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Services\bin\Debug\ServicioalCliente.Model.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Services\bin\Debug\ServicioalCliente.Model.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Services\obj\Debug\ServicioalCliente.Services.csproj.AssemblyReference.cache
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Services\obj\Debug\ServicioalCliente.Services.csproj.CoreCompileInputs.cache
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Services\obj\Debug\ServicioalCliente.Services.csproj.CopyComplete
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Services\obj\Debug\ServicioalCliente.Services.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Services\obj\Debug\ServicioalCliente.Services.pdb

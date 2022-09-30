@@ -1,0 +1,8 @@
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\TerritorialDivision.Entities\bin\Debug\TerritorialDivision.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\TerritorialDivision.Entities\bin\Debug\TerritorialDivision.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\TerritorialDivision.Entities\obj\Debug\TerritorialDivision.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\TerritorialDivision.Entities\obj\Debug\TerritorialDivision.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\TerritorialDivision.Entities\bin\Debug\TerritorialDivision.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\TerritorialDivision.Entities\bin\Debug\TerritorialDivision.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\TerritorialDivision.Entities\obj\Debug\TerritorialDivision.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\TerritorialDivision.Entities\obj\Debug\TerritorialDivision.Entities.pdb

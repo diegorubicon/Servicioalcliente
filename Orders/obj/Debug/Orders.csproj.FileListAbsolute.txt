@@ -1,0 +1,12 @@
+C:\Desarrollo Local\ServicioalCliente\Orders\bin\Debug\Orders.dll.config
+C:\Desarrollo Local\ServicioalCliente\Orders\bin\Debug\Orders.dll
+C:\Desarrollo Local\ServicioalCliente\Orders\bin\Debug\Orders.pdb
+C:\Desarrollo Local\ServicioalCliente\Orders\obj\Debug\Orders.dll
+C:\Desarrollo Local\ServicioalCliente\Orders\obj\Debug\Orders.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Orders\bin\Debug\Orders.dll.config
+C:\Docs\Desarrollo Local\ServicioalCliente\Orders\bin\Debug\Orders.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Orders\bin\Debug\Orders.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Orders\obj\Debug\Orders.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Orders\obj\Debug\Orders.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Orders\obj\Debug\Orders.csprojAssemblyReference.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\Orders\obj\Debug\Orders.csproj.CoreCompileInputs.cache

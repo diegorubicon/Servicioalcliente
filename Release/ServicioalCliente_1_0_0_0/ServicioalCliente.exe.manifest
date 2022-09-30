@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="ServicioalCliente.exe" version="1.0.0.0" publicKeyToken="f8822059a799139a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ServicioalCliente" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ServicioalCliente.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DataProvider.dll" size="28672">
+      <assemblyIdentity name="DataProvider" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>jrjV6H5V/F84mneZf22RHMciCmo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LayerAdress.dll" size="24576">
+      <assemblyIdentity name="LayerAdress" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>IshcCzL3bz6DuScjyUA/YdMuKt0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LayerClients.dll" size="28672">
+      <assemblyIdentity name="LayerClients" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>fcr4nP93q2FrvzJGxGPBot+bRPM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LayerPayments.dll" size="28672">
+      <assemblyIdentity name="LayerPayments" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>hF7upuYc/UyzvGK4eisa+GSvKwQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LayerSellers.dll" size="24576">
+      <assemblyIdentity name="LayerSellers" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>bmAO8wmhOL9+d9EdjRQtodl87TA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LayerShipping.dll" size="28672">
+      <assemblyIdentity name="LayerShipping" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>DCgXpdEKxqvVPerMbjCC8Ef1fJc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OrdenesDePedido.dll" size="36864">
+      <assemblyIdentity name="OrdenesDePedido" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>1KfHFOVk6aSG02UfZy/SexsTcpE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ServicioalCliente.exe" size="155648">
+      <assemblyIdentity name="ServicioalCliente" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>SILeQXdQ7vOQH0ABPEFR+2LRXXU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=KF-PC-06\Administrador" issuerKeyHash="2b9b1fbec2d24e768f41d48cc506df4159b44e9d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>yJ6ur+WjwNPLo29SJEuNQUNZ8X0=</DigestValue></Reference></SignedInfo><SignatureValue>egzhwFeLKNe9+CkWFmKBCWhaPtPep9tXn7ACyy6+LIt+pWAIVmdAXs2XUzKtmFe5vNnjcWiXLxGTx0o0fSdA/V8SOvQhx8eIyiTPiIYl4EoyPs/b1XEAtDBqtzVm0tHBho6RShuhRm3ZkrwrJNZJNZoJPIDGTvSSePgLDeiGIPw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>o31GsQ/rRpYB3ybw21im6hHCVauuhfkoWe20jTHZM2594HADXYOkpKdFBc5+1PogK//GSKNjWJ9uET55pRqRAxOKFAiNu3ikiCMIW9ObdfUmKWNtl9nUrT1zpvgyzTRwY3eSnimMmMLJOinX840YUb9sYFV1rl2fZ2m/pCm+Q9c=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7df15943418d4b24526fa3cbd3c0a3e5afae9ec8" Description="" Url=""><as:assemblyIdentity name="ServicioalCliente.exe" version="1.0.0.0" publicKeyToken="f8822059a799139a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=KF-PC-06\Administrador</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>r6/LlkD81sNUpJIND5j8P49SYg8=</DigestValue></Reference></SignedInfo><SignatureValue>lXOsSMV2L3DWczjF4X0ORvlhrWuCnA43hCfexY2JJ3w+Tb7kDoxoOfgFuOGoeMtct3IP3USsyDttqmKlbc60biD3Kkcju7kLecTfZ+ucnWZtiZsuryGd85M14ptrn90FI+xns5v8xI/0cK4qUfXksz3TlBT8MVadP0tbG7iM9CQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>o31GsQ/rRpYB3ybw21im6hHCVauuhfkoWe20jTHZM2594HADXYOkpKdFBc5+1PogK//GSKNjWJ9uET55pRqRAxOKFAiNu3ikiCMIW9ObdfUmKWNtl9nUrT1zpvgyzTRwY3eSnimMmMLJOinX840YUb9sYFV1rl2fZ2m/pCm+Q9c=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQZ/Qy0AYtpL9NlutheshDMTANBgkqhkiG9w0BAQUFADA3MTUwMwYDVQQDHiwASwBGAC0AUABDAC0AMAA2AFwAQQBkAG0AaQBuAGkAcwB0AHIAYQBkAG8AcjAeFw0xMDA4MTcyMjQzMDdaFw0xMTA4MTgwNDQzMDdaMDcxNTAzBgNVBAMeLABLAEYALQBQAEMALQAwADYAXABBAGQAbQBpAG4AaQBzAHQAcgBhAGQAbwByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCjfUaxD+tGlgHfJvDbWKbqEcJVq66F+ShZ7bSNMdkzbn3gcANdg6Skp0UFzn7U+iAr/8ZIo2NYn24RPnmlGpEDE4oUCI27eKSIIwhb05t19SYpY22X2dStPXOm+DLNNHBjd5KeKYyYwsk6KdfzjRhRv2xgVXWuXZ9nab+kKb5D1wIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAGgzYI09jJDJyog4Jn8tmBMoXmtYVna0Itc/aqd5TYdZwRrHC1IhokBiPLz6QxYABehvH0KHbERKAXLygq28Uti9gk0XXp0o3XUx8i/PyzhQZCyxARJUlVq5Ah9nC4vouxqG/fF1+I+aCCyZxhlwGvwNJ01yohGwzQyYABeUA2G0</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,12 @@
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\bin\Release\LayerCierres.dll
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\bin\Release\LayerCierres.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\bin\Release\LayerCierres.xml
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\bin\Release\DataProvider.dll
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\bin\Release\DataProvider.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\bin\Release\DataProvider.xml
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\obj\Release\ResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\obj\Release\LayerCierres.Resources.resources
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\obj\Release\LayerCierres.vbproj.GenerateResource.Cache
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\obj\Release\LayerCierres.dll
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\obj\Release\LayerCierres.xml
+C:\Desarrollo Local\ServicioalCliente\LayerCierres\obj\Release\LayerCierres.pdb

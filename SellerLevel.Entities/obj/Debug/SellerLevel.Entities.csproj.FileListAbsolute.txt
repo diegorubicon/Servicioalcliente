@@ -1,0 +1,13 @@
+C:\Desarrollo Local\ServicioalCliente\SellerLevel.Entities\bin\Debug\SellerLevel.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\SellerLevel.Entities\bin\Debug\SellerLevel.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\SellerLevel.Entities\obj\Debug\SellerLevel.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\SellerLevel.Entities\obj\Debug\SellerLevel.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\SellerLevel.Entities\obj\Debug\SellerLevel.Entities.csprojAssemblyReference.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\SellerLevel.Entities\obj\Debug\SellerLevel.Entities.csproj.CoreCompileInputs.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\SellerLevel.Entities\bin\Debug\SellerLevel.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\SellerLevel.Entities\bin\Debug\SellerLevel.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\SellerLevel.Entities\bin\Debug\DataWarehouseLib.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\SellerLevel.Entities\bin\Debug\DataWarehouseLib.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\SellerLevel.Entities\obj\Debug\SellerLevel.Entities.csproj.CopyComplete
+C:\Docs\Desarrollo Local\ServicioalCliente\SellerLevel.Entities\obj\Debug\SellerLevel.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\SellerLevel.Entities\obj\Debug\SellerLevel.Entities.pdb

@@ -1,0 +1,36 @@
+C:\Desarrollo Local\ServicioalCliente\DataProvider\bin\Debug\DataProvider.dll
+C:\Desarrollo Local\ServicioalCliente\DataProvider\bin\Debug\DataProvider.pdb
+C:\Desarrollo Local\ServicioalCliente\DataProvider\bin\Debug\DataProvider.xml
+C:\Desarrollo Local\ServicioalCliente\DataProvider\obj\Debug\DataProvider.Resources.resources
+C:\Desarrollo Local\ServicioalCliente\DataProvider\obj\Debug\DataProvider.vbproj.GenerateResource.Cache
+C:\Desarrollo Local\ServicioalCliente\DataProvider\obj\Debug\DataProvider.dll
+C:\Desarrollo Local\ServicioalCliente\DataProvider\obj\Debug\DataProvider.xml
+C:\Desarrollo Local\ServicioalCliente\DataProvider\obj\Debug\DataProvider.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\DataProvider\bin\Debug\DataProvider.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\DataProvider\bin\Debug\DataProvider.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\DataProvider\bin\Debug\DataProvider.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\DataProvider\obj\Debug\DataProvider.Resources.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\DataProvider\obj\Debug\DataProvider.vbproj.GenerateResource.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\DataProvider\obj\Debug\DataProvider.vbproj.CoreCompileInputs.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\DataProvider\obj\Debug\DataProvider.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\DataProvider\obj\Debug\DataProvider.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\DataProvider\obj\Debug\DataProvider.pdb
+C:\Diego\Production Developments\ServicioalCliente\DataProvider\bin\Debug\DataProvider.dll
+C:\Diego\Production Developments\ServicioalCliente\DataProvider\bin\Debug\DataProvider.pdb
+C:\Diego\Production Developments\ServicioalCliente\DataProvider\bin\Debug\DataProvider.xml
+C:\Diego\Production Developments\ServicioalCliente\DataProvider\obj\Debug\DataProvider.Resources.resources
+C:\Diego\Production Developments\ServicioalCliente\DataProvider\obj\Debug\DataProvider.vbproj.GenerateResource.cache
+C:\Diego\Production Developments\ServicioalCliente\DataProvider\obj\Debug\DataProvider.vbproj.CoreCompileInputs.cache
+C:\Diego\Production Developments\ServicioalCliente\DataProvider\obj\Debug\DataProvider.dll
+C:\Diego\Production Developments\ServicioalCliente\DataProvider\obj\Debug\DataProvider.xml
+C:\Diego\Production Developments\ServicioalCliente\DataProvider\obj\Debug\DataProvider.pdb
+C:\Diego\src\ServicioalCliente\DataProvider\bin\Debug\DataProvider.dll
+C:\Diego\src\ServicioalCliente\DataProvider\bin\Debug\DataProvider.pdb
+C:\Diego\src\ServicioalCliente\DataProvider\bin\Debug\DataProvider.xml
+C:\Diego\src\ServicioalCliente\DataProvider\obj\Debug\DataProvider.vbproj.AssemblyReference.cache
+C:\Diego\src\ServicioalCliente\DataProvider\obj\Debug\DataProvider.Resources.resources
+C:\Diego\src\ServicioalCliente\DataProvider\obj\Debug\DataProvider.vbproj.GenerateResource.cache
+C:\Diego\src\ServicioalCliente\DataProvider\obj\Debug\DataProvider.vbproj.CoreCompileInputs.cache
+C:\Diego\src\ServicioalCliente\DataProvider\obj\Debug\DataProvider.dll
+C:\Diego\src\ServicioalCliente\DataProvider\obj\Debug\DataProvider.xml
+C:\Diego\src\ServicioalCliente\DataProvider\obj\Debug\DataProvider.pdb

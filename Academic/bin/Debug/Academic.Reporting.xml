@@ -1,0 +1,124 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Academic.Reporting
+</name>
+</assembly>
+<members>
+<member name="P:Academic.Reporting.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Academic.Reporting.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Academic.Reporting.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Academic.Reporting.dsCapacitaciones.capacitacion_modulos_vendedoresDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Academic.Reporting.dsCapacitaciones.CapacitacionesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Academic.Reporting.dsCapacitaciones.Capacitacion_modulosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Academic.Reporting.dsCapacitaciones.vendedoresDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Academic.Reporting.dsCapacitaciones.capacitacion_modulos_vendedoresRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Academic.Reporting.dsCapacitaciones.CapacitacionesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Academic.Reporting.dsCapacitaciones.Capacitacion_modulosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Academic.Reporting.dsCapacitaciones.vendedoresRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Academic.Reporting.dsCapacitaciones.capacitacion_modulos_vendedoresRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Academic.Reporting.dsCapacitaciones.CapacitacionesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Academic.Reporting.dsCapacitaciones.Capacitacion_modulosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Academic.Reporting.dsCapacitaciones.vendedoresRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Academic.Reporting.dsCapacitaciones">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Academic.Reporting.dsCapacitacionesTableAdapters.capacitacion_modulos_vendedoresTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Academic.Reporting.dsCapacitacionesTableAdapters.CapacitacionesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Academic.Reporting.dsCapacitacionesTableAdapters.Capacitacion_modulosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Academic.Reporting.dsCapacitacionesTableAdapters.vendedoresTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Academic.Reporting.dsCapacitacionesTableAdapters.TableAdapterManager.UpdateUpdatedRows(Academic.Reporting.dsCapacitaciones,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Academic.Reporting.dsCapacitacionesTableAdapters.TableAdapterManager.UpdateInsertedRows(Academic.Reporting.dsCapacitaciones,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Academic.Reporting.dsCapacitacionesTableAdapters.TableAdapterManager.UpdateDeletedRows(Academic.Reporting.dsCapacitaciones,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Academic.Reporting.dsCapacitacionesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Academic.Reporting.dsCapacitacionesTableAdapters.TableAdapterManager.UpdateAll(Academic.Reporting.dsCapacitaciones)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Academic.Reporting.dsCapacitacionesTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Academic.Reporting.dsCapacitacionesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Academic.Reporting.dsCapacitacionesTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,53 @@
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\bin\Debug\LayerWarranty.dll
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\bin\Debug\LayerWarranty.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\bin\Debug\LayerWarranty.xml
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\bin\Debug\DataProvider.dll
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\bin\Debug\DataProvider.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\bin\Debug\DataProvider.xml
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.Resources.resources
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.vbproj.GenerateResource.Cache
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.dll
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.xml
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.vbprojResolveAssemblyReference.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerWarranty\bin\Debug\LayerWarranty.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerWarranty\bin\Debug\LayerWarranty.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerWarranty\bin\Debug\LayerWarranty.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerWarranty\bin\Debug\DataProvider.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerWarranty\bin\Debug\DataProvider.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerWarranty\bin\Debug\DataProvider.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.Resources.resources
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.vbproj.GenerateResource.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.vbproj.CoreCompileInputs.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.vbproj.CopyComplete
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.pdb
+C:\Diego\Production Developments\ServicioalCliente\LayerWarranty\bin\Debug\LayerWarranty.dll
+C:\Diego\Production Developments\ServicioalCliente\LayerWarranty\bin\Debug\LayerWarranty.pdb
+C:\Diego\Production Developments\ServicioalCliente\LayerWarranty\bin\Debug\LayerWarranty.xml
+C:\Diego\Production Developments\ServicioalCliente\LayerWarranty\bin\Debug\DataProvider.dll
+C:\Diego\Production Developments\ServicioalCliente\LayerWarranty\bin\Debug\DataProvider.pdb
+C:\Diego\Production Developments\ServicioalCliente\LayerWarranty\bin\Debug\DataProvider.xml
+C:\Diego\Production Developments\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.vbprojAssemblyReference.cache
+C:\Diego\Production Developments\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.Resources.resources
+C:\Diego\Production Developments\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.vbproj.GenerateResource.cache
+C:\Diego\Production Developments\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.vbproj.CoreCompileInputs.cache
+C:\Diego\Production Developments\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.vbproj.CopyComplete
+C:\Diego\Production Developments\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.dll
+C:\Diego\Production Developments\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.xml
+C:\Diego\Production Developments\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.pdb
+C:\Diego\src\ServicioalCliente\LayerWarranty\bin\Debug\LayerWarranty.dll
+C:\Diego\src\ServicioalCliente\LayerWarranty\bin\Debug\LayerWarranty.pdb
+C:\Diego\src\ServicioalCliente\LayerWarranty\bin\Debug\LayerWarranty.xml
+C:\Diego\src\ServicioalCliente\LayerWarranty\bin\Debug\DataProvider.dll
+C:\Diego\src\ServicioalCliente\LayerWarranty\bin\Debug\DataProvider.pdb
+C:\Diego\src\ServicioalCliente\LayerWarranty\bin\Debug\DataProvider.xml
+C:\Diego\src\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.vbproj.AssemblyReference.cache
+C:\Diego\src\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.Resources.resources
+C:\Diego\src\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.vbproj.GenerateResource.cache
+C:\Diego\src\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.vbproj.CoreCompileInputs.cache
+C:\Diego\src\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.vbproj.CopyComplete
+C:\Diego\src\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.dll
+C:\Diego\src\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.xml
+C:\Diego\src\ServicioalCliente\LayerWarranty\obj\Debug\LayerWarranty.pdb

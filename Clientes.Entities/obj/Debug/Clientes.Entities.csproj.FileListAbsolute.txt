@@ -1,0 +1,16 @@
+C:\Desarrollo Local\ServicioalCliente\Clientes.Entities\bin\Debug\Clientes.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\Clientes.Entities\bin\Debug\Clientes.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\Clientes.Entities\bin\Debug\Common.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\Clientes.Entities\bin\Debug\Common.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\Clientes.Entities\obj\Debug\Clientes.Entities.csprojResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\Clientes.Entities\obj\Debug\Clientes.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\Clientes.Entities\obj\Debug\Clientes.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.Entities\bin\Debug\Clientes.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.Entities\bin\Debug\Clientes.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.Entities\bin\Debug\Common.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.Entities\bin\Debug\Common.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.Entities\obj\Debug\Clientes.Entities.csprojAssemblyReference.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.Entities\obj\Debug\Clientes.Entities.csproj.CoreCompileInputs.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.Entities\obj\Debug\Clientes.Entities.csproj.CopyComplete
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.Entities\obj\Debug\Clientes.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.Entities\obj\Debug\Clientes.Entities.pdb

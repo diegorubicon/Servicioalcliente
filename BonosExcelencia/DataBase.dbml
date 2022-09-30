@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Sakif" Class="DataBaseDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.0.2;Initial Catalog=Sakif;User ID=sa" SettingsObjectName="BonosExcelencia.Properties.Settings" SettingsPropertyName="SakifConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.bonos_excelencia" Member="ExcelenciaBonos">
+    <Type Name="ExcelenciaBono">
+      <Column Name="plan_mercadeo" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nivel" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="VentaPersonal" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="VentaEquipo" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ReclutasNuevosVenta" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ReclutasNuevosVenta1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MaxProfundidad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Cierres_bono_excelencia" Member="Cierres">
+    <Type Name="Cierre">
+      <Column Name="cierre" Member="id_cierre" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PeriodoInicio" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="PeriodoFinal" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="creado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="creado_por" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

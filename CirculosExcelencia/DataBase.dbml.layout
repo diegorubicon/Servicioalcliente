@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataBase">
+  <DataContextMoniker Name="/DataBaseDataContext" />
+  <nestedChildShapes>
+    <classShape Id="e4796193-ef82-4598-a07e-1f37af61af7a" absoluteBounds="4.125, 1.25, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/DataBaseDataContext/CirculoExcelencia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d76a8c4d-edb0-4b85-82a9-c21d8936d720" absoluteBounds="4.14, 1.71, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b4079d2e-a5a2-41a9-a487-da377db6ddc5" absoluteBounds="0.875, 0.625, 2, 2.5401025390625">
+      <DataClassMoniker Name="/DataBaseDataContext/NivelCirculo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="83ece822-ce3a-4ce3-9d6d-2974e819732d" absoluteBounds="0.89000000000000012, 1.085, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.875 : 2.20755126953125); (4.125 : 2.20755126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataBaseDataContext/NivelCirculo/niveles_circulo_excelencia_circulos_excelencia" />
+      <nodes>
+        <classShapeMoniker Id="b4079d2e-a5a2-41a9-a487-da377db6ddc5" />
+        <classShapeMoniker Id="e4796193-ef82-4598-a07e-1f37af61af7a" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

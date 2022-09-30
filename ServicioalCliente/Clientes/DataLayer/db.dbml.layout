@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.625" name="db">
+  <DataContextMoniker Name="/dbDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1e62e0c2-fdc5-47bb-bcc3-1eca1a3a64b1" absoluteBounds="1.875, 0.5, 2, 8.8860498046875">
+      <DataClassMoniker Name="/dbDataContext/cliente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d767b54d-75ed-4102-b649-8f5de3d8556c" absoluteBounds="1.8899999999999997, 0.96, 1.9700000000000002, 8.3260498046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c09af23f-a039-4553-b383-b9d23ca2e57e" absoluteBounds="6.5, 0.625, 2, 1.9631982421875">
+      <DataClassMoniker Name="/dbDataContext/tiposcliente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0314e844-179b-4320-a8be-8cc0de2ef49f" absoluteBounds="6.515, 1.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.5 : 1.60659912109375); (3.875 : 1.60659912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbDataContext/tiposcliente/tipos_de_cliente_cliente" />
+      <nodes>
+        <classShapeMoniker Id="c09af23f-a039-4553-b383-b9d23ca2e57e" />
+        <classShapeMoniker Id="1e62e0c2-fdc5-47bb-bcc3-1eca1a3a64b1" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

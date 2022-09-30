@@ -1,0 +1,100 @@
+Public Class Payments
+    Private data As PaymentsAD
+    Private index As Integer
+    Private factura As String
+    Public Sub New(ByVal f As String)
+        factura = f
+    End Sub
+    Public Sub SetDataBaseLogon(ByRef User As String, ByRef Password As String, ByRef server As String)
+        data = New PaymentsAD
+        data.Usuario = User
+        data.Password = Password
+        data.Servidor = server
+    End Sub
+    Public Sub Load()
+        data.Read(factura)
+        index = 1
+    End Sub
+    Private Function ReturnStringOf(ByRef f As PaymentsAD.TablePayments, Optional ByRef i As Short = 0) As Object
+        Dim j As Short
+        Try
+            If data.RowCount > 0 Then
+                If i = 1 Then
+                    data.GetFirstRow()
+                    index = 1
+                End If
+                If (i = index) Or (i = 0) Then
+                    Return data.ValueAt(f)
+                Else
+                    For j = index To i - 1
+                        data.GetNextRow()
+                    Next j
+                    index = i
+                    Return data.ValueAt(f)
+                End If
+            Else
+                Return Nothing
+            End If
+        Catch ex As Exception
+            Return Nothing
+        End Try
+    End Function
+    Public ReadOnly Property MontoTotal(Optional ByVal i As Short = 0) As Double
+        Get
+            Return ReturnStringOf(PaymentsAD.TablePayments.paMonto, i)
+        End Get
+    End Property
+    Public ReadOnly Property Consecutivo(Optional ByVal i As Short = 0) As Integer
+        Get
+            Dim obj As Object = ReturnStringOf(PaymentsAD.TablePayments.paConsecutivo, i)
+            If Not (obj Is Nothing) Then
+                Return Convert.ToInt32(obj)
+            Else
+                Return 0
+            End If
+        End Get
+    End Property
+    Public ReadOnly Property FechaPago(Optional ByVal i As Short = 0) As Date
+        Get
+            Dim obj As Object = ReturnStringOf(PaymentsAD.TablePayments.paFechaPago, i)
+            If Not (obj Is Nothing) Then
+                Return Convert.ToDateTime(obj)
+            Else
+                Return Today()
+            End If
+        End Get
+    End Property
+    Public ReadOnly Property Documento(Optional ByVal i As Short = 0) As String
+        Get
+            Dim obj As Object = ReturnStringOf(PaymentsAD.TablePayments.paDocumento, i)
+            If Not (obj Is Nothing) Then
+                Return Convert.ToString(obj)
+            Else
+                Return ""
+            End If
+        End Get
+    End Property
+    Public ReadOnly Property Banco(Optional ByVal i As Short = 0) As String
+        Get
+            Dim obj As Object = ReturnStringOf(PaymentsAD.TablePayments.paBanco, i)
+            If Not (obj Is Nothing) Then
+                Return Convert.ToString(obj)
+            Else
+                Return ""
+            End If
+        End Get
+    End Property
+    Public ReadOnly Property FormaPago(Optional ByVal i As Short = 0) As String
+        Get
+            Dim obj As Object = ReturnStringOf(PaymentsAD.TablePayments.paFormaPago, i)
+            If Not (obj Is Nothing) Then
+                Return Convert.ToString(obj)
+            Else
+                Return ""
+            End If
+        End Get
+    End Property
+    Public Function Count() As Double
+        Return data.RowCount
+    End Function
+End Class

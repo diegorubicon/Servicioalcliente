@@ -1,0 +1,11 @@
+C:\Desarrollo Local\ServicioalCliente\Academic.Reporting\bin\Debug\Academic.Reporting.dll.config
+C:\Desarrollo Local\ServicioalCliente\Academic.Reporting\bin\Debug\Academic.Reporting.dll
+C:\Desarrollo Local\ServicioalCliente\Academic.Reporting\bin\Debug\Academic.Reporting.pdb
+C:\Desarrollo Local\ServicioalCliente\Academic.Reporting\bin\Debug\Academic.Reporting.xml
+C:\Desarrollo Local\ServicioalCliente\Academic.Reporting\obj\Debug\Academic.Reporting.vbprojResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\Academic.Reporting\obj\Debug\Academic.Reporting.frmVistaPrevia.resources
+C:\Desarrollo Local\ServicioalCliente\Academic.Reporting\obj\Debug\Academic.Reporting.Resources.resources
+C:\Desarrollo Local\ServicioalCliente\Academic.Reporting\obj\Debug\Academic.Reporting.vbproj.GenerateResource.Cache
+C:\Desarrollo Local\ServicioalCliente\Academic.Reporting\obj\Debug\Academic.Reporting.dll
+C:\Desarrollo Local\ServicioalCliente\Academic.Reporting\obj\Debug\Academic.Reporting.xml
+C:\Desarrollo Local\ServicioalCliente\Academic.Reporting\obj\Debug\Academic.Reporting.pdb

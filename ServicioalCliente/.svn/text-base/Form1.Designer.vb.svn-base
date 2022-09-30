@@ -1,0 +1,2301 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class frmMain
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Dim ListViewGroup11 As System.Windows.Forms.ListViewGroup = New System.Windows.Forms.ListViewGroup("Registrados", System.Windows.Forms.HorizontalAlignment.Left)
+        Dim ListViewGroup12 As System.Windows.Forms.ListViewGroup = New System.Windows.Forms.ListViewGroup("En transicion", System.Windows.Forms.HorizontalAlignment.Left)
+        Dim ListViewGroup13 As System.Windows.Forms.ListViewGroup = New System.Windows.Forms.ListViewGroup("Primera Cuota Completa", System.Windows.Forms.HorizontalAlignment.Left)
+        Dim ListViewGroup14 As System.Windows.Forms.ListViewGroup = New System.Windows.Forms.ListViewGroup("Pendientes de Primer Pago", System.Windows.Forms.HorizontalAlignment.Left)
+        Dim ListViewGroup15 As System.Windows.Forms.ListViewGroup = New System.Windows.Forms.ListViewGroup("Primera Cuota Completa", System.Windows.Forms.HorizontalAlignment.Left)
+        Dim ListViewGroup16 As System.Windows.Forms.ListViewGroup = New System.Windows.Forms.ListViewGroup("Pendientes de Primer Pago", System.Windows.Forms.HorizontalAlignment.Left)
+        Dim ListViewGroup17 As System.Windows.Forms.ListViewGroup = New System.Windows.Forms.ListViewGroup("Activos", System.Windows.Forms.HorizontalAlignment.Left)
+        Dim ListViewGroup18 As System.Windows.Forms.ListViewGroup = New System.Windows.Forms.ListViewGroup("En Proceso", System.Windows.Forms.HorizontalAlignment.Left)
+        Dim ListViewGroup19 As System.Windows.Forms.ListViewGroup = New System.Windows.Forms.ListViewGroup("Con Ventas", System.Windows.Forms.HorizontalAlignment.Left)
+        Dim ListViewGroup20 As System.Windows.Forms.ListViewGroup = New System.Windows.Forms.ListViewGroup("Sin Ventas", System.Windows.Forms.HorizontalAlignment.Left)
+        Me.TabControl1 = New System.Windows.Forms.TabControl
+        Me.tabpage1 = New System.Windows.Forms.TabPage
+        Me.cmdMostrarCliente = New System.Windows.Forms.Button
+        Me.lbNombre = New System.Windows.Forms.Label
+        Me.Label61 = New System.Windows.Forms.Label
+        Me.TabControl5 = New System.Windows.Forms.TabControl
+        Me.TabPage3 = New System.Windows.Forms.TabPage
+        Me.txtDireccion = New System.Windows.Forms.TextBox
+        Me.cmbDistrito = New System.Windows.Forms.ComboBox
+        Me.cmbCanton = New System.Windows.Forms.ComboBox
+        Me.cmbProvincia = New System.Windows.Forms.ComboBox
+        Me.Label9 = New System.Windows.Forms.Label
+        Me.Button4 = New System.Windows.Forms.Button
+        Me.txtCorreo = New System.Windows.Forms.TextBox
+        Me.txtFax = New System.Windows.Forms.TextBox
+        Me.txtCelular = New System.Windows.Forms.TextBox
+        Me.txtApellido02 = New System.Windows.Forms.TextBox
+        Me.txtHabitacion = New System.Windows.Forms.TextBox
+        Me.txtapellido01 = New System.Windows.Forms.TextBox
+        Me.txtNombre = New System.Windows.Forms.TextBox
+        Me.Label8 = New System.Windows.Forms.Label
+        Me.Label7 = New System.Windows.Forms.Label
+        Me.Label6 = New System.Windows.Forms.Label
+        Me.Label5 = New System.Windows.Forms.Label
+        Me.Label4 = New System.Windows.Forms.Label
+        Me.Label3 = New System.Windows.Forms.Label
+        Me.Label2 = New System.Windows.Forms.Label
+        Me.TabPage4 = New System.Windows.Forms.TabPage
+        Me.Button1 = New System.Windows.Forms.Button
+        Me.lvEstadoDespacho = New System.Windows.Forms.ListView
+        Me.ColumnHeader1 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader2 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader3 = New System.Windows.Forms.ColumnHeader
+        Me.Label27 = New System.Windows.Forms.Label
+        Me.txtMontoCancelado = New System.Windows.Forms.TextBox
+        Me.Label34 = New System.Windows.Forms.Label
+        Me.txtSaldoDespacho = New System.Windows.Forms.TextBox
+        Me.lvArticulos = New System.Windows.Forms.ListView
+        Me.ColumnHeader15 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader16 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader17 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader18 = New System.Windows.Forms.ColumnHeader
+        Me.txtSaldoActual = New System.Windows.Forms.TextBox
+        Me.lvPagos = New System.Windows.Forms.ListView
+        Me.ColumnHeader5 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader6 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader7 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader8 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader9 = New System.Windows.Forms.ColumnHeader
+        Me.Label26 = New System.Windows.Forms.Label
+        Me.Label25 = New System.Windows.Forms.Label
+        Me.Button2 = New System.Windows.Forms.Button
+        Me.Label33 = New System.Windows.Forms.Label
+        Me.Label23 = New System.Windows.Forms.Label
+        Me.txtPromocion = New System.Windows.Forms.TextBox
+        Me.Label22 = New System.Windows.Forms.Label
+        Me.Label32 = New System.Windows.Forms.Label
+        Me.Label21 = New System.Windows.Forms.Label
+        Me.txtDescuento = New System.Windows.Forms.TextBox
+        Me.Label31 = New System.Windows.Forms.Label
+        Me.txtCuotasCanceladas = New System.Windows.Forms.TextBox
+        Me.txtTipo = New System.Windows.Forms.TextBox
+        Me.Label30 = New System.Windows.Forms.Label
+        Me.Label29 = New System.Windows.Forms.Label
+        Me.Label17 = New System.Windows.Forms.Label
+        Me.Label16 = New System.Windows.Forms.Label
+        Me.txtMontoTotal = New System.Windows.Forms.TextBox
+        Me.txtFechaVencimiento = New System.Windows.Forms.TextBox
+        Me.txtFecha = New System.Windows.Forms.TextBox
+        Me.txtFactura = New System.Windows.Forms.TextBox
+        Me.txtPlazo = New System.Windows.Forms.TextBox
+        Me.Label20 = New System.Windows.Forms.Label
+        Me.Label12 = New System.Windows.Forms.Label
+        Me.Label11 = New System.Windows.Forms.Label
+        Me.Label10 = New System.Windows.Forms.Label
+        Me.Label13 = New System.Windows.Forms.Label
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox
+        Me.TabPage5 = New System.Windows.Forms.TabPage
+        Me.cmdMostrarDatos = New System.Windows.Forms.Button
+        Me.Label60 = New System.Windows.Forms.Label
+        Me.txtComentarioGarantia = New System.Windows.Forms.TextBox
+        Me.Label59 = New System.Windows.Forms.Label
+        Me.txtGarantiaAplicada = New System.Windows.Forms.TextBox
+        Me.Label58 = New System.Windows.Forms.Label
+        Me.ListView9 = New System.Windows.Forms.ListView
+        Me.ColumnHeader34 = New System.Windows.Forms.ColumnHeader
+        Me.Label57 = New System.Windows.Forms.Label
+        Me.lvArticulosGarantia = New System.Windows.Forms.ListView
+        Me.ColumnHeader32 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader33 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader35 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader36 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader37 = New System.Windows.Forms.ColumnHeader
+        Me.Label56 = New System.Windows.Forms.Label
+        Me.txtEstadoGarantia = New System.Windows.Forms.TextBox
+        Me.Label55 = New System.Windows.Forms.Label
+        Me.txtFechaIngresoGarantia = New System.Windows.Forms.TextBox
+        Me.Label54 = New System.Windows.Forms.Label
+        Me.Button7 = New System.Windows.Forms.Button
+        Me.txtBoletaGarantia = New System.Windows.Forms.TextBox
+        Me.Label53 = New System.Windows.Forms.Label
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox
+        Me.cmdBuscaCliente = New System.Windows.Forms.Button
+        Me.txtCliente = New System.Windows.Forms.TextBox
+        Me.Label1 = New System.Windows.Forms.Label
+        Me.tabpage57 = New System.Windows.Forms.TabPage
+        Me.cmdConsultarVendedor = New System.Windows.Forms.Button
+        Me.lbVendedor = New System.Windows.Forms.Label
+        Me.Label64 = New System.Windows.Forms.Label
+        Me.TabControl3 = New System.Windows.Forms.TabControl
+        Me.tabpage14 = New System.Windows.Forms.TabPage
+        Me.txtdireccionvendedor = New System.Windows.Forms.TextBox
+        Me.cmbdistritovendedor = New System.Windows.Forms.ComboBox
+        Me.cmbcantonvendedor = New System.Windows.Forms.ComboBox
+        Me.cmbprovinciavendedor = New System.Windows.Forms.ComboBox
+        Me.Label41 = New System.Windows.Forms.Label
+        Me.Button6 = New System.Windows.Forms.Button
+        Me.txtcorreovendedor = New System.Windows.Forms.TextBox
+        Me.txtfaxvendedor = New System.Windows.Forms.TextBox
+        Me.txtcelularvendedor = New System.Windows.Forms.TextBox
+        Me.txtapellido02vendedor = New System.Windows.Forms.TextBox
+        Me.txthabitacionvendedor = New System.Windows.Forms.TextBox
+        Me.txtapellido01vendedor = New System.Windows.Forms.TextBox
+        Me.txtNombreVendedor = New System.Windows.Forms.TextBox
+        Me.Label42 = New System.Windows.Forms.Label
+        Me.Label43 = New System.Windows.Forms.Label
+        Me.Label44 = New System.Windows.Forms.Label
+        Me.Label45 = New System.Windows.Forms.Label
+        Me.Label46 = New System.Windows.Forms.Label
+        Me.Label47 = New System.Windows.Forms.Label
+        Me.Label48 = New System.Windows.Forms.Label
+        Me.TabPage7 = New System.Windows.Forms.TabPage
+        Me.lvVendedoresDirectos = New System.Windows.Forms.ListView
+        Me.ColumnHeader19 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader23 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader24 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader25 = New System.Windows.Forms.ColumnHeader
+        Me.lvTreeReclutas = New System.Windows.Forms.TreeView
+        Me.TabPage8 = New System.Windows.Forms.TabPage
+        Me.Label14 = New System.Windows.Forms.Label
+        Me.TabControl2 = New System.Windows.Forms.TabControl
+        Me.TabPage2 = New System.Windows.Forms.TabPage
+        Me.lvFacturasVendedor = New System.Windows.Forms.ListView
+        Me.ColumnHeader26 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader27 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader28 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader38 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader29 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader30 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader31 = New System.Windows.Forms.ColumnHeader
+        Me.TabPage10 = New System.Windows.Forms.TabPage
+        Me.Label65 = New System.Windows.Forms.Label
+        Me.Label63 = New System.Windows.Forms.Label
+        Me.lvVentasRecluta = New System.Windows.Forms.ListView
+        Me.ColumnHeader12 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader13 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader14 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader20 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader21 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader22 = New System.Windows.Forms.ColumnHeader
+        Me.lvVendedoresUnidad = New System.Windows.Forms.ListView
+        Me.ColumnHeader4 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader10 = New System.Windows.Forms.ColumnHeader
+        Me.ColumnHeader11 = New System.Windows.Forms.ColumnHeader
+        Me.txtVentasPersonalesProceso = New System.Windows.Forms.TextBox
+        Me.Label62 = New System.Windows.Forms.Label
+        Me.txtReclutasActivosIndirectos = New System.Windows.Forms.TextBox
+        Me.Label52 = New System.Windows.Forms.Label
+        Me.txtReclutasActivosDirectos = New System.Windows.Forms.TextBox
+        Me.txtVentasUnidad = New System.Windows.Forms.TextBox
+        Me.Label51 = New System.Windows.Forms.Label
+        Me.txtVendedorVentasPersonales = New System.Windows.Forms.TextBox
+        Me.Label49 = New System.Windows.Forms.Label
+        Me.TabPage9 = New System.Windows.Forms.TabPage
+        Me.Button3 = New System.Windows.Forms.Button
+        Me.txtvendedor = New System.Windows.Forms.TextBox
+        Me.Label18 = New System.Windows.Forms.Label
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox
+        Me.TextBox14 = New System.Windows.Forms.TextBox
+        Me.ComboBox4 = New System.Windows.Forms.ComboBox
+        Me.ComboBox5 = New System.Windows.Forms.ComboBox
+        Me.ComboBox6 = New System.Windows.Forms.ComboBox
+        Me.Label19 = New System.Windows.Forms.Label
+        Me.Button5 = New System.Windows.Forms.Button
+        Me.TextBox18 = New System.Windows.Forms.TextBox
+        Me.TextBox26 = New System.Windows.Forms.TextBox
+        Me.TextBox27 = New System.Windows.Forms.TextBox
+        Me.TextBox28 = New System.Windows.Forms.TextBox
+        Me.TextBox29 = New System.Windows.Forms.TextBox
+        Me.TextBox30 = New System.Windows.Forms.TextBox
+        Me.TextBox31 = New System.Windows.Forms.TextBox
+        Me.Label28 = New System.Windows.Forms.Label
+        Me.Label35 = New System.Windows.Forms.Label
+        Me.Label36 = New System.Windows.Forms.Label
+        Me.Label37 = New System.Windows.Forms.Label
+        Me.Label38 = New System.Windows.Forms.Label
+        Me.Label39 = New System.Windows.Forms.Label
+        Me.Label40 = New System.Windows.Forms.Label
+        Me.Label15 = New System.Windows.Forms.Label
+        Me.cmbCierre = New System.Windows.Forms.ComboBox
+        Me.TabControl1.SuspendLayout()
+        Me.tabpage1.SuspendLayout()
+        Me.TabControl5.SuspendLayout()
+        Me.TabPage3.SuspendLayout()
+        Me.TabPage4.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage5.SuspendLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.tabpage57.SuspendLayout()
+        Me.TabControl3.SuspendLayout()
+        Me.tabpage14.SuspendLayout()
+        Me.TabPage7.SuspendLayout()
+        Me.TabPage8.SuspendLayout()
+        Me.TabControl2.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
+        Me.TabPage10.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'TabControl1
+        '
+        Me.TabControl1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TabControl1.Controls.Add(Me.tabpage1)
+        Me.TabControl1.Controls.Add(Me.tabpage57)
+        Me.TabControl1.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TabControl1.Location = New System.Drawing.Point(12, 12)
+        Me.TabControl1.Name = "TabControl1"
+        Me.TabControl1.SelectedIndex = 0
+        Me.TabControl1.Size = New System.Drawing.Size(990, 683)
+        Me.TabControl1.TabIndex = 0
+        '
+        'tabpage1
+        '
+        Me.tabpage1.Controls.Add(Me.cmdMostrarCliente)
+        Me.tabpage1.Controls.Add(Me.lbNombre)
+        Me.tabpage1.Controls.Add(Me.Label61)
+        Me.tabpage1.Controls.Add(Me.TabControl5)
+        Me.tabpage1.Controls.Add(Me.PictureBox1)
+        Me.tabpage1.Controls.Add(Me.cmdBuscaCliente)
+        Me.tabpage1.Controls.Add(Me.txtCliente)
+        Me.tabpage1.Controls.Add(Me.Label1)
+        Me.tabpage1.Font = New System.Drawing.Font("Calibri", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tabpage1.Location = New System.Drawing.Point(4, 26)
+        Me.tabpage1.Name = "tabpage1"
+        Me.tabpage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.tabpage1.Size = New System.Drawing.Size(982, 653)
+        Me.tabpage1.TabIndex = 0
+        Me.tabpage1.Text = "Informacion del Cliente"
+        Me.tabpage1.UseVisualStyleBackColor = True
+        '
+        'cmdMostrarCliente
+        '
+        Me.cmdMostrarCliente.Location = New System.Drawing.Point(314, 11)
+        Me.cmdMostrarCliente.Name = "cmdMostrarCliente"
+        Me.cmdMostrarCliente.Size = New System.Drawing.Size(71, 27)
+        Me.cmdMostrarCliente.TabIndex = 7
+        Me.cmdMostrarCliente.Text = "Mostrar"
+        Me.cmdMostrarCliente.UseVisualStyleBackColor = True
+        '
+        'lbNombre
+        '
+        Me.lbNombre.AutoSize = True
+        Me.lbNombre.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbNombre.Location = New System.Drawing.Point(141, 47)
+        Me.lbNombre.Name = "lbNombre"
+        Me.lbNombre.Size = New System.Drawing.Size(0, 23)
+        Me.lbNombre.TabIndex = 6
+        '
+        'Label61
+        '
+        Me.Label61.AutoSize = True
+        Me.Label61.Font = New System.Drawing.Font("Calibri", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label61.Location = New System.Drawing.Point(17, 51)
+        Me.Label61.Name = "Label61"
+        Me.Label61.Size = New System.Drawing.Size(60, 18)
+        Me.Label61.TabIndex = 5
+        Me.Label61.Text = "Cliente: "
+        '
+        'TabControl5
+        '
+        Me.TabControl5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TabControl5.Controls.Add(Me.TabPage3)
+        Me.TabControl5.Controls.Add(Me.TabPage4)
+        Me.TabControl5.Controls.Add(Me.TabPage5)
+        Me.TabControl5.Location = New System.Drawing.Point(20, 94)
+        Me.TabControl5.Multiline = True
+        Me.TabControl5.Name = "TabControl5"
+        Me.TabControl5.SelectedIndex = 0
+        Me.TabControl5.Size = New System.Drawing.Size(956, 553)
+        Me.TabControl5.TabIndex = 4
+        '
+        'TabPage3
+        '
+        Me.TabPage3.Controls.Add(Me.txtDireccion)
+        Me.TabPage3.Controls.Add(Me.cmbDistrito)
+        Me.TabPage3.Controls.Add(Me.cmbCanton)
+        Me.TabPage3.Controls.Add(Me.cmbProvincia)
+        Me.TabPage3.Controls.Add(Me.Label9)
+        Me.TabPage3.Controls.Add(Me.Button4)
+        Me.TabPage3.Controls.Add(Me.txtCorreo)
+        Me.TabPage3.Controls.Add(Me.txtFax)
+        Me.TabPage3.Controls.Add(Me.txtCelular)
+        Me.TabPage3.Controls.Add(Me.txtApellido02)
+        Me.TabPage3.Controls.Add(Me.txtHabitacion)
+        Me.TabPage3.Controls.Add(Me.txtapellido01)
+        Me.TabPage3.Controls.Add(Me.txtNombre)
+        Me.TabPage3.Controls.Add(Me.Label8)
+        Me.TabPage3.Controls.Add(Me.Label7)
+        Me.TabPage3.Controls.Add(Me.Label6)
+        Me.TabPage3.Controls.Add(Me.Label5)
+        Me.TabPage3.Controls.Add(Me.Label4)
+        Me.TabPage3.Controls.Add(Me.Label3)
+        Me.TabPage3.Controls.Add(Me.Label2)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 27)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage3.Size = New System.Drawing.Size(948, 522)
+        Me.TabPage3.TabIndex = 0
+        Me.TabPage3.Text = "Informacion General"
+        Me.TabPage3.UseVisualStyleBackColor = True
+        '
+        'txtDireccion
+        '
+        Me.txtDireccion.Location = New System.Drawing.Point(258, 335)
+        Me.txtDireccion.Multiline = True
+        Me.txtDireccion.Name = "txtDireccion"
+        Me.txtDireccion.Size = New System.Drawing.Size(549, 69)
+        Me.txtDireccion.TabIndex = 22
+        '
+        'cmbDistrito
+        '
+        Me.cmbDistrito.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbDistrito.FormattingEnabled = True
+        Me.cmbDistrito.Location = New System.Drawing.Point(633, 293)
+        Me.cmbDistrito.Name = "cmbDistrito"
+        Me.cmbDistrito.Size = New System.Drawing.Size(174, 26)
+        Me.cmbDistrito.TabIndex = 21
+        '
+        'cmbCanton
+        '
+        Me.cmbCanton.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbCanton.FormattingEnabled = True
+        Me.cmbCanton.Location = New System.Drawing.Point(444, 293)
+        Me.cmbCanton.Name = "cmbCanton"
+        Me.cmbCanton.Size = New System.Drawing.Size(174, 26)
+        Me.cmbCanton.TabIndex = 20
+        '
+        'cmbProvincia
+        '
+        Me.cmbProvincia.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbProvincia.FormattingEnabled = True
+        Me.cmbProvincia.Location = New System.Drawing.Point(259, 293)
+        Me.cmbProvincia.Name = "cmbProvincia"
+        Me.cmbProvincia.Size = New System.Drawing.Size(174, 26)
+        Me.cmbProvincia.TabIndex = 18
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(118, 297)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(65, 18)
+        Me.Label9.TabIndex = 17
+        Me.Label9.Text = "Provincia"
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(405, 448)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(176, 26)
+        Me.Button4.TabIndex = 16
+        Me.Button4.Text = "Actualizar Datos"
+        Me.Button4.UseVisualStyleBackColor = True
+        Me.Button4.Visible = False
+        '
+        'txtCorreo
+        '
+        Me.txtCorreo.Location = New System.Drawing.Point(258, 247)
+        Me.txtCorreo.Name = "txtCorreo"
+        Me.txtCorreo.Size = New System.Drawing.Size(360, 26)
+        Me.txtCorreo.TabIndex = 13
+        '
+        'txtFax
+        '
+        Me.txtFax.Location = New System.Drawing.Point(258, 197)
+        Me.txtFax.Name = "txtFax"
+        Me.txtFax.Size = New System.Drawing.Size(175, 26)
+        Me.txtFax.TabIndex = 12
+        '
+        'txtCelular
+        '
+        Me.txtCelular.Location = New System.Drawing.Point(258, 156)
+        Me.txtCelular.Name = "txtCelular"
+        Me.txtCelular.Size = New System.Drawing.Size(175, 26)
+        Me.txtCelular.TabIndex = 11
+        '
+        'txtApellido02
+        '
+        Me.txtApellido02.Location = New System.Drawing.Point(439, 73)
+        Me.txtApellido02.Name = "txtApellido02"
+        Me.txtApellido02.Size = New System.Drawing.Size(179, 26)
+        Me.txtApellido02.TabIndex = 10
+        '
+        'txtHabitacion
+        '
+        Me.txtHabitacion.Location = New System.Drawing.Point(258, 114)
+        Me.txtHabitacion.Name = "txtHabitacion"
+        Me.txtHabitacion.Size = New System.Drawing.Size(175, 26)
+        Me.txtHabitacion.TabIndex = 9
+        '
+        'txtapellido01
+        '
+        Me.txtapellido01.Location = New System.Drawing.Point(258, 73)
+        Me.txtapellido01.Name = "txtapellido01"
+        Me.txtapellido01.Size = New System.Drawing.Size(175, 26)
+        Me.txtapellido01.TabIndex = 8
+        '
+        'txtNombre
+        '
+        Me.txtNombre.Location = New System.Drawing.Point(258, 30)
+        Me.txtNombre.Name = "txtNombre"
+        Me.txtNombre.Size = New System.Drawing.Size(360, 26)
+        Me.txtNombre.TabIndex = 7
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(118, 255)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(77, 18)
+        Me.Label8.TabIndex = 6
+        Me.Label8.Text = "Electronico"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(118, 237)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(50, 18)
+        Me.Label7.TabIndex = 5
+        Me.Label7.Text = "Correo"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(118, 205)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(29, 18)
+        Me.Label6.TabIndex = 4
+        Me.Label6.Text = "Fax"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(118, 164)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(110, 18)
+        Me.Label5.TabIndex = 3
+        Me.Label5.Text = "Telefono Celular"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(118, 122)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(132, 18)
+        Me.Label4.TabIndex = 2
+        Me.Label4.Text = "Telefono Habitacion"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(118, 81)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(67, 18)
+        Me.Label3.TabIndex = 1
+        Me.Label3.Text = "Apellidos"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(118, 38)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(59, 18)
+        Me.Label2.TabIndex = 0
+        Me.Label2.Text = "Nombre"
+        '
+        'TabPage4
+        '
+        Me.TabPage4.BackColor = System.Drawing.Color.White
+        Me.TabPage4.Controls.Add(Me.Button1)
+        Me.TabPage4.Controls.Add(Me.lvEstadoDespacho)
+        Me.TabPage4.Controls.Add(Me.Label27)
+        Me.TabPage4.Controls.Add(Me.txtMontoCancelado)
+        Me.TabPage4.Controls.Add(Me.Label34)
+        Me.TabPage4.Controls.Add(Me.txtSaldoDespacho)
+        Me.TabPage4.Controls.Add(Me.lvArticulos)
+        Me.TabPage4.Controls.Add(Me.txtSaldoActual)
+        Me.TabPage4.Controls.Add(Me.lvPagos)
+        Me.TabPage4.Controls.Add(Me.Label26)
+        Me.TabPage4.Controls.Add(Me.Label25)
+        Me.TabPage4.Controls.Add(Me.Button2)
+        Me.TabPage4.Controls.Add(Me.Label33)
+        Me.TabPage4.Controls.Add(Me.Label23)
+        Me.TabPage4.Controls.Add(Me.txtPromocion)
+        Me.TabPage4.Controls.Add(Me.Label22)
+        Me.TabPage4.Controls.Add(Me.Label32)
+        Me.TabPage4.Controls.Add(Me.Label21)
+        Me.TabPage4.Controls.Add(Me.txtDescuento)
+        Me.TabPage4.Controls.Add(Me.Label31)
+        Me.TabPage4.Controls.Add(Me.txtCuotasCanceladas)
+        Me.TabPage4.Controls.Add(Me.txtTipo)
+        Me.TabPage4.Controls.Add(Me.Label30)
+        Me.TabPage4.Controls.Add(Me.Label29)
+        Me.TabPage4.Controls.Add(Me.Label17)
+        Me.TabPage4.Controls.Add(Me.Label16)
+        Me.TabPage4.Controls.Add(Me.txtMontoTotal)
+        Me.TabPage4.Controls.Add(Me.txtFechaVencimiento)
+        Me.TabPage4.Controls.Add(Me.txtFecha)
+        Me.TabPage4.Controls.Add(Me.txtFactura)
+        Me.TabPage4.Controls.Add(Me.txtPlazo)
+        Me.TabPage4.Controls.Add(Me.Label20)
+        Me.TabPage4.Controls.Add(Me.Label12)
+        Me.TabPage4.Controls.Add(Me.Label11)
+        Me.TabPage4.Controls.Add(Me.Label10)
+        Me.TabPage4.Controls.Add(Me.Label13)
+        Me.TabPage4.Controls.Add(Me.PictureBox2)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 27)
+        Me.TabPage4.Name = "TabPage4"
+        Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage4.Size = New System.Drawing.Size(948, 522)
+        Me.TabPage4.TabIndex = 1
+        Me.TabPage4.Text = "Facturacion"
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(290, 10)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(71, 26)
+        Me.Button1.TabIndex = 62
+        Me.Button1.Text = "Mostrar"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'lvEstadoDespacho
+        '
+        Me.lvEstadoDespacho.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3})
+        Me.lvEstadoDespacho.LabelWrap = False
+        Me.lvEstadoDespacho.Location = New System.Drawing.Point(467, 397)
+        Me.lvEstadoDespacho.Name = "lvEstadoDespacho"
+        Me.lvEstadoDespacho.Size = New System.Drawing.Size(475, 110)
+        Me.lvEstadoDespacho.TabIndex = 61
+        Me.lvEstadoDespacho.UseCompatibleStateImageBehavior = False
+        Me.lvEstadoDespacho.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader1
+        '
+        Me.ColumnHeader1.Text = "Evento"
+        Me.ColumnHeader1.Width = 105
+        '
+        'ColumnHeader2
+        '
+        Me.ColumnHeader2.Text = "Fecha"
+        Me.ColumnHeader2.Width = 92
+        '
+        'ColumnHeader3
+        '
+        Me.ColumnHeader3.Text = "Estado"
+        Me.ColumnHeader3.Width = 247
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Font = New System.Drawing.Font("Calibri", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Location = New System.Drawing.Point(464, 333)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(116, 18)
+        Me.Label27.TabIndex = 60
+        Me.Label27.Text = "4. Envio y Entrega"
+        '
+        'txtMontoCancelado
+        '
+        Me.txtMontoCancelado.Location = New System.Drawing.Point(869, 290)
+        Me.txtMontoCancelado.Name = "txtMontoCancelado"
+        Me.txtMontoCancelado.Size = New System.Drawing.Size(73, 26)
+        Me.txtMontoCancelado.TabIndex = 59
+        Me.txtMontoCancelado.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'Label34
+        '
+        Me.Label34.AutoSize = True
+        Me.Label34.Font = New System.Drawing.Font("Calibri", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label34.Location = New System.Drawing.Point(458, 6)
+        Me.Label34.Name = "Label34"
+        Me.Label34.Size = New System.Drawing.Size(129, 18)
+        Me.Label34.TabIndex = 50
+        Me.Label34.Text = "3. Estado de Cuenta"
+        '
+        'txtSaldoDespacho
+        '
+        Me.txtSaldoDespacho.Location = New System.Drawing.Point(575, 365)
+        Me.txtSaldoDespacho.Name = "txtSaldoDespacho"
+        Me.txtSaldoDespacho.Size = New System.Drawing.Size(74, 26)
+        Me.txtSaldoDespacho.TabIndex = 58
+        Me.txtSaldoDespacho.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'lvArticulos
+        '
+        Me.lvArticulos.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader15, Me.ColumnHeader16, Me.ColumnHeader17, Me.ColumnHeader18})
+        Me.lvArticulos.GridLines = True
+        Me.lvArticulos.Location = New System.Drawing.Point(19, 354)
+        Me.lvArticulos.Name = "lvArticulos"
+        Me.lvArticulos.Size = New System.Drawing.Size(411, 153)
+        Me.lvArticulos.TabIndex = 0
+        Me.lvArticulos.UseCompatibleStateImageBehavior = False
+        Me.lvArticulos.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader15
+        '
+        Me.ColumnHeader15.Text = "Articulo"
+        Me.ColumnHeader15.Width = 0
+        '
+        'ColumnHeader16
+        '
+        Me.ColumnHeader16.Text = "Descripcion"
+        Me.ColumnHeader16.Width = 270
+        '
+        'ColumnHeader17
+        '
+        Me.ColumnHeader17.Text = "Cantidad"
+        Me.ColumnHeader17.Width = 67
+        '
+        'ColumnHeader18
+        '
+        Me.ColumnHeader18.Text = "Precio de Venta"
+        Me.ColumnHeader18.Width = 67
+        '
+        'txtSaldoActual
+        '
+        Me.txtSaldoActual.Font = New System.Drawing.Font("Calibri", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSaldoActual.Location = New System.Drawing.Point(697, 290)
+        Me.txtSaldoActual.Name = "txtSaldoActual"
+        Me.txtSaldoActual.Size = New System.Drawing.Size(77, 26)
+        Me.txtSaldoActual.TabIndex = 57
+        Me.txtSaldoActual.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'lvPagos
+        '
+        Me.lvPagos.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader5, Me.ColumnHeader6, Me.ColumnHeader7, Me.ColumnHeader8, Me.ColumnHeader9})
+        Me.lvPagos.GridLines = True
+        ListViewGroup11.Header = "Registrados"
+        ListViewGroup11.Name = "ListViewGroup1"
+        ListViewGroup12.Header = "En transicion"
+        ListViewGroup12.Name = "ListViewGroup2"
+        Me.lvPagos.Groups.AddRange(New System.Windows.Forms.ListViewGroup() {ListViewGroup11, ListViewGroup12})
+        Me.lvPagos.Location = New System.Drawing.Point(461, 36)
+        Me.lvPagos.Name = "lvPagos"
+        Me.lvPagos.Size = New System.Drawing.Size(481, 229)
+        Me.lvPagos.TabIndex = 0
+        Me.lvPagos.UseCompatibleStateImageBehavior = False
+        Me.lvPagos.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader5
+        '
+        Me.ColumnHeader5.Text = "Fecha"
+        Me.ColumnHeader5.Width = 85
+        '
+        'ColumnHeader6
+        '
+        Me.ColumnHeader6.Text = "Tipo"
+        Me.ColumnHeader6.Width = 79
+        '
+        'ColumnHeader7
+        '
+        Me.ColumnHeader7.Text = "Banco"
+        Me.ColumnHeader7.Width = 121
+        '
+        'ColumnHeader8
+        '
+        Me.ColumnHeader8.Text = "Documento"
+        Me.ColumnHeader8.Width = 119
+        '
+        'ColumnHeader9
+        '
+        Me.ColumnHeader9.Text = "Monto"
+        Me.ColumnHeader9.Width = 70
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.Location = New System.Drawing.Point(794, 298)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(72, 18)
+        Me.Label26.TabIndex = 56
+        Me.Label26.Text = "Cancelado"
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Location = New System.Drawing.Point(794, 280)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(49, 18)
+        Me.Label25.TabIndex = 55
+        Me.Label25.Text = "Monto"
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(367, 10)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(62, 26)
+        Me.Button2.TabIndex = 49
+        Me.Button2.Text = "Buscar"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.Font = New System.Drawing.Font("Calibri", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.Location = New System.Drawing.Point(16, 333)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(77, 18)
+        Me.Label33.TabIndex = 48
+        Me.Label33.Text = "2. Articulos"
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Location = New System.Drawing.Point(464, 365)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(105, 18)
+        Me.Label23.TabIndex = 53
+        Me.Label23.Text = "Saldo Despacho"
+        '
+        'txtPromocion
+        '
+        Me.txtPromocion.Location = New System.Drawing.Point(155, 145)
+        Me.txtPromocion.Name = "txtPromocion"
+        Me.txtPromocion.Size = New System.Drawing.Size(133, 26)
+        Me.txtPromocion.TabIndex = 38
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Location = New System.Drawing.Point(627, 298)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(47, 18)
+        Me.Label22.TabIndex = 52
+        Me.Label22.Text = "Actual"
+        '
+        'Label32
+        '
+        Me.Label32.AutoSize = True
+        Me.Label32.Location = New System.Drawing.Point(16, 153)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(75, 18)
+        Me.Label32.TabIndex = 37
+        Me.Label32.Text = "Promocion"
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Location = New System.Drawing.Point(627, 280)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(42, 18)
+        Me.Label21.TabIndex = 51
+        Me.Label21.Text = "Saldo"
+        '
+        'txtDescuento
+        '
+        Me.txtDescuento.Location = New System.Drawing.Point(155, 111)
+        Me.txtDescuento.Name = "txtDescuento"
+        Me.txtDescuento.Size = New System.Drawing.Size(133, 26)
+        Me.txtDescuento.TabIndex = 36
+        '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.Location = New System.Drawing.Point(16, 119)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(74, 18)
+        Me.Label31.TabIndex = 35
+        Me.Label31.Text = "Descuento"
+        '
+        'txtCuotasCanceladas
+        '
+        Me.txtCuotasCanceladas.Location = New System.Drawing.Point(567, 290)
+        Me.txtCuotasCanceladas.Name = "txtCuotasCanceladas"
+        Me.txtCuotasCanceladas.Size = New System.Drawing.Size(43, 26)
+        Me.txtCuotasCanceladas.TabIndex = 49
+        Me.txtCuotasCanceladas.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'txtTipo
+        '
+        Me.txtTipo.Location = New System.Drawing.Point(155, 74)
+        Me.txtTipo.Name = "txtTipo"
+        Me.txtTipo.Size = New System.Drawing.Size(133, 26)
+        Me.txtTipo.TabIndex = 34
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.Location = New System.Drawing.Point(16, 82)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(35, 18)
+        Me.Label30.TabIndex = 33
+        Me.Label30.Text = "Tipo"
+        '
+        'Label29
+        '
+        Me.Label29.AutoSize = True
+        Me.Label29.Font = New System.Drawing.Font("Calibri", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.Location = New System.Drawing.Point(16, 48)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(124, 18)
+        Me.Label29.TabIndex = 32
+        Me.Label29.Text = "1. Datos Generales"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Location = New System.Drawing.Point(464, 298)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(77, 18)
+        Me.Label17.TabIndex = 44
+        Me.Label17.Text = "Canceladas"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Location = New System.Drawing.Point(464, 280)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(50, 18)
+        Me.Label16.TabIndex = 43
+        Me.Label16.Text = "Cuotas"
+        '
+        'txtMontoTotal
+        '
+        Me.txtMontoTotal.Location = New System.Drawing.Point(155, 290)
+        Me.txtMontoTotal.Name = "txtMontoTotal"
+        Me.txtMontoTotal.Size = New System.Drawing.Size(133, 26)
+        Me.txtMontoTotal.TabIndex = 30
+        Me.txtMontoTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'txtFechaVencimiento
+        '
+        Me.txtFechaVencimiento.Location = New System.Drawing.Point(155, 215)
+        Me.txtFechaVencimiento.Name = "txtFechaVencimiento"
+        Me.txtFechaVencimiento.Size = New System.Drawing.Size(133, 26)
+        Me.txtFechaVencimiento.TabIndex = 29
+        '
+        'txtFecha
+        '
+        Me.txtFecha.Location = New System.Drawing.Point(155, 180)
+        Me.txtFecha.Name = "txtFecha"
+        Me.txtFecha.Size = New System.Drawing.Size(133, 26)
+        Me.txtFecha.TabIndex = 28
+        '
+        'txtFactura
+        '
+        Me.txtFactura.Location = New System.Drawing.Point(155, 11)
+        Me.txtFactura.Name = "txtFactura"
+        Me.txtFactura.Size = New System.Drawing.Size(129, 26)
+        Me.txtFactura.TabIndex = 27
+        '
+        'txtPlazo
+        '
+        Me.txtPlazo.Location = New System.Drawing.Point(155, 254)
+        Me.txtPlazo.Name = "txtPlazo"
+        Me.txtPlazo.Size = New System.Drawing.Size(43, 26)
+        Me.txtPlazo.TabIndex = 47
+        Me.txtPlazo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Location = New System.Drawing.Point(16, 298)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(82, 18)
+        Me.Label20.TabIndex = 26
+        Me.Label20.Text = "Monto Total"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(16, 223)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(126, 18)
+        Me.Label12.TabIndex = 14
+        Me.Label12.Text = "Fecha Vencimiento"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(16, 188)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(44, 18)
+        Me.Label11.TabIndex = 13
+        Me.Label11.Text = "Fecha"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(16, 19)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(113, 18)
+        Me.Label10.TabIndex = 12
+        Me.Label10.Text = "Orden de Pedido"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(16, 257)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(50, 18)
+        Me.Label13.TabIndex = 40
+        Me.Label13.Text = "Cuotas"
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.ServicioalCliente.My.Resources.Resources.lineavertical
+        Me.PictureBox2.Location = New System.Drawing.Point(443, 6)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(15, 510)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 11
+        Me.PictureBox2.TabStop = False
+        '
+        'TabPage5
+        '
+        Me.TabPage5.Controls.Add(Me.cmdMostrarDatos)
+        Me.TabPage5.Controls.Add(Me.Label60)
+        Me.TabPage5.Controls.Add(Me.txtComentarioGarantia)
+        Me.TabPage5.Controls.Add(Me.Label59)
+        Me.TabPage5.Controls.Add(Me.txtGarantiaAplicada)
+        Me.TabPage5.Controls.Add(Me.Label58)
+        Me.TabPage5.Controls.Add(Me.ListView9)
+        Me.TabPage5.Controls.Add(Me.Label57)
+        Me.TabPage5.Controls.Add(Me.lvArticulosGarantia)
+        Me.TabPage5.Controls.Add(Me.Label56)
+        Me.TabPage5.Controls.Add(Me.txtEstadoGarantia)
+        Me.TabPage5.Controls.Add(Me.Label55)
+        Me.TabPage5.Controls.Add(Me.txtFechaIngresoGarantia)
+        Me.TabPage5.Controls.Add(Me.Label54)
+        Me.TabPage5.Controls.Add(Me.Button7)
+        Me.TabPage5.Controls.Add(Me.txtBoletaGarantia)
+        Me.TabPage5.Controls.Add(Me.Label53)
+        Me.TabPage5.Controls.Add(Me.PictureBox4)
+        Me.TabPage5.Location = New System.Drawing.Point(4, 27)
+        Me.TabPage5.Name = "TabPage5"
+        Me.TabPage5.Size = New System.Drawing.Size(948, 522)
+        Me.TabPage5.TabIndex = 2
+        Me.TabPage5.Text = "Cambios y Garantias"
+        Me.TabPage5.UseVisualStyleBackColor = True
+        '
+        'cmdMostrarDatos
+        '
+        Me.cmdMostrarDatos.Location = New System.Drawing.Point(311, 9)
+        Me.cmdMostrarDatos.Name = "cmdMostrarDatos"
+        Me.cmdMostrarDatos.Size = New System.Drawing.Size(65, 27)
+        Me.cmdMostrarDatos.TabIndex = 22
+        Me.cmdMostrarDatos.Text = "Mostrar"
+        Me.cmdMostrarDatos.UseVisualStyleBackColor = True
+        '
+        'Label60
+        '
+        Me.Label60.AutoSize = True
+        Me.Label60.Location = New System.Drawing.Point(497, 319)
+        Me.Label60.Name = "Label60"
+        Me.Label60.Size = New System.Drawing.Size(91, 18)
+        Me.Label60.TabIndex = 21
+        Me.Label60.Text = "Comentarios:"
+        '
+        'txtComentarioGarantia
+        '
+        Me.txtComentarioGarantia.Location = New System.Drawing.Point(500, 340)
+        Me.txtComentarioGarantia.Multiline = True
+        Me.txtComentarioGarantia.Name = "txtComentarioGarantia"
+        Me.txtComentarioGarantia.Size = New System.Drawing.Size(432, 163)
+        Me.txtComentarioGarantia.TabIndex = 20
+        '
+        'Label59
+        '
+        Me.Label59.AutoSize = True
+        Me.Label59.Location = New System.Drawing.Point(498, 78)
+        Me.Label59.Name = "Label59"
+        Me.Label59.Size = New System.Drawing.Size(128, 18)
+        Me.Label59.TabIndex = 19
+        Me.Label59.Text = "Criterios Aplicados:"
+        '
+        'txtGarantiaAplicada
+        '
+        Me.txtGarantiaAplicada.Location = New System.Drawing.Point(649, 37)
+        Me.txtGarantiaAplicada.Name = "txtGarantiaAplicada"
+        Me.txtGarantiaAplicada.Size = New System.Drawing.Size(121, 26)
+        Me.txtGarantiaAplicada.TabIndex = 18
+        '
+        'Label58
+        '
+        Me.Label58.AutoSize = True
+        Me.Label58.Location = New System.Drawing.Point(498, 45)
+        Me.Label58.Name = "Label58"
+        Me.Label58.Size = New System.Drawing.Size(115, 18)
+        Me.Label58.TabIndex = 17
+        Me.Label58.Text = "Garantia Aplicada"
+        '
+        'ListView9
+        '
+        Me.ListView9.CheckBoxes = True
+        Me.ListView9.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader34})
+        Me.ListView9.Location = New System.Drawing.Point(497, 104)
+        Me.ListView9.Name = "ListView9"
+        Me.ListView9.Size = New System.Drawing.Size(436, 201)
+        Me.ListView9.TabIndex = 16
+        Me.ListView9.UseCompatibleStateImageBehavior = False
+        Me.ListView9.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader34
+        '
+        Me.ColumnHeader34.Text = "Criterio"
+        Me.ColumnHeader34.Width = 421
+        '
+        'Label57
+        '
+        Me.Label57.AutoSize = True
+        Me.Label57.Font = New System.Drawing.Font("Calibri", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label57.Location = New System.Drawing.Point(498, 14)
+        Me.Label57.Name = "Label57"
+        Me.Label57.Size = New System.Drawing.Size(119, 18)
+        Me.Label57.TabIndex = 15
+        Me.Label57.Text = "Resultado Estudio"
+        '
+        'lvArticulosGarantia
+        '
+        Me.lvArticulosGarantia.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader32, Me.ColumnHeader33, Me.ColumnHeader35, Me.ColumnHeader36, Me.ColumnHeader37})
+        Me.lvArticulosGarantia.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.lvArticulosGarantia.FullRowSelect = True
+        Me.lvArticulosGarantia.Location = New System.Drawing.Point(22, 156)
+        Me.lvArticulosGarantia.Name = "lvArticulosGarantia"
+        Me.lvArticulosGarantia.Size = New System.Drawing.Size(422, 347)
+        Me.lvArticulosGarantia.TabIndex = 14
+        Me.lvArticulosGarantia.UseCompatibleStateImageBehavior = False
+        Me.lvArticulosGarantia.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader32
+        '
+        Me.ColumnHeader32.Text = "Codigo"
+        Me.ColumnHeader32.Width = 86
+        '
+        'ColumnHeader33
+        '
+        Me.ColumnHeader33.Text = "Articulo"
+        Me.ColumnHeader33.Width = 322
+        '
+        'ColumnHeader35
+        '
+        Me.ColumnHeader35.Text = "linea"
+        Me.ColumnHeader35.Width = 0
+        '
+        'ColumnHeader36
+        '
+        Me.ColumnHeader36.Text = "garantia"
+        Me.ColumnHeader36.Width = 0
+        '
+        'ColumnHeader37
+        '
+        Me.ColumnHeader37.Text = "comentarios"
+        Me.ColumnHeader37.Width = 0
+        '
+        'Label56
+        '
+        Me.Label56.AutoSize = True
+        Me.Label56.Font = New System.Drawing.Font("Calibri", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label56.Location = New System.Drawing.Point(20, 130)
+        Me.Label56.Name = "Label56"
+        Me.Label56.Size = New System.Drawing.Size(63, 18)
+        Me.Label56.TabIndex = 13
+        Me.Label56.Text = "Articulos"
+        '
+        'txtEstadoGarantia
+        '
+        Me.txtEstadoGarantia.Location = New System.Drawing.Point(177, 92)
+        Me.txtEstadoGarantia.Name = "txtEstadoGarantia"
+        Me.txtEstadoGarantia.Size = New System.Drawing.Size(128, 26)
+        Me.txtEstadoGarantia.TabIndex = 6
+        '
+        'Label55
+        '
+        Me.Label55.AutoSize = True
+        Me.Label55.Location = New System.Drawing.Point(19, 100)
+        Me.Label55.Name = "Label55"
+        Me.Label55.Size = New System.Drawing.Size(49, 18)
+        Me.Label55.TabIndex = 5
+        Me.Label55.Text = "Estado"
+        '
+        'txtFechaIngresoGarantia
+        '
+        Me.txtFechaIngresoGarantia.Location = New System.Drawing.Point(177, 54)
+        Me.txtFechaIngresoGarantia.Name = "txtFechaIngresoGarantia"
+        Me.txtFechaIngresoGarantia.Size = New System.Drawing.Size(128, 26)
+        Me.txtFechaIngresoGarantia.TabIndex = 4
+        '
+        'Label54
+        '
+        Me.Label54.AutoSize = True
+        Me.Label54.Location = New System.Drawing.Point(20, 62)
+        Me.Label54.Name = "Label54"
+        Me.Label54.Size = New System.Drawing.Size(93, 18)
+        Me.Label54.TabIndex = 3
+        Me.Label54.Text = "Fecha Ingreso"
+        '
+        'Button7
+        '
+        Me.Button7.Location = New System.Drawing.Point(376, 10)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(68, 26)
+        Me.Button7.TabIndex = 2
+        Me.Button7.Text = "Buscar"
+        Me.Button7.UseVisualStyleBackColor = True
+        '
+        'txtBoletaGarantia
+        '
+        Me.txtBoletaGarantia.Location = New System.Drawing.Point(177, 10)
+        Me.txtBoletaGarantia.Name = "txtBoletaGarantia"
+        Me.txtBoletaGarantia.Size = New System.Drawing.Size(128, 26)
+        Me.txtBoletaGarantia.TabIndex = 1
+        '
+        'Label53
+        '
+        Me.Label53.AutoSize = True
+        Me.Label53.Font = New System.Drawing.Font("Calibri", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label53.Location = New System.Drawing.Point(19, 18)
+        Me.Label53.Name = "Label53"
+        Me.Label53.Size = New System.Drawing.Size(123, 18)
+        Me.Label53.TabIndex = 0
+        Me.Label53.Text = "Boleta de Garantia"
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = Global.ServicioalCliente.My.Resources.Resources.lineavertical
+        Me.PictureBox4.Location = New System.Drawing.Point(467, 6)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(15, 510)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox4.TabIndex = 12
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.ServicioalCliente.My.Resources.Resources.linea
+        Me.PictureBox1.Location = New System.Drawing.Point(20, 72)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(601, 16)
+        Me.PictureBox1.TabIndex = 3
+        Me.PictureBox1.TabStop = False
+        '
+        'cmdBuscaCliente
+        '
+        Me.cmdBuscaCliente.Location = New System.Drawing.Point(391, 10)
+        Me.cmdBuscaCliente.Name = "cmdBuscaCliente"
+        Me.cmdBuscaCliente.Size = New System.Drawing.Size(66, 28)
+        Me.cmdBuscaCliente.TabIndex = 2
+        Me.cmdBuscaCliente.Text = "Buscar"
+        Me.cmdBuscaCliente.UseVisualStyleBackColor = True
+        '
+        'txtCliente
+        '
+        Me.txtCliente.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtCliente.Location = New System.Drawing.Point(145, 11)
+        Me.txtCliente.Name = "txtCliente"
+        Me.txtCliente.Size = New System.Drawing.Size(163, 27)
+        Me.txtCliente.TabIndex = 1
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(16, 14)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(104, 19)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Codigo Cliente"
+        '
+        'tabpage57
+        '
+        Me.tabpage57.Controls.Add(Me.cmbCierre)
+        Me.tabpage57.Controls.Add(Me.Label15)
+        Me.tabpage57.Controls.Add(Me.cmdConsultarVendedor)
+        Me.tabpage57.Controls.Add(Me.lbVendedor)
+        Me.tabpage57.Controls.Add(Me.Label64)
+        Me.tabpage57.Controls.Add(Me.TabControl3)
+        Me.tabpage57.Controls.Add(Me.Button3)
+        Me.tabpage57.Controls.Add(Me.txtvendedor)
+        Me.tabpage57.Controls.Add(Me.Label18)
+        Me.tabpage57.Controls.Add(Me.PictureBox3)
+        Me.tabpage57.Location = New System.Drawing.Point(4, 26)
+        Me.tabpage57.Name = "tabpage57"
+        Me.tabpage57.Padding = New System.Windows.Forms.Padding(3)
+        Me.tabpage57.Size = New System.Drawing.Size(982, 653)
+        Me.tabpage57.TabIndex = 1
+        Me.tabpage57.Text = "Informacion de Vendedor"
+        Me.tabpage57.UseVisualStyleBackColor = True
+        '
+        'cmdConsultarVendedor
+        '
+        Me.cmdConsultarVendedor.Location = New System.Drawing.Point(317, 20)
+        Me.cmdConsultarVendedor.Name = "cmdConsultarVendedor"
+        Me.cmdConsultarVendedor.Size = New System.Drawing.Size(77, 27)
+        Me.cmdConsultarVendedor.TabIndex = 11
+        Me.cmdConsultarVendedor.Text = "Mostrar"
+        Me.cmdConsultarVendedor.UseVisualStyleBackColor = True
+        '
+        'lbVendedor
+        '
+        Me.lbVendedor.AutoSize = True
+        Me.lbVendedor.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbVendedor.Location = New System.Drawing.Point(141, 53)
+        Me.lbVendedor.Name = "lbVendedor"
+        Me.lbVendedor.Size = New System.Drawing.Size(0, 23)
+        Me.lbVendedor.TabIndex = 10
+        '
+        'Label64
+        '
+        Me.Label64.AutoSize = True
+        Me.Label64.Font = New System.Drawing.Font("Calibri", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label64.Location = New System.Drawing.Point(17, 57)
+        Me.Label64.Name = "Label64"
+        Me.Label64.Size = New System.Drawing.Size(73, 18)
+        Me.Label64.TabIndex = 9
+        Me.Label64.Text = "Vendedor:"
+        '
+        'TabControl3
+        '
+        Me.TabControl3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TabControl3.Controls.Add(Me.tabpage14)
+        Me.TabControl3.Controls.Add(Me.TabPage7)
+        Me.TabControl3.Controls.Add(Me.TabPage8)
+        Me.TabControl3.Controls.Add(Me.TabPage9)
+        Me.TabControl3.Font = New System.Drawing.Font("Calibri", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TabControl3.Location = New System.Drawing.Point(20, 104)
+        Me.TabControl3.Name = "TabControl3"
+        Me.TabControl3.SelectedIndex = 0
+        Me.TabControl3.Size = New System.Drawing.Size(956, 543)
+        Me.TabControl3.TabIndex = 8
+        '
+        'tabpage14
+        '
+        Me.tabpage14.Controls.Add(Me.txtdireccionvendedor)
+        Me.tabpage14.Controls.Add(Me.cmbdistritovendedor)
+        Me.tabpage14.Controls.Add(Me.cmbcantonvendedor)
+        Me.tabpage14.Controls.Add(Me.cmbprovinciavendedor)
+        Me.tabpage14.Controls.Add(Me.Label41)
+        Me.tabpage14.Controls.Add(Me.Button6)
+        Me.tabpage14.Controls.Add(Me.txtcorreovendedor)
+        Me.tabpage14.Controls.Add(Me.txtfaxvendedor)
+        Me.tabpage14.Controls.Add(Me.txtcelularvendedor)
+        Me.tabpage14.Controls.Add(Me.txtapellido02vendedor)
+        Me.tabpage14.Controls.Add(Me.txthabitacionvendedor)
+        Me.tabpage14.Controls.Add(Me.txtapellido01vendedor)
+        Me.tabpage14.Controls.Add(Me.txtNombreVendedor)
+        Me.tabpage14.Controls.Add(Me.Label42)
+        Me.tabpage14.Controls.Add(Me.Label43)
+        Me.tabpage14.Controls.Add(Me.Label44)
+        Me.tabpage14.Controls.Add(Me.Label45)
+        Me.tabpage14.Controls.Add(Me.Label46)
+        Me.tabpage14.Controls.Add(Me.Label47)
+        Me.tabpage14.Controls.Add(Me.Label48)
+        Me.tabpage14.Location = New System.Drawing.Point(4, 27)
+        Me.tabpage14.Name = "tabpage14"
+        Me.tabpage14.Padding = New System.Windows.Forms.Padding(3)
+        Me.tabpage14.Size = New System.Drawing.Size(948, 512)
+        Me.tabpage14.TabIndex = 0
+        Me.tabpage14.Text = "Informacion Personal"
+        Me.tabpage14.UseVisualStyleBackColor = True
+        '
+        'txtdireccionvendedor
+        '
+        Me.txtdireccionvendedor.Location = New System.Drawing.Point(270, 339)
+        Me.txtdireccionvendedor.Multiline = True
+        Me.txtdireccionvendedor.Name = "txtdireccionvendedor"
+        Me.txtdireccionvendedor.Size = New System.Drawing.Size(549, 69)
+        Me.txtdireccionvendedor.TabIndex = 42
+        '
+        'cmbdistritovendedor
+        '
+        Me.cmbdistritovendedor.FormattingEnabled = True
+        Me.cmbdistritovendedor.Location = New System.Drawing.Point(645, 297)
+        Me.cmbdistritovendedor.Name = "cmbdistritovendedor"
+        Me.cmbdistritovendedor.Size = New System.Drawing.Size(174, 26)
+        Me.cmbdistritovendedor.TabIndex = 41
+        '
+        'cmbcantonvendedor
+        '
+        Me.cmbcantonvendedor.FormattingEnabled = True
+        Me.cmbcantonvendedor.Location = New System.Drawing.Point(456, 297)
+        Me.cmbcantonvendedor.Name = "cmbcantonvendedor"
+        Me.cmbcantonvendedor.Size = New System.Drawing.Size(174, 26)
+        Me.cmbcantonvendedor.TabIndex = 40
+        '
+        'cmbprovinciavendedor
+        '
+        Me.cmbprovinciavendedor.FormattingEnabled = True
+        Me.cmbprovinciavendedor.Location = New System.Drawing.Point(271, 297)
+        Me.cmbprovinciavendedor.Name = "cmbprovinciavendedor"
+        Me.cmbprovinciavendedor.Size = New System.Drawing.Size(174, 26)
+        Me.cmbprovinciavendedor.TabIndex = 39
+        '
+        'Label41
+        '
+        Me.Label41.AutoSize = True
+        Me.Label41.Location = New System.Drawing.Point(130, 301)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(65, 18)
+        Me.Label41.TabIndex = 38
+        Me.Label41.Text = "Provincia"
+        '
+        'Button6
+        '
+        Me.Button6.Location = New System.Drawing.Point(417, 452)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(176, 26)
+        Me.Button6.TabIndex = 37
+        Me.Button6.Text = "Actualizar Datos"
+        Me.Button6.UseVisualStyleBackColor = True
+        '
+        'txtcorreovendedor
+        '
+        Me.txtcorreovendedor.Location = New System.Drawing.Point(270, 251)
+        Me.txtcorreovendedor.Name = "txtcorreovendedor"
+        Me.txtcorreovendedor.Size = New System.Drawing.Size(360, 26)
+        Me.txtcorreovendedor.TabIndex = 36
+        '
+        'txtfaxvendedor
+        '
+        Me.txtfaxvendedor.Location = New System.Drawing.Point(270, 201)
+        Me.txtfaxvendedor.Name = "txtfaxvendedor"
+        Me.txtfaxvendedor.Size = New System.Drawing.Size(175, 26)
+        Me.txtfaxvendedor.TabIndex = 35
+        '
+        'txtcelularvendedor
+        '
+        Me.txtcelularvendedor.Location = New System.Drawing.Point(270, 160)
+        Me.txtcelularvendedor.Name = "txtcelularvendedor"
+        Me.txtcelularvendedor.Size = New System.Drawing.Size(175, 26)
+        Me.txtcelularvendedor.TabIndex = 34
+        '
+        'txtapellido02vendedor
+        '
+        Me.txtapellido02vendedor.Location = New System.Drawing.Point(451, 77)
+        Me.txtapellido02vendedor.Name = "txtapellido02vendedor"
+        Me.txtapellido02vendedor.Size = New System.Drawing.Size(179, 26)
+        Me.txtapellido02vendedor.TabIndex = 33
+        '
+        'txthabitacionvendedor
+        '
+        Me.txthabitacionvendedor.Location = New System.Drawing.Point(270, 118)
+        Me.txthabitacionvendedor.Name = "txthabitacionvendedor"
+        Me.txthabitacionvendedor.Size = New System.Drawing.Size(175, 26)
+        Me.txthabitacionvendedor.TabIndex = 32
+        '
+        'txtapellido01vendedor
+        '
+        Me.txtapellido01vendedor.Location = New System.Drawing.Point(270, 77)
+        Me.txtapellido01vendedor.Name = "txtapellido01vendedor"
+        Me.txtapellido01vendedor.Size = New System.Drawing.Size(175, 26)
+        Me.txtapellido01vendedor.TabIndex = 31
+        '
+        'txtNombreVendedor
+        '
+        Me.txtNombreVendedor.Location = New System.Drawing.Point(270, 34)
+        Me.txtNombreVendedor.Name = "txtNombreVendedor"
+        Me.txtNombreVendedor.Size = New System.Drawing.Size(360, 26)
+        Me.txtNombreVendedor.TabIndex = 30
+        '
+        'Label42
+        '
+        Me.Label42.AutoSize = True
+        Me.Label42.Location = New System.Drawing.Point(130, 259)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(77, 18)
+        Me.Label42.TabIndex = 29
+        Me.Label42.Text = "Electronico"
+        '
+        'Label43
+        '
+        Me.Label43.AutoSize = True
+        Me.Label43.Location = New System.Drawing.Point(130, 241)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(50, 18)
+        Me.Label43.TabIndex = 28
+        Me.Label43.Text = "Correo"
+        '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.Location = New System.Drawing.Point(130, 209)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(29, 18)
+        Me.Label44.TabIndex = 27
+        Me.Label44.Text = "Fax"
+        '
+        'Label45
+        '
+        Me.Label45.AutoSize = True
+        Me.Label45.Location = New System.Drawing.Point(130, 168)
+        Me.Label45.Name = "Label45"
+        Me.Label45.Size = New System.Drawing.Size(110, 18)
+        Me.Label45.TabIndex = 26
+        Me.Label45.Text = "Telefono Celular"
+        '
+        'Label46
+        '
+        Me.Label46.AutoSize = True
+        Me.Label46.Location = New System.Drawing.Point(130, 126)
+        Me.Label46.Name = "Label46"
+        Me.Label46.Size = New System.Drawing.Size(132, 18)
+        Me.Label46.TabIndex = 25
+        Me.Label46.Text = "Telefono Habitacion"
+        '
+        'Label47
+        '
+        Me.Label47.AutoSize = True
+        Me.Label47.Location = New System.Drawing.Point(130, 85)
+        Me.Label47.Name = "Label47"
+        Me.Label47.Size = New System.Drawing.Size(67, 18)
+        Me.Label47.TabIndex = 24
+        Me.Label47.Text = "Apellidos"
+        '
+        'Label48
+        '
+        Me.Label48.AutoSize = True
+        Me.Label48.Location = New System.Drawing.Point(130, 42)
+        Me.Label48.Name = "Label48"
+        Me.Label48.Size = New System.Drawing.Size(59, 18)
+        Me.Label48.TabIndex = 23
+        Me.Label48.Text = "Nombre"
+        '
+        'TabPage7
+        '
+        Me.TabPage7.Controls.Add(Me.lvVendedoresDirectos)
+        Me.TabPage7.Controls.Add(Me.lvTreeReclutas)
+        Me.TabPage7.Location = New System.Drawing.Point(4, 27)
+        Me.TabPage7.Name = "TabPage7"
+        Me.TabPage7.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage7.Size = New System.Drawing.Size(948, 512)
+        Me.TabPage7.TabIndex = 1
+        Me.TabPage7.Text = "Organizacion"
+        Me.TabPage7.UseVisualStyleBackColor = True
+        '
+        'lvVendedoresDirectos
+        '
+        Me.lvVendedoresDirectos.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader19, Me.ColumnHeader23, Me.ColumnHeader24, Me.ColumnHeader25})
+        Me.lvVendedoresDirectos.Location = New System.Drawing.Point(437, 18)
+        Me.lvVendedoresDirectos.Name = "lvVendedoresDirectos"
+        Me.lvVendedoresDirectos.Size = New System.Drawing.Size(489, 474)
+        Me.lvVendedoresDirectos.TabIndex = 1
+        Me.lvVendedoresDirectos.UseCompatibleStateImageBehavior = False
+        Me.lvVendedoresDirectos.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader19
+        '
+        Me.ColumnHeader19.Text = "Contrato"
+        Me.ColumnHeader19.Width = 80
+        '
+        'ColumnHeader23
+        '
+        Me.ColumnHeader23.Text = "Vendedor"
+        Me.ColumnHeader23.Width = 224
+        '
+        'ColumnHeader24
+        '
+        Me.ColumnHeader24.Text = "Telefono 1"
+        Me.ColumnHeader24.Width = 86
+        '
+        'ColumnHeader25
+        '
+        Me.ColumnHeader25.Text = "Telefono 2"
+        Me.ColumnHeader25.Width = 92
+        '
+        'lvTreeReclutas
+        '
+        Me.lvTreeReclutas.FullRowSelect = True
+        Me.lvTreeReclutas.Location = New System.Drawing.Point(15, 18)
+        Me.lvTreeReclutas.Name = "lvTreeReclutas"
+        Me.lvTreeReclutas.Size = New System.Drawing.Size(406, 479)
+        Me.lvTreeReclutas.TabIndex = 0
+        '
+        'TabPage8
+        '
+        Me.TabPage8.Controls.Add(Me.Label14)
+        Me.TabPage8.Controls.Add(Me.TabControl2)
+        Me.TabPage8.Controls.Add(Me.txtVentasPersonalesProceso)
+        Me.TabPage8.Controls.Add(Me.Label62)
+        Me.TabPage8.Controls.Add(Me.txtReclutasActivosIndirectos)
+        Me.TabPage8.Controls.Add(Me.Label52)
+        Me.TabPage8.Controls.Add(Me.txtReclutasActivosDirectos)
+        Me.TabPage8.Controls.Add(Me.txtVentasUnidad)
+        Me.TabPage8.Controls.Add(Me.Label51)
+        Me.TabPage8.Controls.Add(Me.txtVendedorVentasPersonales)
+        Me.TabPage8.Controls.Add(Me.Label49)
+        Me.TabPage8.Location = New System.Drawing.Point(4, 27)
+        Me.TabPage8.Name = "TabPage8"
+        Me.TabPage8.Size = New System.Drawing.Size(948, 512)
+        Me.TabPage8.TabIndex = 2
+        Me.TabPage8.Text = "Ventas"
+        Me.TabPage8.UseVisualStyleBackColor = True
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(276, 93)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(70, 18)
+        Me.Label14.TabIndex = 21
+        Me.Label14.Text = "Indirectos"
+        '
+        'TabControl2
+        '
+        Me.TabControl2.Controls.Add(Me.TabPage2)
+        Me.TabControl2.Controls.Add(Me.TabPage10)
+        Me.TabControl2.Location = New System.Drawing.Point(14, 122)
+        Me.TabControl2.Name = "TabControl2"
+        Me.TabControl2.SelectedIndex = 0
+        Me.TabControl2.Size = New System.Drawing.Size(931, 387)
+        Me.TabControl2.TabIndex = 20
+        '
+        'TabPage2
+        '
+        Me.TabPage2.Controls.Add(Me.lvFacturasVendedor)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 27)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(923, 356)
+        Me.TabPage2.TabIndex = 0
+        Me.TabPage2.Text = "Informacion Personal"
+        Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'lvFacturasVendedor
+        '
+        Me.lvFacturasVendedor.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader26, Me.ColumnHeader27, Me.ColumnHeader28, Me.ColumnHeader38, Me.ColumnHeader29, Me.ColumnHeader30, Me.ColumnHeader31})
+        Me.lvFacturasVendedor.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.lvFacturasVendedor.FullRowSelect = True
+        ListViewGroup13.Header = "Primera Cuota Completa"
+        ListViewGroup13.Name = "ListViewGroup1"
+        ListViewGroup14.Header = "Pendientes de Primer Pago"
+        ListViewGroup14.Name = "ListViewGroup2"
+        Me.lvFacturasVendedor.Groups.AddRange(New System.Windows.Forms.ListViewGroup() {ListViewGroup13, ListViewGroup14})
+        Me.lvFacturasVendedor.Location = New System.Drawing.Point(7, 17)
+        Me.lvFacturasVendedor.Name = "lvFacturasVendedor"
+        Me.lvFacturasVendedor.Size = New System.Drawing.Size(904, 333)
+        Me.lvFacturasVendedor.TabIndex = 13
+        Me.lvFacturasVendedor.UseCompatibleStateImageBehavior = False
+        Me.lvFacturasVendedor.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader26
+        '
+        Me.ColumnHeader26.Text = "Factura"
+        Me.ColumnHeader26.Width = 68
+        '
+        'ColumnHeader27
+        '
+        Me.ColumnHeader27.Text = "Fecha"
+        Me.ColumnHeader27.Width = 103
+        '
+        'ColumnHeader28
+        '
+        Me.ColumnHeader28.Text = "Plazo"
+        Me.ColumnHeader28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.ColumnHeader28.Width = 65
+        '
+        'ColumnHeader38
+        '
+        Me.ColumnHeader38.Text = "Cliente"
+        Me.ColumnHeader38.Width = 273
+        '
+        'ColumnHeader29
+        '
+        Me.ColumnHeader29.Text = "Monto Total"
+        Me.ColumnHeader29.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ColumnHeader29.Width = 99
+        '
+        'ColumnHeader30
+        '
+        Me.ColumnHeader30.Text = "Cuota Mensual"
+        Me.ColumnHeader30.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ColumnHeader30.Width = 80
+        '
+        'ColumnHeader31
+        '
+        Me.ColumnHeader31.Text = "Monto Abonado"
+        Me.ColumnHeader31.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ColumnHeader31.Width = 95
+        '
+        'TabPage10
+        '
+        Me.TabPage10.Controls.Add(Me.Label65)
+        Me.TabPage10.Controls.Add(Me.Label63)
+        Me.TabPage10.Controls.Add(Me.lvVentasRecluta)
+        Me.TabPage10.Controls.Add(Me.lvVendedoresUnidad)
+        Me.TabPage10.Location = New System.Drawing.Point(4, 27)
+        Me.TabPage10.Name = "TabPage10"
+        Me.TabPage10.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage10.Size = New System.Drawing.Size(923, 356)
+        Me.TabPage10.TabIndex = 1
+        Me.TabPage10.Text = "Informacion Unidad"
+        Me.TabPage10.UseVisualStyleBackColor = True
+        '
+        'Label65
+        '
+        Me.Label65.AutoSize = True
+        Me.Label65.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label65.Location = New System.Drawing.Point(387, 13)
+        Me.Label65.Name = "Label65"
+        Me.Label65.Size = New System.Drawing.Size(151, 13)
+        Me.Label65.TabIndex = 22
+        Me.Label65.Text = "Detalle de Ventas Registradas"
+        '
+        'Label63
+        '
+        Me.Label63.AutoSize = True
+        Me.Label63.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label63.Location = New System.Drawing.Point(6, 13)
+        Me.Label63.Name = "Label63"
+        Me.Label63.Size = New System.Drawing.Size(230, 13)
+        Me.Label63.TabIndex = 21
+        Me.Label63.Text = "Registro de Ventas  - Vendedores de la Unidad"
+        '
+        'lvVentasRecluta
+        '
+        Me.lvVentasRecluta.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader12, Me.ColumnHeader13, Me.ColumnHeader14, Me.ColumnHeader20, Me.ColumnHeader21, Me.ColumnHeader22})
+        ListViewGroup15.Header = "Primera Cuota Completa"
+        ListViewGroup15.Name = "ListViewGroup1"
+        ListViewGroup16.Header = "Pendientes de Primer Pago"
+        ListViewGroup16.Name = "ListViewGroup2"
+        Me.lvVentasRecluta.Groups.AddRange(New System.Windows.Forms.ListViewGroup() {ListViewGroup15, ListViewGroup16})
+        Me.lvVentasRecluta.Location = New System.Drawing.Point(390, 34)
+        Me.lvVentasRecluta.Name = "lvVentasRecluta"
+        Me.lvVentasRecluta.Size = New System.Drawing.Size(506, 316)
+        Me.lvVentasRecluta.TabIndex = 20
+        Me.lvVentasRecluta.UseCompatibleStateImageBehavior = False
+        Me.lvVentasRecluta.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader12
+        '
+        Me.ColumnHeader12.Text = "Factura"
+        Me.ColumnHeader12.Width = 68
+        '
+        'ColumnHeader13
+        '
+        Me.ColumnHeader13.Text = "Fecha"
+        Me.ColumnHeader13.Width = 103
+        '
+        'ColumnHeader14
+        '
+        Me.ColumnHeader14.Text = "Plazo"
+        Me.ColumnHeader14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.ColumnHeader14.Width = 65
+        '
+        'ColumnHeader20
+        '
+        Me.ColumnHeader20.Text = "Monto Total"
+        Me.ColumnHeader20.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ColumnHeader20.Width = 99
+        '
+        'ColumnHeader21
+        '
+        Me.ColumnHeader21.Text = "Cuota Mensual"
+        Me.ColumnHeader21.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ColumnHeader21.Width = 80
+        '
+        'ColumnHeader22
+        '
+        Me.ColumnHeader22.Text = "Monto Abonado"
+        Me.ColumnHeader22.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ColumnHeader22.Width = 95
+        '
+        'lvVendedoresUnidad
+        '
+        Me.lvVendedoresUnidad.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader4, Me.ColumnHeader10, Me.ColumnHeader11})
+        Me.lvVendedoresUnidad.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.lvVendedoresUnidad.FullRowSelect = True
+        ListViewGroup17.Header = "Activos"
+        ListViewGroup17.Name = "ListViewGroup1"
+        ListViewGroup18.Header = "En Proceso"
+        ListViewGroup18.Name = "ListViewGroup2"
+        ListViewGroup19.Header = "Con Ventas"
+        ListViewGroup19.Name = "ListViewGroup3"
+        ListViewGroup20.Header = "Sin Ventas"
+        ListViewGroup20.Name = "ListViewGroup4"
+        Me.lvVendedoresUnidad.Groups.AddRange(New System.Windows.Forms.ListViewGroup() {ListViewGroup17, ListViewGroup18, ListViewGroup19, ListViewGroup20})
+        Me.lvVendedoresUnidad.Location = New System.Drawing.Point(9, 34)
+        Me.lvVendedoresUnidad.Name = "lvVendedoresUnidad"
+        Me.lvVendedoresUnidad.Size = New System.Drawing.Size(375, 316)
+        Me.lvVendedoresUnidad.TabIndex = 19
+        Me.lvVendedoresUnidad.UseCompatibleStateImageBehavior = False
+        Me.lvVendedoresUnidad.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader4
+        '
+        Me.ColumnHeader4.Text = "Vendedor"
+        Me.ColumnHeader4.Width = 173
+        '
+        'ColumnHeader10
+        '
+        Me.ColumnHeader10.Text = "Ventas Actuales"
+        Me.ColumnHeader10.Width = 90
+        '
+        'ColumnHeader11
+        '
+        Me.ColumnHeader11.Text = "En transicion"
+        Me.ColumnHeader11.Width = 93
+        '
+        'txtVentasPersonalesProceso
+        '
+        Me.txtVentasPersonalesProceso.Location = New System.Drawing.Point(376, 7)
+        Me.txtVentasPersonalesProceso.Name = "txtVentasPersonalesProceso"
+        Me.txtVentasPersonalesProceso.Size = New System.Drawing.Size(108, 26)
+        Me.txtVentasPersonalesProceso.TabIndex = 19
+        '
+        'Label62
+        '
+        Me.Label62.AutoSize = True
+        Me.Label62.Location = New System.Drawing.Point(276, 10)
+        Me.Label62.Name = "Label62"
+        Me.Label62.Size = New System.Drawing.Size(79, 18)
+        Me.Label62.TabIndex = 13
+        Me.Label62.Text = "Pendientes"
+        '
+        'txtReclutasActivosIndirectos
+        '
+        Me.txtReclutasActivosIndirectos.Location = New System.Drawing.Point(376, 90)
+        Me.txtReclutasActivosIndirectos.Name = "txtReclutasActivosIndirectos"
+        Me.txtReclutasActivosIndirectos.Size = New System.Drawing.Size(103, 26)
+        Me.txtReclutasActivosIndirectos.TabIndex = 11
+        Me.txtReclutasActivosIndirectos.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label52
+        '
+        Me.Label52.AutoSize = True
+        Me.Label52.Location = New System.Drawing.Point(11, 93)
+        Me.Label52.Name = "Label52"
+        Me.Label52.Size = New System.Drawing.Size(114, 18)
+        Me.Label52.TabIndex = 10
+        Me.Label52.Text = "Reclutas Directos"
+        '
+        'txtReclutasActivosDirectos
+        '
+        Me.txtReclutasActivosDirectos.Location = New System.Drawing.Point(160, 90)
+        Me.txtReclutasActivosDirectos.Name = "txtReclutasActivosDirectos"
+        Me.txtReclutasActivosDirectos.Size = New System.Drawing.Size(103, 26)
+        Me.txtReclutasActivosDirectos.TabIndex = 9
+        Me.txtReclutasActivosDirectos.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'txtVentasUnidad
+        '
+        Me.txtVentasUnidad.Location = New System.Drawing.Point(160, 47)
+        Me.txtVentasUnidad.Name = "txtVentasUnidad"
+        Me.txtVentasUnidad.Size = New System.Drawing.Size(103, 26)
+        Me.txtVentasUnidad.TabIndex = 8
+        Me.txtVentasUnidad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label51
+        '
+        Me.Label51.AutoSize = True
+        Me.Label51.Location = New System.Drawing.Point(11, 51)
+        Me.Label51.Name = "Label51"
+        Me.Label51.Size = New System.Drawing.Size(97, 18)
+        Me.Label51.TabIndex = 7
+        Me.Label51.Text = "Ventas Unidad"
+        '
+        'txtVendedorVentasPersonales
+        '
+        Me.txtVendedorVentasPersonales.Location = New System.Drawing.Point(160, 7)
+        Me.txtVendedorVentasPersonales.Name = "txtVendedorVentasPersonales"
+        Me.txtVendedorVentasPersonales.Size = New System.Drawing.Size(103, 26)
+        Me.txtVendedorVentasPersonales.TabIndex = 5
+        Me.txtVendedorVentasPersonales.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label49
+        '
+        Me.Label49.AutoSize = True
+        Me.Label49.Location = New System.Drawing.Point(11, 10)
+        Me.Label49.Name = "Label49"
+        Me.Label49.Size = New System.Drawing.Size(121, 18)
+        Me.Label49.TabIndex = 0
+        Me.Label49.Text = "Ventas Personales"
+        '
+        'TabPage9
+        '
+        Me.TabPage9.Location = New System.Drawing.Point(4, 27)
+        Me.TabPage9.Name = "TabPage9"
+        Me.TabPage9.Size = New System.Drawing.Size(948, 512)
+        Me.TabPage9.TabIndex = 3
+        Me.TabPage9.Text = "Estadisticas"
+        Me.TabPage9.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(400, 19)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(104, 28)
+        Me.Button3.TabIndex = 6
+        Me.Button3.Text = "Buscar"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'txtvendedor
+        '
+        Me.txtvendedor.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtvendedor.Location = New System.Drawing.Point(145, 21)
+        Me.txtvendedor.Name = "txtvendedor"
+        Me.txtvendedor.Size = New System.Drawing.Size(163, 27)
+        Me.txtvendedor.TabIndex = 5
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Location = New System.Drawing.Point(16, 24)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(119, 19)
+        Me.Label18.TabIndex = 4
+        Me.Label18.Text = "Codigo Vendedor"
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = Global.ServicioalCliente.My.Resources.Resources.linea
+        Me.PictureBox3.Location = New System.Drawing.Point(20, 82)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(601, 16)
+        Me.PictureBox3.TabIndex = 7
+        Me.PictureBox3.TabStop = False
+        '
+        'TextBox14
+        '
+        Me.TextBox14.Location = New System.Drawing.Point(258, 335)
+        Me.TextBox14.Multiline = True
+        Me.TextBox14.Name = "TextBox14"
+        Me.TextBox14.Size = New System.Drawing.Size(549, 69)
+        Me.TextBox14.TabIndex = 22
+        '
+        'ComboBox4
+        '
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Location = New System.Drawing.Point(633, 293)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.Size = New System.Drawing.Size(174, 21)
+        Me.ComboBox4.TabIndex = 21
+        Me.ComboBox4.Text = "Central"
+        '
+        'ComboBox5
+        '
+        Me.ComboBox5.FormattingEnabled = True
+        Me.ComboBox5.Location = New System.Drawing.Point(444, 293)
+        Me.ComboBox5.Name = "ComboBox5"
+        Me.ComboBox5.Size = New System.Drawing.Size(174, 21)
+        Me.ComboBox5.TabIndex = 20
+        Me.ComboBox5.Text = "San Jose "
+        '
+        'ComboBox6
+        '
+        Me.ComboBox6.FormattingEnabled = True
+        Me.ComboBox6.Location = New System.Drawing.Point(259, 293)
+        Me.ComboBox6.Name = "ComboBox6"
+        Me.ComboBox6.Size = New System.Drawing.Size(174, 21)
+        Me.ComboBox6.TabIndex = 18
+        Me.ComboBox6.Text = "San Jose"
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Location = New System.Drawing.Point(118, 297)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(51, 13)
+        Me.Label19.TabIndex = 17
+        Me.Label19.Text = "Provincia"
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(405, 448)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(176, 26)
+        Me.Button5.TabIndex = 16
+        Me.Button5.Text = "Actualizar Datos"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'TextBox18
+        '
+        Me.TextBox18.Location = New System.Drawing.Point(258, 247)
+        Me.TextBox18.Name = "TextBox18"
+        Me.TextBox18.Size = New System.Drawing.Size(360, 20)
+        Me.TextBox18.TabIndex = 13
+        Me.TextBox18.Text = "dmartinez@mastercocina.net"
+        '
+        'TextBox26
+        '
+        Me.TextBox26.Location = New System.Drawing.Point(258, 197)
+        Me.TextBox26.Name = "TextBox26"
+        Me.TextBox26.Size = New System.Drawing.Size(175, 20)
+        Me.TextBox26.TabIndex = 12
+        Me.TextBox26.Text = "2231-1389"
+        '
+        'TextBox27
+        '
+        Me.TextBox27.Location = New System.Drawing.Point(258, 156)
+        Me.TextBox27.Name = "TextBox27"
+        Me.TextBox27.Size = New System.Drawing.Size(175, 20)
+        Me.TextBox27.TabIndex = 11
+        '
+        'TextBox28
+        '
+        Me.TextBox28.Location = New System.Drawing.Point(439, 73)
+        Me.TextBox28.Name = "TextBox28"
+        Me.TextBox28.Size = New System.Drawing.Size(179, 20)
+        Me.TextBox28.TabIndex = 10
+        Me.TextBox28.Text = "Cedeño"
+        '
+        'TextBox29
+        '
+        Me.TextBox29.Location = New System.Drawing.Point(258, 114)
+        Me.TextBox29.Name = "TextBox29"
+        Me.TextBox29.Size = New System.Drawing.Size(175, 20)
+        Me.TextBox29.TabIndex = 9
+        Me.TextBox29.Text = "2231-1389"
+        '
+        'TextBox30
+        '
+        Me.TextBox30.Location = New System.Drawing.Point(258, 73)
+        Me.TextBox30.Name = "TextBox30"
+        Me.TextBox30.Size = New System.Drawing.Size(175, 20)
+        Me.TextBox30.TabIndex = 8
+        Me.TextBox30.Text = "Martinez"
+        '
+        'TextBox31
+        '
+        Me.TextBox31.Location = New System.Drawing.Point(258, 30)
+        Me.TextBox31.Name = "TextBox31"
+        Me.TextBox31.Size = New System.Drawing.Size(360, 20)
+        Me.TextBox31.TabIndex = 7
+        Me.TextBox31.Text = "Diego"
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.Location = New System.Drawing.Point(118, 255)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(60, 13)
+        Me.Label28.TabIndex = 6
+        Me.Label28.Text = "Electronico"
+        '
+        'Label35
+        '
+        Me.Label35.AutoSize = True
+        Me.Label35.Location = New System.Drawing.Point(118, 237)
+        Me.Label35.Name = "Label35"
+        Me.Label35.Size = New System.Drawing.Size(38, 13)
+        Me.Label35.TabIndex = 5
+        Me.Label35.Text = "Correo"
+        '
+        'Label36
+        '
+        Me.Label36.AutoSize = True
+        Me.Label36.Location = New System.Drawing.Point(118, 205)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(24, 13)
+        Me.Label36.TabIndex = 4
+        Me.Label36.Text = "Fax"
+        '
+        'Label37
+        '
+        Me.Label37.AutoSize = True
+        Me.Label37.Location = New System.Drawing.Point(118, 122)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(103, 13)
+        Me.Label37.TabIndex = 2
+        Me.Label37.Text = "Telefono Habitacion"
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.Location = New System.Drawing.Point(118, 81)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(49, 13)
+        Me.Label38.TabIndex = 1
+        Me.Label38.Text = "Apellidos"
+        '
+        'Label39
+        '
+        Me.Label39.AutoSize = True
+        Me.Label39.Location = New System.Drawing.Point(118, 164)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New System.Drawing.Size(84, 13)
+        Me.Label39.TabIndex = 3
+        Me.Label39.Text = "Telefono Celular"
+        '
+        'Label40
+        '
+        Me.Label40.AutoSize = True
+        Me.Label40.Location = New System.Drawing.Point(118, 38)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New System.Drawing.Size(44, 13)
+        Me.Label40.TabIndex = 0
+        Me.Label40.Text = "Nombre"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(521, 24)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(48, 19)
+        Me.Label15.TabIndex = 12
+        Me.Label15.Text = "Cierre"
+        '
+        'cmbCierre
+        '
+        Me.cmbCierre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbCierre.FormattingEnabled = True
+        Me.cmbCierre.Location = New System.Drawing.Point(582, 24)
+        Me.cmbCierre.Name = "cmbCierre"
+        Me.cmbCierre.Size = New System.Drawing.Size(207, 25)
+        Me.cmbCierre.TabIndex = 13
+        '
+        'frmMain
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(1008, 698)
+        Me.Controls.Add(Me.TabControl1)
+        Me.Name = "frmMain"
+        Me.Text = "Servicio al Cliente"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        Me.TabControl1.ResumeLayout(False)
+        Me.tabpage1.ResumeLayout(False)
+        Me.tabpage1.PerformLayout()
+        Me.TabControl5.ResumeLayout(False)
+        Me.TabPage3.ResumeLayout(False)
+        Me.TabPage3.PerformLayout()
+        Me.TabPage4.ResumeLayout(False)
+        Me.TabPage4.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage5.ResumeLayout(False)
+        Me.TabPage5.PerformLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.tabpage57.ResumeLayout(False)
+        Me.tabpage57.PerformLayout()
+        Me.TabControl3.ResumeLayout(False)
+        Me.tabpage14.ResumeLayout(False)
+        Me.tabpage14.PerformLayout()
+        Me.TabPage7.ResumeLayout(False)
+        Me.TabPage8.ResumeLayout(False)
+        Me.TabPage8.PerformLayout()
+        Me.TabControl2.ResumeLayout(False)
+        Me.TabPage2.ResumeLayout(False)
+        Me.TabPage10.ResumeLayout(False)
+        Me.TabPage10.PerformLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+
+    End Sub
+    Friend WithEvents TabControl1 As System.Windows.Forms.TabControl
+    Friend WithEvents tabpage1 As System.Windows.Forms.TabPage
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents tabpage57 As System.Windows.Forms.TabPage
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents cmdBuscaCliente As System.Windows.Forms.Button
+    Friend WithEvents txtCliente As System.Windows.Forms.TextBox
+    Friend WithEvents TabControl5 As System.Windows.Forms.TabControl
+    Friend WithEvents TabPage3 As System.Windows.Forms.TabPage
+    Friend WithEvents TabPage4 As System.Windows.Forms.TabPage
+    Friend WithEvents TabPage5 As System.Windows.Forms.TabPage
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents txtHabitacion As System.Windows.Forms.TextBox
+    Friend WithEvents txtapellido01 As System.Windows.Forms.TextBox
+    Friend WithEvents txtNombre As System.Windows.Forms.TextBox
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents cmbCanton As System.Windows.Forms.ComboBox
+    Friend WithEvents cmbProvincia As System.Windows.Forms.ComboBox
+    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents Button4 As System.Windows.Forms.Button
+    Friend WithEvents txtCorreo As System.Windows.Forms.TextBox
+    Friend WithEvents txtFax As System.Windows.Forms.TextBox
+    Friend WithEvents txtCelular As System.Windows.Forms.TextBox
+    Friend WithEvents txtApellido02 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDireccion As System.Windows.Forms.TextBox
+    Friend WithEvents cmbDistrito As System.Windows.Forms.ComboBox
+    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label12 As System.Windows.Forms.Label
+    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents Label20 As System.Windows.Forms.Label
+    Friend WithEvents txtMontoTotal As System.Windows.Forms.TextBox
+    Friend WithEvents txtFechaVencimiento As System.Windows.Forms.TextBox
+    Friend WithEvents txtFecha As System.Windows.Forms.TextBox
+    Friend WithEvents txtFactura As System.Windows.Forms.TextBox
+    Friend WithEvents txtMontoCancelado As System.Windows.Forms.TextBox
+    Friend WithEvents txtSaldoDespacho As System.Windows.Forms.TextBox
+    Friend WithEvents txtSaldoActual As System.Windows.Forms.TextBox
+    Friend WithEvents Label26 As System.Windows.Forms.Label
+    Friend WithEvents Label25 As System.Windows.Forms.Label
+    Friend WithEvents Label23 As System.Windows.Forms.Label
+    Friend WithEvents Label22 As System.Windows.Forms.Label
+    Friend WithEvents Label21 As System.Windows.Forms.Label
+    Friend WithEvents txtCuotasCanceladas As System.Windows.Forms.TextBox
+    Friend WithEvents txtPlazo As System.Windows.Forms.TextBox
+    Friend WithEvents Label17 As System.Windows.Forms.Label
+    Friend WithEvents Label16 As System.Windows.Forms.Label
+    Friend WithEvents Label13 As System.Windows.Forms.Label
+    Friend WithEvents lvPagos As System.Windows.Forms.ListView
+    Friend WithEvents ColumnHeader5 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader6 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader7 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader8 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader9 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents lvArticulos As System.Windows.Forms.ListView
+    Friend WithEvents ColumnHeader15 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader16 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader17 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader18 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents txtDescuento As System.Windows.Forms.TextBox
+    Friend WithEvents Label31 As System.Windows.Forms.Label
+    Friend WithEvents txtTipo As System.Windows.Forms.TextBox
+    Friend WithEvents Label30 As System.Windows.Forms.Label
+    Friend WithEvents Label29 As System.Windows.Forms.Label
+    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents Label33 As System.Windows.Forms.Label
+    Friend WithEvents txtPromocion As System.Windows.Forms.TextBox
+    Friend WithEvents Label32 As System.Windows.Forms.Label
+    Friend WithEvents Label34 As System.Windows.Forms.Label
+    Friend WithEvents Label27 As System.Windows.Forms.Label
+    Friend WithEvents lvEstadoDespacho As System.Windows.Forms.ListView
+    Friend WithEvents ColumnHeader1 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader2 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader3 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
+    Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents txtvendedor As System.Windows.Forms.TextBox
+    Friend WithEvents Label18 As System.Windows.Forms.Label
+    Friend WithEvents TabControl3 As System.Windows.Forms.TabControl
+    Friend WithEvents tabpage14 As System.Windows.Forms.TabPage
+    Friend WithEvents txtdireccionvendedor As System.Windows.Forms.TextBox
+    Friend WithEvents cmbdistritovendedor As System.Windows.Forms.ComboBox
+    Friend WithEvents cmbcantonvendedor As System.Windows.Forms.ComboBox
+    Friend WithEvents cmbprovinciavendedor As System.Windows.Forms.ComboBox
+    Friend WithEvents Label41 As System.Windows.Forms.Label
+    Friend WithEvents Button6 As System.Windows.Forms.Button
+    Friend WithEvents txtcorreovendedor As System.Windows.Forms.TextBox
+    Friend WithEvents txtfaxvendedor As System.Windows.Forms.TextBox
+    Friend WithEvents txtcelularvendedor As System.Windows.Forms.TextBox
+    Friend WithEvents txtapellido02vendedor As System.Windows.Forms.TextBox
+    Friend WithEvents txthabitacionvendedor As System.Windows.Forms.TextBox
+    Friend WithEvents txtapellido01vendedor As System.Windows.Forms.TextBox
+    Friend WithEvents txtNombreVendedor As System.Windows.Forms.TextBox
+    Friend WithEvents Label42 As System.Windows.Forms.Label
+    Friend WithEvents Label43 As System.Windows.Forms.Label
+    Friend WithEvents Label44 As System.Windows.Forms.Label
+    Friend WithEvents Label45 As System.Windows.Forms.Label
+    Friend WithEvents Label46 As System.Windows.Forms.Label
+    Friend WithEvents Label47 As System.Windows.Forms.Label
+    Friend WithEvents Label48 As System.Windows.Forms.Label
+    Friend WithEvents TabPage7 As System.Windows.Forms.TabPage
+    Friend WithEvents TabPage8 As System.Windows.Forms.TabPage
+    Friend WithEvents TabPage9 As System.Windows.Forms.TabPage
+    Friend WithEvents TextBox14 As System.Windows.Forms.TextBox
+    Friend WithEvents ComboBox4 As System.Windows.Forms.ComboBox
+    Friend WithEvents ComboBox5 As System.Windows.Forms.ComboBox
+    Friend WithEvents ComboBox6 As System.Windows.Forms.ComboBox
+    Friend WithEvents Label19 As System.Windows.Forms.Label
+    Friend WithEvents Button5 As System.Windows.Forms.Button
+    Friend WithEvents TextBox18 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox26 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox27 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox28 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox29 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox30 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox31 As System.Windows.Forms.TextBox
+    Friend WithEvents Label28 As System.Windows.Forms.Label
+    Friend WithEvents Label35 As System.Windows.Forms.Label
+    Friend WithEvents Label36 As System.Windows.Forms.Label
+    Friend WithEvents Label37 As System.Windows.Forms.Label
+    Friend WithEvents Label38 As System.Windows.Forms.Label
+    Friend WithEvents Label39 As System.Windows.Forms.Label
+    Friend WithEvents Label40 As System.Windows.Forms.Label
+    Friend WithEvents lvVendedoresDirectos As System.Windows.Forms.ListView
+    Friend WithEvents lvTreeReclutas As System.Windows.Forms.TreeView
+    Friend WithEvents Label49 As System.Windows.Forms.Label
+    Friend WithEvents ColumnHeader19 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader23 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader24 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader25 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents txtVendedorVentasPersonales As System.Windows.Forms.TextBox
+    Friend WithEvents txtReclutasActivosIndirectos As System.Windows.Forms.TextBox
+    Friend WithEvents Label52 As System.Windows.Forms.Label
+    Friend WithEvents txtReclutasActivosDirectos As System.Windows.Forms.TextBox
+    Friend WithEvents txtVentasUnidad As System.Windows.Forms.TextBox
+    Friend WithEvents Label51 As System.Windows.Forms.Label
+    Friend WithEvents Button7 As System.Windows.Forms.Button
+    Friend WithEvents txtBoletaGarantia As System.Windows.Forms.TextBox
+    Friend WithEvents Label53 As System.Windows.Forms.Label
+    Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
+    Friend WithEvents txtEstadoGarantia As System.Windows.Forms.TextBox
+    Friend WithEvents Label55 As System.Windows.Forms.Label
+    Friend WithEvents txtFechaIngresoGarantia As System.Windows.Forms.TextBox
+    Friend WithEvents Label54 As System.Windows.Forms.Label
+    Friend WithEvents Label57 As System.Windows.Forms.Label
+    Friend WithEvents lvArticulosGarantia As System.Windows.Forms.ListView
+    Friend WithEvents ColumnHeader32 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader33 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents Label56 As System.Windows.Forms.Label
+    Friend WithEvents Label59 As System.Windows.Forms.Label
+    Friend WithEvents txtGarantiaAplicada As System.Windows.Forms.TextBox
+    Friend WithEvents Label58 As System.Windows.Forms.Label
+    Friend WithEvents ListView9 As System.Windows.Forms.ListView
+    Friend WithEvents ColumnHeader34 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents Label60 As System.Windows.Forms.Label
+    Friend WithEvents txtComentarioGarantia As System.Windows.Forms.TextBox
+    Friend WithEvents Label61 As System.Windows.Forms.Label
+    Friend WithEvents lbNombre As System.Windows.Forms.Label
+    Friend WithEvents lbVendedor As System.Windows.Forms.Label
+    Friend WithEvents Label64 As System.Windows.Forms.Label
+    Friend WithEvents cmdMostrarDatos As System.Windows.Forms.Button
+    Friend WithEvents ColumnHeader35 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader36 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader37 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents cmdConsultarVendedor As System.Windows.Forms.Button
+    Friend WithEvents cmdMostrarCliente As System.Windows.Forms.Button
+    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents Label62 As System.Windows.Forms.Label
+    Friend WithEvents txtVentasPersonalesProceso As System.Windows.Forms.TextBox
+    Friend WithEvents TabControl2 As System.Windows.Forms.TabControl
+    Friend WithEvents TabPage2 As System.Windows.Forms.TabPage
+    Friend WithEvents lvFacturasVendedor As System.Windows.Forms.ListView
+    Friend WithEvents ColumnHeader26 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader27 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader28 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader38 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader29 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader30 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader31 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents TabPage10 As System.Windows.Forms.TabPage
+    Friend WithEvents Label65 As System.Windows.Forms.Label
+    Friend WithEvents Label63 As System.Windows.Forms.Label
+    Friend WithEvents lvVentasRecluta As System.Windows.Forms.ListView
+    Friend WithEvents ColumnHeader12 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader13 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader14 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader20 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader21 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader22 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents lvVendedoresUnidad As System.Windows.Forms.ListView
+    Friend WithEvents ColumnHeader4 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader10 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader11 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents Label14 As System.Windows.Forms.Label
+    Friend WithEvents cmbCierre As System.Windows.Forms.ComboBox
+    Friend WithEvents Label15 As System.Windows.Forms.Label
+
+End Class

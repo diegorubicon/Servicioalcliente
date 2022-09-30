@@ -1,0 +1,671 @@
+Imports System.Data.SqlClient
+Public Class frmMain
+    Private cliente As LayerClients.Clients
+    Private LoadCliente As Boolean = False
+    Public CierreActual As Integer
+#Region "Eventos"
+
+    Private Sub txtCliente_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles txtCliente.KeyDown
+        If e.KeyCode = Keys.F2 Then
+            frmBuscaCliente.Show()
+        End If
+    End Sub
+    Private Sub txtCliente_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtCliente.KeyPress
+        If e.KeyChar = Convert.ToChar(Keys.Enter) Then
+            Me.cmdMostrarCliente_Click(sender, Nothing)
+        End If
+    End Sub
+#End Region
+    Private Sub txtCliente_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtCliente.TextChanged
+        On Error Resume Next
+        Me.txtNombre.Text = ""
+        Me.lbNombre.Text = ""
+        Me.txtapellido01.Text = ""
+        Me.txtApellido02.Text = ""
+        Me.txtHabitacion.Text = ""
+        Me.txtCelular.Text = ""
+        Me.txtFax.Text = ""
+        Me.cmbProvincia.SelectedIndex = 0
+        'Me.cmbCanton.SelectedValue = Nothing
+        'Me.cmbDistrito.SelectedValue = Nothing
+        Me.txtCorreo.Text = ""
+        Me.txtDireccion.Text = ""
+        LoadCliente = False
+    End Sub
+    Private Sub frmMain_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        Dim pr As LayerAdress.Provincias
+        Dim db As SqlConnection
+        Dim cmd As SqlCommand
+        Dim ds As DataSet
+        Dim da As SqlDataAdapter
+
+        pr = New LayerAdress.Provincias
+        pr.SetDataBaseLogon("sa", "", "kf-srv-01")
+        pr.FillDataCombo(Me.cmbProvincia)
+        pr.FillDataCombo(Me.cmbprovinciavendedor)
+        Try
+            db = New SqlConnection("Data Source=kf-srv-01;Initial Catalog=Sakif;User Id=sa;Password=;")
+            cmd = New SqlCommand("GetCierre", db)
+            cmd.CommandType = CommandType.StoredProcedure
+            da = New SqlDataAdapter
+            da.SelectCommand = cmd
+            ds = New DataSet
+            da.Fill(ds)
+            Me.cmbCierre.DataSource = ds.Tables(0)
+            cmbCierre.DisplayMember = ds.Tables(0).Columns(1).Caption
+            cmbCierre.ValueMember = ds.Tables(0).Columns(0).Caption
+        Catch ex As SqlException
+            MsgBox(ex.Message)
+        End Try
+    End Sub
+    Private Sub cmbProvincia_SelectedValueChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbProvincia.SelectedValueChanged
+        Dim ca As LayerAdress.Cantones
+        If cmbProvincia.SelectedValue.ToString <> "System.Data.DataRowView" Then
+            ca = New LayerAdress.Cantones
+            ca.SetDataBaseLogon("sa", "", "kf-srv-01")
+            ca.FillDataCombo(Me.cmbCanton, cmbProvincia.SelectedValue)
+        End If
+    End Sub
+    Private Sub cmbCanton_SelectedValueChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbCanton.SelectedValueChanged
+        Dim di As LayerAdress.Distritos
+        If cmbCanton.SelectedValue.ToString <> "System.Data.DataRowView" And cmbProvincia.SelectedValue.ToString <> "System.Data.DataRowView" Then
+            di = New LayerAdress.Distritos
+            di.SetDataBaseLogon("sa", "", "kf-srv-01")
+            di.FillDataCombo(Me.cmbDistrito, cmbProvincia.SelectedValue, cmbCanton.SelectedValue)
+        End If
+    End Sub
+
+    Private Sub txtFactura_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles txtFactura.KeyDown
+        If e.KeyCode = Keys.F2 Then
+            If Me.txtCliente.Text = "" Then
+                MsgBox("Debe Seleccionar un Cliente", MsgBoxStyle.Information)
+                Exit Sub
+            End If
+            frmBuscarOrden.cliente = Me.txtCliente.Text
+            frmBuscarOrden.Show()
+        End If
+    End Sub
+    Public Sub txtFactura_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtFactura.KeyPress
+        If e.KeyChar = Convert.ToChar(Keys.Enter) Then
+            Me.Button1_Click(sender, Nothing)
+        End If
+    End Sub
+    Private Sub txtFactura_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtFactura.TextChanged
+        Me.txtTipo.Text = ""
+        Me.txtDescuento.Text = ""
+        Me.txtPromocion.Text = ""
+        Me.txtFecha.Text = ""
+        Me.txtFechaVencimiento.Text = ""
+        Me.txtPlazo.Text = ""
+        Me.txtMontoTotal.Text = ""
+        Me.txtCuotasCanceladas.Text = ""
+        Me.txtSaldoActual.Text = ""
+        Me.txtMontoCancelado.Text = ""
+        Me.txtSaldoDespacho.Text = ""
+        Me.lvArticulos.Items.Clear()
+        Me.lvPagos.Items.Clear()
+        Me.lvEstadoDespacho.Items.Clear()
+    End Sub
+    Public Sub cmdMostrarDatos_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdMostrarDatos.Click
+        Dim cmd As SqlCommand
+        Dim da As SqlDataAdapter
+        Dim db As SqlConnection
+        Dim ds As DataSet
+        Dim consecutivo As String
+        Dim item As System.Windows.Forms.ListViewItem
+        Dim i As Integer
+        Try
+            db = New SqlConnection("Data Source=kf-srv-01;Initial Catalog=Sakif;User Id=sa;Password=;")
+
+            cmd = New SqlCommand("select cliente,boleta,creado_el,estado,consecutivo from cambios where boleta = '" & Me.txtBoletaGarantia.Text & "'", db)
+            cmd.CommandType = CommandType.Text
+            da = New SqlDataAdapter
+            da.TableMappings.Add("table", "cambios")
+            da.SelectCommand = cmd
+            ds = New DataSet
+            da.Fill(ds)
+            If ds.Tables(0).Rows.Count > 0 Then
+                If Me.txtCliente.Text = Convert.ToString(ds.Tables("cambios").Rows(0).Item(0)) Then
+                    Me.txtBoletaGarantia.Text = Convert.ToString(ds.Tables(0).Rows(0).Item(1))
+                    Me.txtFechaIngresoGarantia.Text = Convert.ToString(ds.Tables(0).Rows(0).Item(2))
+                    consecutivo = Convert.ToString(ds.Tables(0).Rows(0).Item(4))
+                    Select Case Convert.ToSingle(ds.Tables(0).Rows(0).Item(3))
+                        Case 0 : Me.txtEstadoGarantia.Text = "Estudio no Realizado"
+                        Case 1 : Me.txtEstadoGarantia.Text = "Estudio Aplicado"
+                    End Select
+                    cmd = New SqlCommand("select cd.linea, cd.articulo,a.descripcion,cd.tipogarantia,cd.comentarios from cambios_detalle cd, articulos a where cd.articulo = a.articulo and cd.consecutivo = " & consecutivo & "", db)
+                    da = New SqlDataAdapter(cmd)
+                    ds = New DataSet
+                    da.Fill(ds)
+                    If ds.Tables(0).Rows.Count > 0 Then
+                        For i = 0 To ds.Tables(0).Rows.Count - 1
+                            item = New System.Windows.Forms.ListViewItem(Convert.ToString(ds.Tables(0).Rows(i).Item(1)))
+                            item.SubItems.Add(ds.Tables(0).Rows(i).Item(2))
+                            item.SubItems.Add(ds.Tables(0).Rows(i).Item(0))
+                            item.SubItems.Add(ds.Tables(0).Rows(i).Item(3))
+                            item.SubItems.Add(ds.Tables(0).Rows(i).Item(4))
+                            Me.lvArticulosGarantia.Items.Add(item)
+                        Next i
+                    End If
+                Else
+                    MsgBox("Esta boleta de garantia no fue ingresada a este cliente", MsgBoxStyle.Information)
+                End If
+            Else
+                MsgBox("No se encuentra este numero de boleta de Garantia", MsgBoxStyle.Critical)
+            End If
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+    End Sub
+
+    Private Sub txtBoletaGarantia_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles txtBoletaGarantia.KeyDown
+        If e.KeyCode = Keys.F2 Then
+            Button7_Click(Nothing, Nothing)
+        End If
+    End Sub
+
+    Private Sub txtBoletaGarantia_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtBoletaGarantia.KeyPress
+        If e.KeyChar = Convert.ToChar(Keys.Enter) Then
+            cmdMostrarDatos_Click(sender, Nothing)
+        End If
+    End Sub
+    Private Sub txtBoletaGarantia_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtBoletaGarantia.TextChanged
+        Me.txtFechaIngresoGarantia.Text = ""
+        Me.txtEstadoGarantia.Text = ""
+        Me.lvArticulosGarantia.Items.Clear()
+        Me.txtGarantiaAplicada.Text = ""
+        Me.txtComentarioGarantia.Text = ""
+    End Sub
+    Private Sub lvArticulosGarantia_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles lvArticulosGarantia.Click
+        If Me.lvArticulosGarantia.SelectedItems.Count > 0 Then
+            Select Case Me.lvArticulosGarantia.SelectedItems(0).SubItems(3).Text
+                Case 0 : Me.txtGarantiaAplicada.Text = "No cambio"
+                Case 1 : Me.txtGarantiaAplicada.Text = "100%"
+                Case 2 : Me.txtGarantiaAplicada.Text = "40%"
+                Case 3 : Me.txtGarantiaAplicada.Text = "50%"
+            End Select
+            Me.txtComentarioGarantia.Text = Me.lvArticulosGarantia.SelectedItems(0).SubItems(4).Text
+        End If
+    End Sub
+    Public Sub cmdConsultarVendedor_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdConsultarVendedor.Click
+        Dim db As SqlConnection
+        Dim cmd As SqlCommand
+        Dim da As SqlDataAdapter
+        Dim ds As DataSet
+        Dim i As Integer
+        Dim key As String, value As String
+        Dim nodo As System.Windows.Forms.TreeNode, nodopadre As System.Windows.Forms.TreeNode
+        Dim FechaCierre As String = ""
+        
+        Try
+            'Define la conexion con la base de datos
+            Me.Cursor = Cursors.WaitCursor
+            CierreActual = Me.cmbCierre.SelectedValue
+            db = New SqlConnection("Data Source=kf-srv-01;Initial Catalog=Sakif;User Id=sa;Password=;")
+            'Obtiene el ultimo cierre
+            cmd = New SqlCommand("select isnull(max(cod_cierre),0)+1 as cierre,max(fecha_cierre) as fecha from cierres_bonos", db)
+            da = New SqlDataAdapter(cmd)
+            ds = New DataSet
+            da.Fill(ds)
+            If ds.Tables(0).Rows.Count > 0 Then
+                FechaCierre = Convert.ToString(ds.Tables(0).Rows(0).Item("fecha").ToString)
+            End If
+            cmd = New SqlCommand("select nombre,apellido_01,apellido_02,telefono,telefono_02,fax,correo,provincia,canton,distrito,descripcion from vendedores where vendedor = '" & Me.txtvendedor.Text & "'", db)
+            da = New SqlDataAdapter(cmd)
+            ds = New DataSet
+            da.Fill(ds)
+            If ds.Tables(0).Rows.Count > 0 Then
+                Me.txtNombreVendedor.Text = Convert.ToString(ds.Tables(0).Rows(0).Item(0))
+                Me.txtapellido01vendedor.Text = Convert.ToString(ds.Tables(0).Rows(0).Item(1))
+                Me.txtapellido02vendedor.Text = Convert.ToString(ds.Tables(0).Rows(0).Item(2))
+                Me.lbVendedor.Text = Me.txtNombreVendedor.Text + " " + Me.txtapellido01vendedor.Text + " " + Me.txtapellido02vendedor.Text
+                Me.txthabitacionvendedor.Text = Convert.ToString(ds.Tables(0).Rows(0).Item(3))
+                Me.txtcelularvendedor.Text = Convert.ToString(ds.Tables(0).Rows(0).Item(4))
+                Me.txtfaxvendedor.Text = Convert.ToString(ds.Tables(0).Rows(0).Item(5))
+                Me.txtcorreovendedor.Text = Convert.ToString(ds.Tables(0).Rows(0).Item(6))
+                Me.cmbprovinciavendedor.SelectedValue = Convert.ToString(ds.Tables(0).Rows(0).Item(7))
+                Me.cmbcantonvendedor.SelectedValue = Convert.ToString(ds.Tables(0).Rows(0).Item(8))
+                Me.cmbdistritovendedor.SelectedValue = Convert.ToString(ds.Tables(0).Rows(0).Item(9))
+                Me.txtdireccionvendedor.Text = Convert.ToString(ds.Tables(0).Rows(0).Item(10))
+            End If
+            'informacion de reclutamiento del vendedor
+            cmd = New SqlCommand("select r.recluta,r.lider,v.nombre+' '+v.apellido_01+' '+v.apellido_02 from reclutas r, vendedores v where r.lider = v.vendedor and r.recluta = '" & Me.txtvendedor.Text & "' order by generacion desc", db)
+            da = New SqlDataAdapter(cmd)
+            ds = New DataSet
+            da.Fill(ds)
+            If ds.Tables(0).Rows.Count > 0 Then
+                'Agrega el nodo padre
+                key = Convert.ToString(ds.Tables(0).Rows(0).Item(1))
+                value = Convert.ToString(ds.Tables(0).Rows(0).Item(2))
+                nodopadre = New System.Windows.Forms.TreeNode(value)
+                nodopadre.Tag = ds.Tables(0).Rows(i).Item(2)
+                nodo = nodopadre
+                Me.lvTreeReclutas.Nodes.Add(nodopadre)
+                nodopadre.Expand()
+                For i = 1 To ds.Tables(0).Rows.Count - 1
+                    nodo = New System.Windows.Forms.TreeNode(ds.Tables(0).Rows(i).Item(2))
+                    nodo.Tag = ds.Tables(0).Rows(i).Item(0)
+                    nodo.Expand()
+                    nodopadre.Nodes.Add(nodo)
+                    nodopadre = nodo
+                Next
+            Else
+                nodo = New TreeNode(Me.txtvendedor.Text)
+                Me.lvTreeReclutas.Nodes.Add(nodo)
+            End If
+            nodo.Expand()
+            CrearTree(db, nodo, Me.txtvendedor.Text)
+            CargarInformacionVentas(db, CierreActual, Convert.ToDateTime(FechaCierre))
+            Me.Cursor = Cursors.Default
+        Catch ex As Exception
+            Me.Cursor = Cursors.Default
+            MsgBox(ex.Message)
+        End Try
+    End Sub
+    Private Sub CrearTree(ByRef db As SqlConnection, ByRef n As System.Windows.Forms.TreeNode, ByVal vendedor As String)
+        Dim cmd As SqlCommand
+        Dim da As SqlDataAdapter
+        Dim ds As DataSet
+        Dim i As Integer
+        Dim no As TreeNode
+
+        cmd = New SqlCommand("select recluta,v.nombre+' '+v.apellido_01+' '+v.apellido_02 from reclutas r, vendedores v where r.recluta = v.vendedor and r.lider = '" & vendedor & "' and r.generacion = 1 and r.activo_unidad = 0", db)
+        da = New SqlDataAdapter(cmd)
+        ds = New DataSet
+        da.Fill(ds)
+        If ds.Tables(0).Rows.Count > 0 Then
+            For i = 0 To ds.Tables(0).Rows.Count - 1
+                no = New TreeNode(ds.Tables(0).Rows(i).Item(1))
+                no.Tag = ds.Tables(0).Rows(i).Item(0)
+                n.Nodes.Add(no)
+                CrearTree(db, no, ds.Tables(0).Rows(i).Item(0))
+            Next
+        End If
+    End Sub
+    Private Sub cmbprovinciavendedor_SelectedValueChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbprovinciavendedor.SelectedValueChanged
+        Dim ca As LayerAdress.Cantones
+        If cmbprovinciavendedor.SelectedValue.ToString <> "System.Data.DataRowView" Then
+            ca = New LayerAdress.Cantones
+            ca.SetDataBaseLogon("sa", "", "kf-srv-01")
+            ca.FillDataCombo(Me.cmbcantonvendedor, cmbprovinciavendedor.SelectedValue)
+        End If
+    End Sub
+    Private Sub cmbcantonvendedor_SelectedValueChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbcantonvendedor.SelectedValueChanged
+        Dim di As LayerAdress.Distritos
+        If cmbcantonvendedor.SelectedValue.ToString <> "System.Data.DataRowView" And cmbProvincia.SelectedValue.ToString <> "System.Data.DataRowView" Then
+            di = New LayerAdress.Distritos
+            di.SetDataBaseLogon("sa", "", "kf-srv-01")
+            di.FillDataCombo(Me.cmbdistritovendedor, cmbprovinciavendedor.SelectedValue, cmbcantonvendedor.SelectedValue)
+        End If
+    End Sub
+
+    Private Sub txtvendedor_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles txtvendedor.KeyDown
+        If e.KeyCode = Keys.F2 Then
+            Button3_Click(Nothing, Nothing)
+        End If
+    End Sub
+
+    Private Sub txtvendedor_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtvendedor.KeyPress
+        If e.KeyChar = Convert.ToChar(Keys.Enter) Then
+            cmdConsultarVendedor_Click(sender, Nothing)
+        End If
+    End Sub
+    Private Sub txtvendedor_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtvendedor.TextChanged
+        Me.txtNombreVendedor.Text = ""
+        Me.txtapellido01vendedor.Text = ""
+        Me.txtapellido02vendedor.Text = ""
+        Me.txthabitacionvendedor.Text = ""
+        Me.txtcelularvendedor.Text = ""
+        Me.txtfaxvendedor.Text = ""
+        Me.txtcorreovendedor.Text = ""
+        Me.txtdireccionvendedor.Text = ""
+        Me.lvTreeReclutas.Nodes.Clear()
+        Me.lbVendedor.Text = ""
+        Me.lvVendedoresDirectos.Items.Clear()
+        Me.txtVendedorVentasPersonales.Text = ""
+        Me.txtVentasPersonalesProceso.Text = ""
+        Me.txtVentasUnidad.Text = ""
+        Me.txtReclutasActivosDirectos.Text = ""
+        Me.lvFacturasVendedor.Items.Clear()
+        Me.lvVendedoresUnidad.Items.Clear()
+        Me.lvVentasRecluta.Items.Clear()
+    End Sub
+    Private Sub lvTreeReclutas_AfterSelect(ByVal sender As System.Object, ByVal e As System.Windows.Forms.TreeViewEventArgs) Handles lvTreeReclutas.AfterSelect
+        Dim db As SqlConnection
+        Dim cmd As SqlCommand
+        Dim ds As DataSet
+        Dim da As SqlDataAdapter
+        Dim item As ListViewItem
+        Dim i As Integer
+        Me.lvVendedoresDirectos.Items.Clear()
+        If Not Me.lvTreeReclutas.SelectedNode Is Nothing Then
+            Try
+                'Informacion personal del cliente
+                db = New SqlConnection("Data Source=kf-srv-01;Initial Catalog=Sakif;User Id=sa;Password=;")
+                cmd = New SqlCommand("select num_contrato,nombre+' '+apellido_01+' '+apellido_02,telefono,telefono_02 from vendedores where promotor_asignado = '" & Me.lvTreeReclutas.SelectedNode.Tag & "'", db)
+                da = New SqlDataAdapter(cmd)
+                ds = New DataSet
+                da.Fill(ds)
+                If ds.Tables(0).Rows.Count > 0 Then
+                    For i = 0 To ds.Tables(0).Rows.Count - 1
+                        item = New ListViewItem(Convert.ToString(ds.Tables(0).Rows(i).Item(0)))
+                        item.SubItems.Add(Convert.ToString(ds.Tables(0).Rows(i).Item(1)))
+                        item.SubItems.Add(Convert.ToString(ds.Tables(0).Rows(i).Item(2)))
+                        item.SubItems.Add(Convert.ToString(ds.Tables(0).Rows(i).Item(3)))
+                        Me.lvVendedoresDirectos.Items.Add(item)
+                    Next i
+                End If
+            Catch ex As Exception
+                MsgBox(ex.Message)
+            End Try
+        End If
+    End Sub
+    Private Sub cmdBuscaCliente_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdBuscaCliente.Click
+        frmBuscaCliente.Show()
+    End Sub
+    Public Sub cmdMostrarCliente_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdMostrarCliente.Click
+        If Me.txtCliente.Text = "" Then
+            MsgBox("Debe Ingresar el codigo del cliente", MsgBoxStyle.Information)
+            Exit Sub
+        End If
+        Try
+            cliente = New LayerClients.Clients
+            cliente.SetDataBaseLogon("sa", "", "kf-srv-01")
+            cliente.Clients(txtCliente.Text)
+            If cliente.Count > 0 Then
+                LoadCliente = True
+                Me.txtNombre.Text = cliente.Nombre
+                Me.lbNombre.Text = cliente.Nombre + " " + cliente.PrimerApellido + " " + cliente.SegundoApellido
+                Me.txtapellido01.Text = cliente.PrimerApellido
+                Me.txtApellido02.Text = cliente.SegundoApellido
+                Me.txtHabitacion.Text = cliente.TelefonoHabitacion
+                Me.txtCelular.Text = cliente.TelefonoCelular
+                Me.txtFax.Text = cliente.Fax
+                Me.txtCorreo.Text = cliente.CorreoElectronico
+                Me.cmbProvincia.SelectedValue = cliente.Provincia.provincia
+                Me.cmbCanton.SelectedValue = cliente.Canton.Canton
+                Me.cmbDistrito.SelectedValue = cliente.distrito.distrito
+                Me.txtDireccion.Text = cliente.Direccion
+                LoadCliente = True
+            Else
+                MsgBox("El codigo de cliente, no se encuentra registrado", MsgBoxStyle.Information)
+            End If
+        Catch ex As Exception
+            MsgBox("No se pudo completar la operacion", MsgBoxStyle.Critical)
+        End Try
+    End Sub
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+        If Not LoadCliente Then
+            MsgBox("Debe Seleccionar un Cliente", MsgBoxStyle.Information)
+            Exit Sub
+        End If
+        Me.Cursor = Cursors.WaitCursor
+        frmBuscarOrden.tipo = 1
+        frmBuscarOrden.cliente = Me.txtCliente.Text
+        frmBuscarOrden.Show()
+        Me.Cursor = Cursors.Default
+    End Sub
+    Public Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        Dim ord As BusinessLogic.Orders
+        Dim env As BusinessLogic.Shipping = Nothing
+        Dim i As Integer
+        Dim item As System.Windows.Forms.ListViewItem
+
+        If Not LoadCliente Then
+            MsgBox("Debe Ingresar un cliente valido", MsgBoxStyle.Information)
+            Exit Sub
+        End If
+        If Me.txtFactura.Text = "" Then
+            MsgBox("Debe Ingresar el numero de orden de pedido", MsgBoxStyle.Information)
+            Exit Sub
+        End If
+        Try
+            ord = New BusinessLogic.Orders
+            ord.SetDataBaseLogon("sa", "", "kf-srv-01")
+            ord.Order(Me.txtFactura.Text)
+            If ord.OrdersCount > 0 Then
+                If ord.Cliente.Codigo <> Me.txtCliente.Text Then
+                    MsgBox("Esta orden de Pedido no pertene al cliente indicado", MsgBoxStyle.Information)
+                    Exit Sub
+                End If
+                Me.txtTipo.Text = ord.Tipo.Descripcion
+                Me.txtDescuento.Text = ord.TipoDescuento.Descripcion
+                Me.txtPromocion.Text = ord.Promocion.Descripcion
+                Me.txtFecha.Text = ord.Fecha
+                Me.txtFechaVencimiento.Text = ord.Fecha_Vencimiento
+                Me.txtPlazo.Text = ord.Plazo
+                Me.txtMontoTotal.Text = "$" + ord.MontoTotal.ToString
+
+                Me.txtCuotasCanceladas.Text = ord.CuotasCanceladas
+                Me.txtSaldoActual.Text = ord.SaldoFactura
+                Me.txtMontoCancelado.Text = ord.MontoAbonado
+
+                Me.txtSaldoDespacho.Text = ord.MontoDespacho
+
+                Me.lvArticulos.Items.Clear()
+                For i = 1 To ord.Articulos.Count
+                    item = New System.Windows.Forms.ListViewItem()
+                    item.SubItems.Add(ord.Articulos.Descripcion(i))
+                    item.SubItems.Add(ord.Articulos.Cantidad(i))
+                    item.SubItems.Add(ord.Articulos.PrecioNeto(i))
+                    Me.lvArticulos.Items.Add(item)
+                Next
+                Me.lvPagos.Items.Clear()
+                For i = 1 To ord.Pagos.Count
+                    item = New System.Windows.Forms.ListViewItem(ord.Pagos.FechaPago(i))
+                    item.SubItems.Add(ord.Pagos.FormaPago(i))
+                    item.SubItems.Add(ord.Pagos.Banco(i))
+                    item.SubItems.Add(ord.Pagos.Documento(i))
+                    item.SubItems.Add(ord.Pagos.MontoTotal(i))
+                    item.Group = Me.lvPagos.Groups(0)
+                    Me.lvPagos.Items.Add(item)
+                Next
+
+                If ord.EstadoDespacho = 0 Then
+                    item = New ListViewItem("No Despachado")
+                    Me.lvEstadoDespacho.Items.Add(item)
+                Else
+                    item = New ListViewItem("Despachado")
+                    item.SubItems.Add(ord.FechaDespacho)
+                    item.SubItems.Add(ord.DescripcionDespacho)
+                    Me.lvEstadoDespacho.Items.Add(item)
+                End If
+
+                If ord.EstadoEntrega = 0 Then
+                    item = New ListViewItem("No Enviado")
+                    Me.lvEstadoDespacho.Items.Add(item)
+                Else
+                    item = New ListViewItem("Enviado")
+                    env = New BusinessLogic.Shipping(Me.txtFactura.Text)
+                    env.SetDataBaseLogon("sa", "", "kf-srv-01")
+                    env.Load()
+                    If env.Count > 0 Then
+                        item.SubItems.Add(env.Fecha)
+                        item.SubItems.Add(env.Transporte + "-" + env.Sucursal)
+                    End If
+                    Me.lvEstadoDespacho.Items.Add(item)
+                End If
+            End If
+        Catch ex As Exception
+            MsgBox("No se pudo completar la operacion", MsgBoxStyle.Critical)
+        End Try
+    End Sub
+
+    Private Sub Button7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button7.Click
+        If Not LoadCliente Then
+            MsgBox("Debe Seleccionar un Cliente", MsgBoxStyle.Information)
+            Exit Sub
+        End If
+        frmBuscarOrden.tipo = 2
+        frmBuscarOrden.cliente = Me.txtCliente.Text
+        frmBuscarOrden.Show()
+    End Sub
+
+    Private Sub lvVendedoresUnidad_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles lvVendedoresUnidad.Click
+        Dim ord As BusinessLogic.Orders
+        Dim item As ListViewItem
+        Dim i As Integer
+       
+        Me.lvVentasRecluta.Items.Clear()
+        If Me.lvVendedoresUnidad.SelectedItems.Count > 0 Then
+            ord = New BusinessLogic.Orders
+            ord.SetDataBaseLogon("sa", "", "kf-srv-01")
+            ord.OrderBySalesMan(Me.lvVendedoresUnidad.SelectedItems(0).Tag, CierreActual)
+            If ord.OrdersCount > 0 Then
+                For i = 1 To ord.OrdersCount
+                    item = New ListViewItem(ord.Factura(i))
+                    item.SubItems.Add(ord.Fecha(i))
+                    item.SubItems.Add(ord.Plazo(i))
+                    item.SubItems.Add(ord.Linea1(i))
+                    item.SubItems.Add(ord.CuotaMensual(i))
+                    item.SubItems.Add(ord.MontoAbonado(i))
+                    item.Group = Me.lvVentasRecluta.Groups(0)
+                    Me.lvVentasRecluta.Items.Add(item)
+                Next i
+            End If
+            ord.OrderBySalesManTrans(Me.lvVendedoresUnidad.SelectedItems(0).Tag, CierreActual)
+            If ord.OrdersCount > 0 Then
+                For i = 1 To ord.OrdersCount
+                    item = New ListViewItem(ord.Factura(i))
+                    item.SubItems.Add(ord.Fecha(i))
+                    item.SubItems.Add(ord.Plazo(i))
+                    item.SubItems.Add(ord.Linea1(i))
+                    item.SubItems.Add(ord.CuotaMensual(i))
+                    item.SubItems.Add(ord.MontoAbonado(i))
+                    item.Group = Me.lvVentasRecluta.Groups(1)
+                    Me.lvVentasRecluta.Items.Add(item)
+                Next i
+            End If
+        End If
+    End Sub
+    Private Sub lvVendedoresUnidad_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lvVendedoresUnidad.SelectedIndexChanged
+    End Sub
+    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
+        frmBuscaVendedor.Show()
+    End Sub
+    Private Sub CargarInformacionVentas(ByRef db As SqlConnection, ByVal cierre As Integer, ByVal FechaCierre As DateTime)
+        Dim cmd As SqlCommand
+        Dim da As SqlDataAdapter
+        Dim ds As DataSet, ds1 As DataSet
+        Dim item As ListViewItem
+        Dim i As Integer
+        Dim venta As Double, VentaVendedor As Double, VentaProceso As Double
+        Dim ActivosDirectos As Integer, activosindirectos As Integer
+        Dim recluta As String
+        Dim opara As SqlParameter
+
+        'Ventas en linea 1
+        cmd = New SqlCommand("select isnull(sum(monto_bruto),0) as monto from facturas_encabezado where vendedor = '" & txtvendedor.Text & "' and cierre = " & cierre & " and estado <> 4 and tipo < 3 ", db)
+        da = New SqlDataAdapter(cmd)
+        ds = New DataSet
+        da.Fill(ds)
+        If ds.Tables(0).Rows.Count > 0 Then
+            Me.txtVendedorVentasPersonales.Text = Convert.ToString(ds.Tables(0).Rows(0).Item(0))
+        End If
+        'Ventas en linea 1 pendientes
+        cmd = New SqlCommand("select isnull(sum(monto_bruto),0) as monto from facturas_encabezado where vendedor = '" & txtvendedor.Text & "' and year(fecha) = '" & Now.Year & "' and fecha_vencimiento >= dateadd(month,-1,getdate ()) and cierre = 0 and estado <> 4 and tipo < 3 ", db)
+        da = New SqlDataAdapter(cmd)
+        ds = New DataSet
+        da.Fill(ds)
+        If ds.Tables(0).Rows.Count > 0 Then
+            Me.txtVentasPersonalesProceso.Text = Convert.ToString(ds.Tables(0).Rows(0).Item(0))
+        End If
+        'Ordenes del vendedor
+        Me.lvFacturasVendedor.Items.Clear()
+        cmd = New SqlCommand("select f.factura,f.fecha,f.meses_plazo,c.nombre+' '+c.apellido_01+' '+c.apellido_02 as nombre,f.monto_bruto,(f.monto_total/f.meses_plazo) as cuota,(f.monto_total-f.saldo_factura) as abonado from facturas_encabezado f, clientes c where f.cliente = c.cliente and f.vendedor = '" & txtvendedor.Text & "' and f.cierre = " & cierre & " and f.estado <> 4 and f.tipo < 3 ", db)
+        da = New SqlDataAdapter(cmd)
+        ds = New DataSet
+        da.Fill(ds)
+        If ds.Tables(0).Rows.Count > 0 Then
+            For i = 0 To ds.Tables(0).Rows.Count - 1
+                item = New ListViewItem(ds.Tables(0).Rows(i).Item("factura").ToString)
+                item.SubItems.Add(ds.Tables(0).Rows(i).Item("fecha").ToString)
+                item.SubItems.Add(ds.Tables(0).Rows(i).Item("meses_plazo").ToString)
+                item.SubItems.Add(ds.Tables(0).Rows(i).Item("nombre").ToString)
+                item.SubItems.Add(ds.Tables(0).Rows(i).Item("monto_bruto").ToString)
+                item.SubItems.Add(ds.Tables(0).Rows(i).Item("cuota").ToString)
+                item.SubItems.Add(ds.Tables(0).Rows(i).Item("abonado").ToString)
+                item.Group = Me.lvFacturasVendedor.Groups(0)
+                Me.lvFacturasVendedor.Items.Add(item)
+            Next
+        End If
+        'Ordenes pendientes
+        cmd = New SqlCommand("select f.factura,f.fecha,f.meses_plazo,c.nombre+' '+c.apellido_01+' '+c.apellido_02 as nombre,f.monto_bruto,(f.monto_total/f.meses_plazo) as cuota,(f.monto_total-f.saldo_factura) as abonado from facturas_encabezado f, clientes c where f.cliente = c.cliente and f.vendedor = '" & txtvendedor.Text & "' and f.cierre = 0 and f.estado <> 4 and f.tipo < 3 and year(f.fecha) = " & Now.Year & " and fecha_vencimiento >= dateadd(month,-1,getdate ())", db)
+        da = New SqlDataAdapter(cmd)
+        ds = New DataSet
+        da.Fill(ds)
+        If ds.Tables(0).Rows.Count > 0 Then
+            For i = 0 To ds.Tables(0).Rows.Count - 1
+                item = New ListViewItem(ds.Tables(0).Rows(i).Item("factura").ToString)
+                item.SubItems.Add(ds.Tables(0).Rows(i).Item("fecha").ToString)
+                item.SubItems.Add(ds.Tables(0).Rows(i).Item("meses_plazo").ToString)
+                item.SubItems.Add(ds.Tables(0).Rows(i).Item("nombre").ToString)
+                item.SubItems.Add(ds.Tables(0).Rows(i).Item("monto_bruto").ToString)
+                item.SubItems.Add(ds.Tables(0).Rows(i).Item("cuota").ToString)
+                item.SubItems.Add(ds.Tables(0).Rows(i).Item("abonado").ToString)
+                item.Group = Me.lvFacturasVendedor.Groups(1)
+                Me.lvFacturasVendedor.Items.Add(item)
+            Next
+
+        End If
+        'Reclutas del vendedor
+        venta = 0
+        ActivosDirectos = 0
+        activosindirectos = 0
+        Me.lvVendedoresUnidad.Items.Clear()
+        cmd = New SqlCommand("Select recluta,generacion from reclutas where activo_unidad  =0 and lider = '" & Me.txtvendedor.Text & "' and generacion > 0 order by generacion asc", db)
+        da = New SqlDataAdapter(cmd)
+        ds = New DataSet
+        da.Fill(ds)
+        If ds.Tables(0).Rows.Count > 0 Then
+            For i = 0 To ds.Tables(0).Rows.Count - 1
+                recluta = ds.Tables(0).Rows(i).Item("recluta").ToString
+                cmd = New SqlCommand("sp_GetSalesUnit", db)
+                cmd.CommandType = CommandType.StoredProcedure
+                opara = New SqlParameter("@vendedor", recluta)
+                cmd.Parameters.Add(opara)
+                opara = New SqlParameter("@cierre", cierre)
+                cmd.Parameters.Add(opara)
+                opara = New SqlParameter("@fecha", FechaCierre.Date)
+                cmd.Parameters.Add(opara)
+                da = New SqlDataAdapter(cmd)
+                ds1 = New DataSet
+                da.Fill(ds1)
+                If ds1.Tables(0).Rows.Count > 0 Then
+                    item = New ListViewItem(ds1.Tables(0).Rows(0).Item(0).ToString)
+                    item.Tag = recluta
+                    item.SubItems.Add(ds1.Tables(0).Rows(0).Item(1))
+                    item.SubItems.Add(ds1.Tables(0).Rows(0).Item(2))
+                    VentaVendedor = Convert.ToDouble(ds1.Tables(0).Rows(0).Item(1))
+                    VentaProceso = Convert.ToDouble(ds1.Tables(0).Rows(0).Item(2))
+                    If VentaVendedor >= 499 Then
+                        item.Group = Me.lvVendedoresUnidad.Groups(0)
+                        If ds.Tables(0).Rows(i).Item("generacion").ToString = "1" Then
+                            ActivosDirectos = ActivosDirectos + 1
+                        Else
+                            activosindirectos = activosindirectos + 1
+                        End If
+                    Else
+                        If VentaVendedor >= 500 Then
+                            item.Group = Me.lvVendedoresUnidad.Groups(1)
+                        Else
+                            If VentaVendedor + VentaProceso > 0 Then
+                                item.Group = Me.lvVendedoresUnidad.Groups(2)
+                            Else
+                                item.Group = Me.lvVendedoresUnidad.Groups(3)
+                            End If
+                        End If
+                    End If
+
+                    Me.lvVendedoresUnidad.Items.Add(item)
+                    venta = venta + Convert.ToDouble(ds1.Tables(0).Rows(0).Item(1))
+                End If
+            Next
+        End If
+        Me.txtVentasUnidad.Text = venta
+        Me.txtReclutasActivosDirectos.Text = ActivosDirectos
+        Me.txtReclutasActivosIndirectos.Text = activosindirectos
+    End Sub
+
+   
+End Class

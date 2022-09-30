@@ -1,0 +1,11 @@
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Model\bin\Debug\ServicioalCliente.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Model\bin\Debug\ServicioalCliente.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Model\obj\Debug\ServicioalCliente.Business.csproj.CoreCompileInputs.cache
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Model\obj\Debug\ServicioalCliente.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Model\obj\Debug\ServicioalCliente.Model.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Model\bin\Debug\ServicioalCliente.Model.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Model\bin\Debug\ServicioalCliente.Model.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Model\obj\Debug\ServicioalCliente.Business.csproj.AssemblyReference.cache
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Model\obj\Debug\ServicioalCliente.Business.csproj.CoreCompileInputs.cache
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Model\obj\Debug\ServicioalCliente.Model.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Model\obj\Debug\ServicioalCliente.Model.pdb

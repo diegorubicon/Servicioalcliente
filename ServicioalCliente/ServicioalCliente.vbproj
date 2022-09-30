@@ -1,0 +1,923 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{793261BF-BD66-4CBC-B47E-A7A03C4AE467}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ServicioalCliente.My.MyApplication</StartupObject>
+    <RootNamespace>ServicioalCliente</RootNamespace>
+    <AssemblyName>ServicioalCliente</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ManifestCertificateThumbprint>BB17DF45C83C11E9A885CECF17C2565102D0CEED</ManifestCertificateThumbprint>
+    <ManifestKeyFile>ServicioalCliente_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>icono.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Desarrollo Local\ServicioalCliente\Publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ServicioalCliente.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ServicioalCliente.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugSymbols>true</DebugSymbols>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoUpdater.NET">
+      <HintPath>.\AutoUpdater.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="BillingLib.Model">
+      <HintPath>..\..\..\..\Developments\.net\BillingLib\BillingLib\BillingLib.Model\bin\Debug\BillingLib.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="CnnStrMng, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Mapped Team Projects\Store\TerritorialDivisionLib\bin\Debug\CnnStrMng.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Model">
+      <HintPath>..\..\..\Mapped Team Projects\Common.Model\bin\Debug\Common.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="CompensationPlan">
+      <HintPath>..\..\..\..\Developments\.net\CompensationPlanLib\CompensationPlan\bin\Debug\CompensationPlan.dll</HintPath>
+    </Reference>
+    <Reference Include="CompensationPlan.Model">
+      <HintPath>..\..\..\..\Developments\.net\CompensationPlanLib\CompensationPlan.Model\bin\Debug\CompensationPlan.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Toolkit, Version=4.3.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Component Factory\Krypton Toolkit 4.3.0\Bin\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ConnectionWrapper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Mapped Team Projects\ConnectionWrapper\bin\Debug\ConnectionWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CTILib">
+      <HintPath>..\..\..\Developments\Mapped Team Projects\CTILib\bin\Debug\CTILib.dll</HintPath>
+    </Reference>
+    <Reference Include="CustomerPortfolioLib">
+      <HintPath>..\..\..\..\Developments\.net\CustomerPortfolio\CustomerPortfolioLib\CustomerPortfolioLib\bin\Debug\CustomerPortfolioLib.dll</HintPath>
+    </Reference>
+    <Reference Include="CustomerPortfolioLib.Model">
+      <HintPath>..\..\..\..\Developments\.net\CustomerPortfolio\CustomerPortfolioLib\CustomerPortfolioLib.Model\bin\Debug\CustomerPortfolioLib.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="CustomerPortfolioLib.WindowsView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Developments\.net\CustomerPortfolio\CustomerPortfolioLib\CustomerPortfolioLib.WindowsView\bin\Debug\CustomerPortfolioLib.WindowsView.dll</HintPath>
+    </Reference>
+    <Reference Include="CustomORM2">
+      <HintPath>..\..\..\..\Developments\.net\Common\CustomORMLib\bin\Debug\CustomORM2.dll</HintPath>
+    </Reference>
+    <Reference Include="CustomORMLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Sakif2\Common\CustomORMLib\bin\Debug\CustomORMLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DataSource">
+      <HintPath>..\..\..\Mapped Team Projects\Store\TerritorialDivisionLib\bin\Debug\DataSource.dll</HintPath>
+    </Reference>
+    <Reference Include="DataToBusiness, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Developments\Desarrollo Local\Sakif2\Common\DataToBusinessParserLib\bin\Debug\DataToBusiness.dll</HintPath>
+    </Reference>
+    <Reference Include="DataToBusinessParser2">
+      <HintPath>..\..\..\..\Developments\.net\Common\DataToBusinessParserLib\bin\Debug\DataToBusinessParser2.dll</HintPath>
+    </Reference>
+    <Reference Include="DataToBusinessParserLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Sakif2\Common\DataToBusinessParserLib\bin\Debug\DataToBusinessParserLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DataWarehouseLib2">
+      <HintPath>..\..\..\..\Developments\.net\Common\DataWarehouseLib\DataWarehouseLib\bin\Debug\DataWarehouseLib2.dll</HintPath>
+    </Reference>
+    <Reference Include="ForceSalesLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Mapped Team Projects\Store\ForceSalesLib\SalesForceLib\bin\Debug\ForceSalesLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ForceSalesLib.Model, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Mapped Team Projects\Store\ForceSalesLib\SalesForceLib.Model\bin\Debug\ForceSalesLib.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="InvoicingLib">
+      <HintPath>..\..\..\..\Developments\.net\BillingLib\InvoicingLib\bin\Debug\InvoicingLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MonthlyMeetingLib">
+      <HintPath>..\..\..\..\Developments\.net\SalesForce\MonthlyMeetingLib\bin\Debug\MonthlyMeetingLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MonthlyMeetingLib.Model">
+      <HintPath>..\..\..\..\Developments\.net\SalesForce\MonthlyMeetingLib.Model\bin\Debug\MonthlyMeetingLib.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="SalesForceLib">
+      <HintPath>..\..\..\..\Developments\.net\SalesForce\SalesForceLib\SalesForceLib\bin\Debug\SalesForceLib.dll</HintPath>
+    </Reference>
+    <Reference Include="SalesForceLib.Model">
+      <HintPath>..\..\..\..\Developments\.net\SalesForce\SalesForceLib.Model\bin\Debug\SalesForceLib.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="SalesForceTracking">
+      <HintPath>..\..\..\..\Developments\.net\SalesForce\SalesForceTracking\bin\Debug\SalesForceTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="SalesForceTracking.Model">
+      <HintPath>..\..\..\..\Developments\.net\SalesForce\SalesForceTracking.Model\bin\Debug\SalesForceTracking.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="SalesSummary">
+      <HintPath>..\..\..\..\Developments\.net\SalesReports\SalesSummary\bin\Debug\SalesSummary.dll</HintPath>
+    </Reference>
+    <Reference Include="SalesSummary.Model">
+      <HintPath>..\..\..\..\Developments\.net\SalesReports\SalesSummary.Model\bin\Debug\SalesSummary.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TerritorialDivisionLib">
+      <HintPath>..\..\..\..\Developments\.net\TerritorialDivision\TerritorialDivisionLib\bin\Debug\TerritorialDivisionLib.dll</HintPath>
+    </Reference>
+    <Reference Include="TerritorialDivisionLib.Model">
+      <HintPath>..\..\..\..\Developments\.net\TerritorialDivision\TerritorialDivisionLib.Model\bin\Debug\TerritorialDivisionLib.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMessageLib.Windows">
+      <HintPath>..\..\..\Mapped Team Projects\TextMessageLib\TextMessageLib.Windows\bin\Debug\TextMessageLib.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="TrackingContactsLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Developments\.net\Precontactos\TrackingContactsLib.Domain2\bin\Debug\TrackingContactsLib.dll</HintPath>
+    </Reference>
+    <Reference Include="TrackingContactsLib.Model, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Developments\.net\Precontactos\TrackingContactsLib.Model\bin\Debug\TrackingContactsLib.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="TrackingContactsLib.WindowsView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Developments\.net\Precontactos\bin\Debug\TrackingContactsLib.WindowsView.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Abstractions, Version=5.11.7.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>packages\Unity.5.11.10\lib\net48\Unity.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Container, Version=5.11.11.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>packages\Unity.5.11.10\lib\net48\Unity.Container.dll</HintPath>
+    </Reference>
+    <Reference Include="UserManagementLib.Model">
+      <HintPath>..\..\..\..\Developments\.net\UserManagementLib\UserManagementLib.Model\bin\Debug\UserManagementLib.Model.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bootstrapper.vb" />
+    <Compile Include="DataAccess.vb" />
+    <Compile Include="DependencyInjector.vb" />
+    <Compile Include="frmActividades.Designer.vb">
+      <DependentUpon>frmActividades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmActividades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgregarMetas.Designer.vb">
+      <DependentUpon>frmAgregarMetas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgregarMetas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgregarObservacion.Designer.vb">
+      <DependentUpon>frmAgregarObservacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgregarObservacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBitacoraVendedoresExtend.Designer.vb">
+      <DependentUpon>FrmBitacoraVendedoresExtend.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBitacoraVendedoresExtend.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgregarServidor.designer.vb">
+      <DependentUpon>frmAgregarServidor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgregarServidor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscaCliente.Designer.vb">
+      <DependentUpon>frmBuscaCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscaCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscaGarantia.Designer.vb">
+      <DependentUpon>frmBuscaGarantia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscaGarantia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarOrden.Designer.vb">
+      <DependentUpon>frmBuscarOrden.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarOrden.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscaVendedor.Designer.vb">
+      <DependentUpon>frmBuscaVendedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscaVendedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOportunidades.Designer.vb">
+      <DependentUpon>frmOportunidades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOportunidades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPerfiles.Designer.vb">
+      <DependentUpon>frmPerfiles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPerfiles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPostVentaDeshabilitadas.Designer.vb">
+      <DependentUpon>frmPostVentaDeshabilitadas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPostVentaDeshabilitadas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVendedores.Designer.vb">
+      <DependentUpon>frmVendedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVendedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Accesos.vb" />
+    <Compile Include="Reportes\rptDistribuidoresNoContactados.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDistribuidoresNoContactados.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rptRegistroMentasPorPeriodo.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptRegistroMentasPorPeriodo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AppSecurity.vb" />
+    <Compile Include="Usuario.vb" />
+    <Compile Include="Variables.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmActividades.resx">
+      <DependentUpon>frmActividades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgregarMetas.resx">
+      <DependentUpon>frmAgregarMetas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgregarObservacion.resx">
+      <DependentUpon>frmAgregarObservacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBitacoraVendedoresExtend.resx">
+      <DependentUpon>FrmBitacoraVendedoresExtend.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeactivateVendedor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDeactivateVendedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDesbloquearBitacoras.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDesbloquearBitacoras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDesbloquearBitacoraVendedor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDesbloquearBitacoraVendedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditEmail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEditEmail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFiltrarEjecutivosVentas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFiltrarEjecutivosVentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFiltrarNuevosContratos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFiltrarNuevosContratos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFiltroActividades.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFiltroActividades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFiltroSeguimientoLlamadas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFiltroSeguimientoLlamadas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJoinMeeting.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmJoinMeeting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgregarServidor.resx">
+      <DependentUpon>frmAgregarServidor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscaCliente.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBuscaCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscaGarantia.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBuscaGarantia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarOrden.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBuscarOrden.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscaVendedor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBuscaVendedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFiltrarCategorias.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFiltrarCategorias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMakeMeeting.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMakeMeeting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNiveles.resx">
+      <DependentUpon>frmNiveles.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOportunidades.resx">
+      <DependentUpon>frmOportunidades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrdenesCanceladas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOrdenesCanceladas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPassword.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPerfiles.resx">
+      <DependentUpon>frmPerfiles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPostVentaDeshabilitadas.resx">
+      <DependentUpon>frmPostVentaDeshabilitadas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReporteCategorias.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteCategorias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReporteContratosNuevos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteContratosNuevos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReporteCumpleaños.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteCumpleaños.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSeguimiento.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSeguimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVendedores.resx">
+      <DependentUpon>frmVendedores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVistaPrevia.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmVistaPrevia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptActivosInactivos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptActivosInactivos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptCategoriasEstudios.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCategoriasEstudios.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptContratosNuevos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptContratosNuevos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptDistribuidoresNoContactados.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDistribuidoresNoContactados.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptEjecutivoVentas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptEjecutivoVentas.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptInformeActividades.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptInformeActividades.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptRegistroMentasPorPeriodo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptRegistroMentasPorPeriodo.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptSeguimientoVendedores.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSeguimientoVendedores.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptSeguimientoLlamadas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSeguimientoLlamadas.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptVendedoresInactivos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptVendedoresInactivos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="frmDeactivateVendedor.Designer.vb">
+      <DependentUpon>frmDeactivateVendedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeactivateVendedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDesbloquearBitacoras.Designer.vb">
+      <DependentUpon>frmDesbloquearBitacoras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDesbloquearBitacoras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDesbloquearBitacoraVendedor.Designer.vb">
+      <DependentUpon>frmDesbloquearBitacoraVendedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDesbloquearBitacoraVendedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditEmail.Designer.vb">
+      <DependentUpon>frmEditEmail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditEmail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFiltrarCategorias.Designer.vb">
+      <DependentUpon>frmFiltrarCategorias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFiltrarCategorias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFiltrarEjecutivosVentas.Designer.vb">
+      <DependentUpon>frmFiltrarEjecutivosVentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFiltrarEjecutivosVentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFiltrarNuevosContratos.Designer.vb">
+      <DependentUpon>frmFiltrarNuevosContratos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFiltrarNuevosContratos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFiltroActividades.Designer.vb">
+      <DependentUpon>frmFiltroActividades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFiltroActividades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFiltroSeguimientoLlamadas.Designer.vb">
+      <DependentUpon>frmFiltroSeguimientoLlamadas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFiltroSeguimientoLlamadas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJoinMeeting.Designer.vb">
+      <DependentUpon>FrmJoinMeeting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmJoinMeeting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMakeMeeting.Designer.vb">
+      <DependentUpon>frmMakeMeeting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMakeMeeting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNiveles.Designer.vb">
+      <DependentUpon>frmNiveles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNiveles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrdenesCanceladas.Designer.vb">
+      <DependentUpon>frmOrdenesCanceladas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrdenesCanceladas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPassword.Designer.vb">
+      <DependentUpon>frmPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReporteCategorias.Designer.vb">
+      <DependentUpon>frmReporteCategorias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReporteCategorias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReporteContratosNuevos.Designer.vb">
+      <DependentUpon>frmReporteContratosNuevos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReporteContratosNuevos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReporteCumpleaños.Designer.vb">
+      <DependentUpon>frmReporteCumpleaños.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReporteCumpleaños.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSeguimiento.Designer.vb">
+      <DependentUpon>frmSeguimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSeguimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVistaPrevia.Designer.vb">
+      <DependentUpon>frmVistaPrevia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVistaPrevia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListViewColumnSorter.vb" />
+    <Compile Include="LoginSettings.vb" />
+    <Compile Include="Registry.vb" />
+    <Compile Include="Reportes\rptActivosInactivos.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptActivosInactivos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rptCategoriasEstudios.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCategoriasEstudios.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rptContratosNuevos.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptContratosNuevos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rptEjecutivoVentas.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptEjecutivoVentas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rptInformeActividades.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptInformeActividades.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rptSeguimientoVendedores.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSeguimientoVendedores.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rptSeguimientoLlamadas.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSeguimientoLlamadas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rptVendedoresInactivos.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptVendedoresInactivos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Reportes\rptHistoricoVentas.rpt" />
+    <None Include="Resources\linea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lineavertical.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ark_extract.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\viewmag.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Developments\.net\UserManagementLib\UserManagementLib\UserManagementLib.csproj">
+      <Project>{c79e0382-22c6-4bfd-9471-6a08e6d8a709}</Project>
+      <Name>UserManagementLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Clases .net\Personas\Personas.csproj">
+      <Project>{19048A83-D1B1-41D5-8C60-DFAA4E44DF3B}</Project>
+      <Name>Personas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Academic.Entities\Academic.Entities.csproj">
+      <Project>{0A06920C-8541-40AC-B587-D4DC68419911}</Project>
+      <Name>Academic.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Academic\Academic.vbproj">
+      <Project>{D80604E3-07A1-4628-B321-12B96B4FC1E2}</Project>
+      <Name>Academic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Actividades\Actividades.csproj">
+      <Project>{D354578B-E0FD-449F-BE16-BB6E3C3F9A99}</Project>
+      <Name>Actividades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AfterSales.Model\AfterSales.Model.csproj">
+      <Project>{d06f3cd2-dcef-4d01-af49-abd9531a6a5c}</Project>
+      <Name>AfterSales.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BonosExcelencia\BonosExcelencia.csproj">
+      <Project>{D93DAF87-D872-477B-AFAC-DCB3A547A00D}</Project>
+      <Name>BonosExcelencia</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CirculosExcelencia\CirculosExcelencia.csproj">
+      <Project>{F9AC9674-F11F-4099-AB85-8088E7804226}</Project>
+      <Name>CirculosExcelencia</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Clientes.BusinessLayer\AfterSales\AfterSales.csproj">
+      <Project>{7f57c76b-5687-4f56-85ac-01526b9829c8}</Project>
+      <Name>AfterSales</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClosuresSalesLib\ClosuresSalesLib.csproj">
+      <Project>{AEFAB77C-D795-48E3-A247-AD12D6EE27CA}</Project>
+      <Name>ClosuresSalesLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common.Entities\Common.Entities.csproj">
+      <Project>{C73695BD-053F-4BA3-92BC-69AE18FDB828}</Project>
+      <Name>Common.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Concursos\Concursos.csproj">
+      <Project>{13E3E05D-6F28-4CA3-82E9-DA0A044B181B}</Project>
+      <Name>Concursos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DashBoard\DashBoard.csproj">
+      <Project>{9BE01DAB-6FA1-4CD0-8FBA-31A506DA1C42}</Project>
+      <Name>DashBoard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DependencyInjector\DependencyInjector.csproj">
+      <Project>{a3c3ef2d-7a9e-47fa-aa64-862db91814ea}</Project>
+      <Name>DependencyInjector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facturacion.Entities\Facturacion.Entities.csproj">
+      <Project>{8FD6C80D-C536-4C40-B522-389AFEA72BF8}</Project>
+      <Name>Facturacion.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LayerCierres\LayerCierres.vbproj">
+      <Project>{C4BCD519-826E-46A9-9D05-410F4DE1481B}</Project>
+      <Name>LayerCierres</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LayerPayments\LayerPayments.vbproj">
+      <Project>{3742BC7F-E0EB-4556-9EB1-5662A3BB4F1D}</Project>
+      <Name>LayerPayments</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LayerShipping\LayerShipping.vbproj">
+      <Project>{D3A4A8CA-3857-4A5A-8434-0ABEAE5A1076}</Project>
+      <Name>LayerShipping</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LayerWarranty\LayerWarranty.vbproj">
+      <Project>{7E0BB8DF-84D4-472C-8621-D23C9CF1EBAE}</Project>
+      <Name>LayerWarranty</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PuntosPremiate\PuntosPremiate.csproj">
+      <Project>{99790101-0F19-4D17-B266-F3942C937D3A}</Project>
+      <Name>PuntosPremiate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RegistrosDeVenta\RegistrosDeVenta.csproj">
+      <Project>{DC80C76E-2B3F-4478-AB1E-58672760A005}</Project>
+      <Name>RegistrosDeVenta</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sales.Opportunities\Sales.Opportunities.csproj">
+      <Project>{D572B582-6B0E-435C-AF10-9D62FBF41630}</Project>
+      <Name>Sales.Opportunities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServicioalCliente.Model\ServicioalCliente.Business.csproj">
+      <Project>{bcff2479-1713-4af1-91b9-9a819dc2106f}</Project>
+      <Name>ServicioalCliente.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServicioalCliente.Services\ServicioalCliente.Services.csproj">
+      <Project>{82ec389a-67a4-4f31-9ebd-078dc18eb5d0}</Project>
+      <Name>ServicioalCliente.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Survey\Survey.csproj">
+      <Project>{EB571878-BF65-42B3-9B1F-372B86C45EF6}</Project>
+      <Name>Survey</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserAccessManager\UserAccessManager.csproj">
+      <Project>{C37A56C8-E236-47D8-9718-6BE512951AA8}</Project>
+      <Name>UserAccessManager</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sesion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cargando.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icono.ico" />
+    <None Include="Resources\whatsapp-16.png" />
+    <None Include="Resources\phone-16.png" />
+    <None Include="Resources\640.gif" />
+    <None Include="Resources\sms.png" />
+    <None Include="Resources\checks16.png" />
+    <None Include="Resources\delete16.png" />
+    <None Include="Resources\floppy_disk16.png" />
+    <None Include="Resources\edit16.png" />
+    <None Include="Resources\ajax-loader-tennis.gif" />
+    <None Include="Resources\impresora.png" />
+    <None Include="Resources\print1.png" />
+    <None Include="Resources\flaggreen.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\Start-Menu-Favorites-icon.png" />
+    <None Include="Resources\Flag-red-icon.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\accept.png" />
+    <None Include="Resources\blue.png" />
+    <None Include="Resources\User-gray-icon.png" />
+    <None Include="Resources\User-red-icon.png" />
+    <None Include="Resources\User-yellow-icon.png" />
+    <None Include="Resources\User-green-icon.png" />
+    <None Include="Resources\Print.png" />
+    <None Include="Resources\1364267022_Log Out.png" />
+    <None Include="Resources\1364262372_Plus__Orange.png" />
+    <None Include="Resources\1363923397_Download.png" />
+    <None Include="Resources\1363919114_checkered_flag.png" />
+    <None Include="Resources\user_red.png" />
+    <None Include="Resources\user_orange.png" />
+    <None Include="Resources\user_green.png" />
+    <None Include="Resources\agt_action_fail1.png" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\find2.png" />
+    <None Include="Resources\find1.png" />
+    <None Include="Resources\21015558508491217.png" />
+    <None Include="Resources\d1eb483d-d573-df11-816b-0022190f5762_2758.png" />
+    <None Include="Resources\meeting-icon.gif" />
+    <None Include="Resources\reload.png" />
+    <None Include="Resources\exit.png" />
+    <None Include="Resources\unlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

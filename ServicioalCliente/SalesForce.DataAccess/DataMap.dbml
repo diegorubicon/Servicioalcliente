@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Sakif" Class="DataMapDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.0.2;Initial Catalog=Sakif;User ID=sa" SettingsObjectName="SalesForce.DataAccess.Properties.Settings" SettingsPropertyName="SakifConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.vendedores" Member="Vendedors">
+    <Type Name="Vendedor">
+      <Column Name="vendedor" Member="id" Type="System.String" DbType="VarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="compania" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="num_contrato" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="tipo_de_identificacion" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="identificacion" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="apellido_01" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="apellido_02" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="telefono" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="telefono_02" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="telefono_03" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="descuento" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="descripcion" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="creado_por" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="creado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="modificado_por" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="modificado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="zona" Type="System.String" DbType="VarChar(16)" CanBeNull="true" />
+      <Column Name="provincia" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="canton" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="distrito" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="fecha_ingreso" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="observacion" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="estado" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="mostrar_obs_fact" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="venta_actual" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="promotor_asignado" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="patrocinador" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="fax" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="correo" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="cierre_ingreso" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cierre_primer_venta" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="nivel02" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cod_cliente" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PlanMercadeoActual" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="gerente" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="Ventas_totales" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="incentivo_inicial" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="referencia_incentivo" Type="System.String" DbType="VarChar(16)" CanBeNull="true" />
+      <Column Name="referencia_primer_venta" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="fecha_nacimiento" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="referencia_ingreso" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cierre_manager_01" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cierre_manager_02" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cierre_manager_03" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="nombre_cuenta" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="activo" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="fecha_inactivo" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="zona_ventas" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="calificacion_ventas" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="celular" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="cierre_ejecutivo_ventas" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="fecha_ult_venta" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="estado_seguimiento" Type="System.Decimal" DbType="Decimal(3,0)" CanBeNull="true" />
+      <Column Name="wsUpdate" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="wsInsert" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

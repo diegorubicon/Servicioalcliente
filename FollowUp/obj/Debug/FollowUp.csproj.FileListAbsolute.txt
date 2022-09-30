@@ -1,0 +1,14 @@
+C:\Desarrollo Local\ServicioalCliente\FollowUp\bin\Debug\FollowUp.dll
+C:\Desarrollo Local\ServicioalCliente\FollowUp\bin\Debug\FollowUp.pdb
+C:\Desarrollo Local\ServicioalCliente\FollowUp\obj\Debug\FollowUp.dll
+C:\Desarrollo Local\ServicioalCliente\FollowUp\obj\Debug\FollowUp.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\FollowUp\bin\Debug\FollowUp.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\FollowUp\bin\Debug\FollowUp.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\FollowUp\obj\Debug\FollowUp.csproj.CoreCompileInputs.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\FollowUp\obj\Debug\FollowUp.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\FollowUp\obj\Debug\FollowUp.pdb
+C:\Diego\Production Developments\ServicioalCliente\FollowUp\bin\Debug\FollowUp.dll
+C:\Diego\Production Developments\ServicioalCliente\FollowUp\bin\Debug\FollowUp.pdb
+C:\Diego\Production Developments\ServicioalCliente\FollowUp\obj\Debug\FollowUp.csproj.CoreCompileInputs.cache
+C:\Diego\Production Developments\ServicioalCliente\FollowUp\obj\Debug\FollowUp.dll
+C:\Diego\Production Developments\ServicioalCliente\FollowUp\obj\Debug\FollowUp.pdb

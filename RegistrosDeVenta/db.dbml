@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Sakif" Class="dbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.0.2;Initial Catalog=Sakif;User ID=sa" SettingsObjectName="RegistrosDeVenta.Properties.Settings" SettingsPropertyName="SakifConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Ventas_informe" Member="RegistroTemps">
+    <Type Name="RegistroTemp">
+      <Column Name="vendedor" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cierre" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="venta" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="venta_generacion" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="nuevos_reclutas" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="activos_directos" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="activos_indirectos" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="conventa_directos" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="conventa_indirectos" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

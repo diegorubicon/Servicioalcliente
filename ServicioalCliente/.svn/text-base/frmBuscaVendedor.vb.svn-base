@@ -1,0 +1,39 @@
+Public Class frmBuscaVendedor
+
+    Private Sub cmdBuscar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdBuscar.Click
+        Dim vend As LayerSellers.Sellers
+        Dim i As Integer
+        Dim item As ListViewItem
+        Me.lvClientes.Items.Clear()
+        vend = New LayerSellers.Sellers
+        vend.SetDataBaseLogon("sa", "", "kf-srv-01")
+        vend.FindSalesManWithName(Me.txtBuscar.Text)
+        If vend.Count > 0 Then
+            For i = 1 To vend.Count
+                item = New ListViewItem(vend.Vendedor(i))
+                item.SubItems.Add(vend.NombreCompleto(i))
+                item.SubItems.Add(vend.Telefono1(i))
+                Me.lvClientes.Items.Add(item)
+            Next i
+        End If
+    End Sub
+    Private Sub cmdSalir_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdSalir.Click
+        Me.Close()
+    End Sub
+    Private Sub txtBuscar_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtBuscar.KeyPress
+        If e.KeyChar = Convert.ToChar(Keys.Enter) Then
+            Me.cmdBuscar_Click(sender, Nothing)
+        End If
+    End Sub
+    Private Sub txtBuscar_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtBuscar.TextChanged
+        Me.lvClientes.Items.Clear()
+    End Sub
+
+    Private Sub cmdSeleccionar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdSeleccionar.Click
+        If Me.lvClientes.SelectedItems.Count > 0 Then
+            frmMain.txtvendedor.Text = Me.lvClientes.SelectedItems(0).Text
+            frmMain.cmdConsultarVendedor_Click(sender, e)
+            Me.Close()
+        End If
+    End Sub
+End Class

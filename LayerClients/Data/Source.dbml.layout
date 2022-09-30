@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 13.375, 14" name="Source">
+  <DataContextMoniker Name="/SourceDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ca771dd0-97bb-48db-923f-9c00478cb58e" absoluteBounds="0.75, 6.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SourceDataContext/ProvinciaRow" />
+      <nestedChildShapes>
+        <elementListCompartment Id="04a0e123-23d3-4e8b-96bb-281157e5a1de" absoluteBounds="0.76499999999999968, 7.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="20399199-17ad-484f-82d5-b1def91b79c5" absoluteBounds="3.5, 6.75, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/SourceDataContext/CantonRow" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d51bf18c-edad-4955-93cb-ac1fb4ff2ba1" absoluteBounds="3.5149999999999997, 7.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b7f7e66f-5bb8-450c-b1a1-e69f8a142322" absoluteBounds="6.25, 6.625, 2, 2.5401025390625014">
+      <DataClassMoniker Name="/SourceDataContext/DistritoRow" />
+      <nestedChildShapes>
+        <elementListCompartment Id="39df52cd-18f9-445f-9294-de4d62815b3f" absoluteBounds="6.265, 7.085, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 7.95274983723958); (3.5 : 7.95274983723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SourceDataContext/ProvinciaRow/ProvinciaRow_CantonRow" />
+      <nodes>
+        <classShapeMoniker Id="ca771dd0-97bb-48db-923f-9c00478cb58e" />
+        <classShapeMoniker Id="20399199-17ad-484f-82d5-b1def91b79c5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 7.92390055338542); (6.25 : 7.92390055338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SourceDataContext/CantonRow/CantonRow_DistritoRow" />
+      <nodes>
+        <classShapeMoniker Id="20399199-17ad-484f-82d5-b1def91b79c5" />
+        <classShapeMoniker Id="b7f7e66f-5bb8-450c-b1a1-e69f8a142322" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="d9e81830-1738-4d8e-bfe9-99f23df1590a" absoluteBounds="11.125, 4.5, 2, 9.2706526692708326">
+      <DataClassMoniker Name="/SourceDataContext/ClienteRow" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6c1a612c-4d0c-46eb-80d4-559634287634" absoluteBounds="11.14, 4.96, 1.9700000000000002, 8.7106526692708321" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.5 : 9.09780110677083); (4.5 : 11.4991276041667); (11.125 : 11.4991276041667)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SourceDataContext/CantonRow/CantonRow_cliente" />
+      <nodes>
+        <classShapeMoniker Id="20399199-17ad-484f-82d5-b1def91b79c5" />
+        <classShapeMoniker Id="d9e81830-1738-4d8e-bfe9-99f23df1590a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 7.89505126953125); (11.125 : 7.89505126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SourceDataContext/DistritoRow/DistritoRow_cliente" />
+      <nodes>
+        <classShapeMoniker Id="b7f7e66f-5bb8-450c-b1a1-e69f8a142322" />
+        <classShapeMoniker Id="d9e81830-1738-4d8e-bfe9-99f23df1590a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 9.03049967447917); (1.75 : 10.3321125716146); (4.41666666666667 : 10.3321125716146 : JumpStart); (4.58333333333333 : 10.3321125716146 : JumpEnd); (11.125 : 10.3321125716146)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SourceDataContext/ProvinciaRow/ProvinciaRow_cliente" />
+      <nodes>
+        <classShapeMoniker Id="ca771dd0-97bb-48db-923f-9c00478cb58e" />
+        <classShapeMoniker Id="d9e81830-1738-4d8e-bfe9-99f23df1590a" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

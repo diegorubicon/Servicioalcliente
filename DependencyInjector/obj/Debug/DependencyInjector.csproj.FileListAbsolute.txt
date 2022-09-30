@@ -1,0 +1,53 @@
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\bin\Debug\SFC.DependencyInjector.dll
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\bin\Debug\SFC.DependencyInjector.pdb
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\bin\Debug\AccessDataLib.dll
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\bin\Debug\ServicioalCliente.Infrastructure.dll
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\bin\Debug\ServicioalCliente.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\bin\Debug\Dapper.SimpleCRUD.dll
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\bin\Debug\AutoMapper.dll
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\bin\Debug\Dapper.dll
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\bin\Debug\Serilog.dll
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\bin\Debug\Serilog.Sinks.File.dll
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\bin\Debug\AccessDataLib.pdb
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\bin\Debug\ServicioalCliente.Infrastructure.pdb
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\bin\Debug\ServicioalCliente.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\bin\Debug\Dapper.SimpleCRUD.pdb
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\bin\Debug\Dapper.SimpleCRUD.xml
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\bin\Debug\AutoMapper.xml
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\bin\Debug\Dapper.xml
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\bin\Debug\Serilog.xml
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\bin\Debug\Serilog.Sinks.File.pdb
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\bin\Debug\Serilog.Sinks.File.xml
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\obj\Debug\DependencyInjector.csprojAssemblyReference.cache
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\obj\Debug\DependencyInjector.csproj.CoreCompileInputs.cache
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\obj\Debug\DependencyInjector.csproj.CopyComplete
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\obj\Debug\SFC.DependencyInjector.dll
+C:\Diego\Production Developments\ServicioalCliente\DependencyInjector\obj\Debug\SFC.DependencyInjector.pdb
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\SFC.DependencyInjector.dll
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\SFC.DependencyInjector.pdb
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\AccessDataLib.dll
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\ServicioalCliente.Infrastructure.dll
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\ServicioalCliente.Model.dll
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\Dapper.SimpleCRUD.dll
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\AutoMapper.dll
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\Dapper.dll
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\Serilog.dll
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\Serilog.Sinks.File.dll
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\AccessDataLib.pdb
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\ServicioalCliente.Infrastructure.pdb
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\ServicioalCliente.Model.pdb
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\Dapper.SimpleCRUD.pdb
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\Dapper.SimpleCRUD.xml
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\AutoMapper.xml
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\Dapper.xml
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\Serilog.xml
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\Serilog.Sinks.File.pdb
+C:\Diego\src\ServicioalCliente\DependencyInjector\bin\Debug\Serilog.Sinks.File.xml
+C:\Diego\src\ServicioalCliente\DependencyInjector\obj\Debug\DependencyInjector.csproj.AssemblyReference.cache
+C:\Diego\src\ServicioalCliente\DependencyInjector\obj\Debug\DependencyInjector.csproj.CoreCompileInputs.cache
+C:\Diego\src\ServicioalCliente\DependencyInjector\obj\Debug\DependencyInjector.csproj.CopyComplete
+C:\Diego\src\ServicioalCliente\DependencyInjector\obj\Debug\SFC.DependencyInjector.dll
+C:\Diego\src\ServicioalCliente\DependencyInjector\obj\Debug\SFC.DependencyInjector.pdb

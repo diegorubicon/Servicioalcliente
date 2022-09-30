@@ -1,0 +1,269 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TrackingContactsLib.WindowsView
+</name>
+</assembly>
+<members>
+<member name="T:TrackingContactsLib.WindowsView.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.a">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.act">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.ad">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.ad1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.add">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.add_user">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.ae">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.assiist">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.b">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.buscar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.c">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.cancel_delete_remove_stop_512">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.cf">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.close2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.confirm">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.convocatoria1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.d">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.danger2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.delete">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.delete_user">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.demojoin">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.dots_2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.edit_profile">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.editarfolder">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.folder_copia">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.Groups_Meeting_Dark_icon">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.guardar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.help_icon">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.loader">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.loader__1_">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.loading">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.mensaje">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.nota">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.oportunidad">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.oportunidad2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.print">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.reload">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.Search">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.unir">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.user_icon1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.userblue">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.usergreen">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.userred">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.userstop">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.useryellow">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TrackingContactsLib.WindowsView.My.Resources.Resources.Whatsapp_icon">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:TrackingContactsLib.WindowsView.frmPrecontactos._frmAgregarPreContacto_AddPrecontact(TrackingContactsLib.Lead)">
+ <summary>
+ Controla el evento que se produce al ingresar los datos de un nuevo precontactco. 
+ Inicia un nuevo hilo, para guardar la informacion en la base de datos.
+ </summary>
+ <param name="precontact">Datos del nuevo precontacto ingresado </param>
+ <remarks></remarks>
+</member>
+<member name="M:TrackingContactsLib.WindowsView.frmPrecontactos.LoadLista">
+ <summary>
+ Muestra la lista de contactos que se encuentran en la lista.
+ </summary>
+</member>
+</members>
+</doc>

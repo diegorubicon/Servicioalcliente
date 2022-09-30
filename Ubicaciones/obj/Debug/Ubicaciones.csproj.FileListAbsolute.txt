@@ -1,0 +1,7 @@
+C:\Desarrollo Local\ServicioalCliente\Ubicaciones\bin\Debug\Ubicaciones.dll
+C:\Desarrollo Local\ServicioalCliente\Ubicaciones\bin\Debug\Ubicaciones.pdb
+C:\Desarrollo Local\ServicioalCliente\Ubicaciones\bin\Debug\DataManager.dll
+C:\Desarrollo Local\ServicioalCliente\Ubicaciones\bin\Debug\DataManager.pdb
+C:\Desarrollo Local\ServicioalCliente\Ubicaciones\obj\Debug\Ubicaciones.csprojResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\Ubicaciones\obj\Debug\Ubicaciones.dll
+C:\Desarrollo Local\ServicioalCliente\Ubicaciones\obj\Debug\Ubicaciones.pdb

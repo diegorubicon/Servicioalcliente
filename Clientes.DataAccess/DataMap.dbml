@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Sakif" Class="DataMapDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.0.2;Initial Catalog=Sakif;User ID=sa" SettingsObjectName="Clientes.DataAccess.Properties.Settings" SettingsPropertyName="SakifConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.clientes" Member="t_clientes">
+    <Type Name="t_cliente">
+      <Column Name="fecha" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cliente" Member="codigo" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="apellido_01" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="apellido_02" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="tipo" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="zona" Type="System.String" DbType="VarChar(16) NOT NULL" CanBeNull="false" />
+      <Column Name="tipo_de_identificacion" Type="System.String" DbType="VarChar(16) NOT NULL" CanBeNull="false" />
+      <Column Name="genero" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="estado" Type="System.Decimal" DbType="Decimal(4,0) NOT NULL" CanBeNull="false" />
+      <Column Name="provincia" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="canton" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="distrito" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="Barrio" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="identificacion" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="descripcion" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="fecha_nacimiento" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="direccion" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="telefono_01" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="telefono_02" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="telefono_03" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="telefono_04" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="fax" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="representante" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="limite_de_credito" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="descuento_general" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="dias_plazo" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="creado_por" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="creado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="modificado_por" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="modificado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="vendedor" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="acepta_impuesto" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="observaciones" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="mostrar_obs_fact" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="compania" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="animo" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="correo_actualizado_por" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="correo_actualizado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="correo_anterior" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="CedulaCorrecta" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="venta_mes_anterior" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="saldo_vendido" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Association Name="provincia_t_cliente" Member="provincia1" ThisKey="provincia" OtherKey="provincia1" Type="provincia" IsForeignKey="true" />
+      <Association Name="cantone_t_cliente" Member="cantone" ThisKey="provincia,canton" OtherKey="provincia,canton" Type="cantone" IsForeignKey="true" />
+      <Association Name="distrito_t_cliente" Member="distrito1" ThisKey="provincia,canton,distrito" OtherKey="provincia,canton,distrito1" Type="distrito" IsForeignKey="true" />
+      <Association Name="tipos_de_cliente_t_cliente" Member="tipos_de_cliente" ThisKey="tipo" OtherKey="tipo" Type="tipos_de_cliente" IsForeignKey="true" />
+      <Association Name="Tipos_de_estado_cliente_t_cliente" Member="Tipos_de_estado_cliente" ThisKey="estado" OtherKey="tipo" Type="Tipos_de_estado_cliente" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.provincias" Member="provincias">
+    <Type Name="provincia">
+      <Column Name="provincia" Member="provincia1" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="descripcion" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="apartado" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="creado_por" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="creado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="modificado_por" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="modificado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="provincia_t_cliente" Member="t_clientes" ThisKey="provincia1" OtherKey="provincia" Type="t_cliente" />
+      <Association Name="provincia_cantone" Member="cantones" ThisKey="provincia1" OtherKey="provincia" Type="cantone" />
+    </Type>
+  </Table>
+  <Table Name="dbo.cantones" Member="cantones">
+    <Type Name="cantone">
+      <Column Name="provincia" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="canton" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="apartado" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="descripcion" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="creado_por" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="creado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="modificado_por" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="modificado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="cantone_t_cliente" Member="t_clientes" ThisKey="provincia,canton" OtherKey="provincia,canton" Type="t_cliente" />
+      <Association Name="cantone_distrito" Member="distritos" ThisKey="provincia,canton" OtherKey="provincia,canton" Type="distrito" />
+      <Association Name="provincia_cantone" Member="provincia1" ThisKey="provincia" OtherKey="provincia1" Type="provincia" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.distritos" Member="distritos">
+    <Type Name="distrito">
+      <Column Name="provincia" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="canton" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="distrito" Member="distrito1" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="apartado" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="descripcion" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="creado_por" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="creado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="modificado_por" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="modificado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="distrito_t_cliente" Member="t_clientes" ThisKey="provincia,canton,distrito1" OtherKey="provincia,canton,distrito" Type="t_cliente" />
+      <Association Name="cantone_distrito" Member="cantone" ThisKey="provincia,canton" OtherKey="provincia,canton" Type="cantone" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tipos_de_cliente" Member="tipos_de_clientes">
+    <Type Name="tipos_de_cliente">
+      <Column Name="tipo" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="descripcion" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="creado_por" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="creado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="modificado_por" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="modificado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="tipos_de_cliente_t_cliente" Member="t_clientes" ThisKey="tipo" OtherKey="tipo" Type="t_cliente" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tipos_de_estado_cliente" Member="Tipos_de_estado_clientes">
+    <Type Name="Tipos_de_estado_cliente">
+      <Column Name="tipo" Type="System.Decimal" DbType="Decimal(4,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="descripcion" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="creado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="creado_por" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="modificado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="modificado_por" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Tipos_de_estado_cliente_t_cliente" Member="t_clientes" ThisKey="tipo" OtherKey="estado" Type="t_cliente" />
+    </Type>
+  </Table>
+</Database>

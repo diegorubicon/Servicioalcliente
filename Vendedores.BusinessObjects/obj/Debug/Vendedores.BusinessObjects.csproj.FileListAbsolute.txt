@@ -1,0 +1,15 @@
+C:\Desarrollo Local\ServicioalCliente\Vendedores.BusinessObjects\bin\Debug\Vendedores.BusinessObjects.dll
+C:\Desarrollo Local\ServicioalCliente\Vendedores.BusinessObjects\bin\Debug\Vendedores.BusinessObjects.pdb
+C:\Desarrollo Local\ServicioalCliente\Vendedores.BusinessObjects\bin\Debug\Common.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\Vendedores.BusinessObjects\bin\Debug\TerritorialDivision.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\Vendedores.BusinessObjects\bin\Debug\Common.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\Vendedores.BusinessObjects\bin\Debug\TerritorialDivision.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\Vendedores.BusinessObjects\obj\Debug\Vendedores.BusinessObjects.csprojResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\Vendedores.BusinessObjects\obj\Debug\Vendedores.BusinessObjects.dll
+C:\Desarrollo Local\ServicioalCliente\Vendedores.BusinessObjects\obj\Debug\Vendedores.BusinessObjects.pdb
+C:\Desarrollo Local\ServicioalCliente\Vendedores.BusinessObjects\bin\Debug\Personas.dll
+C:\Desarrollo Local\ServicioalCliente\Vendedores.BusinessObjects\bin\Debug\Ubicaciones.dll
+C:\Desarrollo Local\ServicioalCliente\Vendedores.BusinessObjects\bin\Debug\Personas.pdb
+C:\Desarrollo Local\ServicioalCliente\Vendedores.BusinessObjects\bin\Debug\Ubicaciones.pdb
+C:\Desarrollo Local\ServicioalCliente\Vendedores.BusinessObjects\bin\Debug\DataManager.dll
+C:\Desarrollo Local\ServicioalCliente\Vendedores.BusinessObjects\bin\Debug\DataManager.pdb

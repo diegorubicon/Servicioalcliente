@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ServicioalCliente", "ServicioalCliente.vbproj", "{793261BF-BD66-4CBC-B47E-A7A03C4AE467}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LayerAdress", "..\LayerAdress.NET\LayerAdress.vbproj", "{28EAD81A-4BE7-49A9-8909-DC0207188EB5}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LayerClients", "..\LayerClients.NET\LayerClients.vbproj", "{5F7BADEC-006B-4D51-A6A3-91847D98D97C}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LayerOrders", "..\LayerOrders\LayerOrders.vbproj", "{6E5944A4-E92A-41B5-8AC5-2877583893F6}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LayerSellers", "..\LayerSellers.NET\LayerSellers.vbproj", "{541CA01D-59EF-47D1-8566-91E76D0CA1E0}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LayerPayments", "..\LayerPayments\LayerPayments.vbproj", "{3742BC7F-E0EB-4556-9EB1-5662A3BB4F1D}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LayerShipping", "..\LayerShipping\LayerShipping.vbproj", "{D3A4A8CA-3857-4A5A-8434-0ABEAE5A1076}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DataProvider", "..\DataProvider\DataProvider.vbproj", "{27DB5852-9FA6-4581-8D65-656C0735E875}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "..\Setup1\Setup1.vdproj", "{AE4F1A84-7C4A-4F88-BE0B-7A7CD0D22454}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{793261BF-BD66-4CBC-B47E-A7A03C4AE467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793261BF-BD66-4CBC-B47E-A7A03C4AE467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793261BF-BD66-4CBC-B47E-A7A03C4AE467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793261BF-BD66-4CBC-B47E-A7A03C4AE467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28EAD81A-4BE7-49A9-8909-DC0207188EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28EAD81A-4BE7-49A9-8909-DC0207188EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28EAD81A-4BE7-49A9-8909-DC0207188EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28EAD81A-4BE7-49A9-8909-DC0207188EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F7BADEC-006B-4D51-A6A3-91847D98D97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7BADEC-006B-4D51-A6A3-91847D98D97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7BADEC-006B-4D51-A6A3-91847D98D97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7BADEC-006B-4D51-A6A3-91847D98D97C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E5944A4-E92A-41B5-8AC5-2877583893F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5944A4-E92A-41B5-8AC5-2877583893F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5944A4-E92A-41B5-8AC5-2877583893F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5944A4-E92A-41B5-8AC5-2877583893F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{541CA01D-59EF-47D1-8566-91E76D0CA1E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541CA01D-59EF-47D1-8566-91E76D0CA1E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541CA01D-59EF-47D1-8566-91E76D0CA1E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541CA01D-59EF-47D1-8566-91E76D0CA1E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3742BC7F-E0EB-4556-9EB1-5662A3BB4F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3742BC7F-E0EB-4556-9EB1-5662A3BB4F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3742BC7F-E0EB-4556-9EB1-5662A3BB4F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3742BC7F-E0EB-4556-9EB1-5662A3BB4F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3A4A8CA-3857-4A5A-8434-0ABEAE5A1076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3A4A8CA-3857-4A5A-8434-0ABEAE5A1076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3A4A8CA-3857-4A5A-8434-0ABEAE5A1076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3A4A8CA-3857-4A5A-8434-0ABEAE5A1076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27DB5852-9FA6-4581-8D65-656C0735E875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27DB5852-9FA6-4581-8D65-656C0735E875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27DB5852-9FA6-4581-8D65-656C0735E875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27DB5852-9FA6-4581-8D65-656C0735E875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE4F1A84-7C4A-4F88-BE0B-7A7CD0D22454}.Debug|Any CPU.ActiveCfg = Debug
+		{AE4F1A84-7C4A-4F88-BE0B-7A7CD0D22454}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = ..
+	EndGlobalSection
+EndGlobal

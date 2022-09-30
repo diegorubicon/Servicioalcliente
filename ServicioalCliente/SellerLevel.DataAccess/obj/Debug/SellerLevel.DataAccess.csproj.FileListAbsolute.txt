@@ -1,0 +1,9 @@
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\SellerLevel.DataAccess\bin\Debug\SellerLevel.DataAccess.dll.config
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\SellerLevel.DataAccess\bin\Debug\SellerLevel.DataAccess.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\SellerLevel.DataAccess\bin\Debug\SellerLevel.DataAccess.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\SellerLevel.DataAccess\bin\Debug\SellerLevel.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\SellerLevel.DataAccess\bin\Debug\SellerLevel.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\SellerLevel.DataAccess\obj\Debug\SellerLevel.DataAccess.csprojResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\SellerLevel.DataAccess\obj\Debug\SellerLevel.DataAccess.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\SellerLevel.DataAccess\obj\Debug\SellerLevel.DataAccess.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\SellerLevel.DataAccess\obj\Debug\SellerLevel.DataAccess.csproj.CoreCompileInputs.cache

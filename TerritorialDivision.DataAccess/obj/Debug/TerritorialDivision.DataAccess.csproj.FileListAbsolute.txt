@@ -1,0 +1,14 @@
+C:\Desarrollo Local\ServicioalCliente\TerritorialDivision.DataAccess\bin\Debug\TerritorialDivision.DataAccess.dll
+C:\Desarrollo Local\ServicioalCliente\TerritorialDivision.DataAccess\bin\Debug\TerritorialDivision.DataAccess.pdb
+C:\Desarrollo Local\ServicioalCliente\TerritorialDivision.DataAccess\bin\Debug\TerritorialDivision.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\TerritorialDivision.DataAccess\bin\Debug\TerritorialDivision.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\TerritorialDivision.DataAccess\obj\Debug\TerritorialDivision.DataAccess.csprojResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\TerritorialDivision.DataAccess\obj\Debug\TerritorialDivision.DataAccess.dll
+C:\Desarrollo Local\ServicioalCliente\TerritorialDivision.DataAccess\obj\Debug\TerritorialDivision.DataAccess.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\TerritorialDivision.DataAccess\bin\Debug\TerritorialDivision.DataAccess.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\TerritorialDivision.DataAccess\bin\Debug\TerritorialDivision.DataAccess.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\TerritorialDivision.DataAccess\bin\Debug\TerritorialDivision.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\TerritorialDivision.DataAccess\bin\Debug\TerritorialDivision.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\TerritorialDivision.DataAccess\obj\Debug\TerritorialDivision.DataAccess.csprojResolveAssemblyReference.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\TerritorialDivision.DataAccess\obj\Debug\TerritorialDivision.DataAccess.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\TerritorialDivision.DataAccess\obj\Debug\TerritorialDivision.DataAccess.pdb

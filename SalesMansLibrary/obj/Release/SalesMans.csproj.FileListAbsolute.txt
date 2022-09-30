@@ -1,0 +1,6 @@
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\SalesMansLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\SalesMansLibrary\bin\Release\SalesMansLibrary.dll.config
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\SalesMansLibrary\bin\Release\SalesMansLibrary.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\SalesMansLibrary\bin\Release\SalesMansLibrary.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\SalesMansLibrary\obj\Release\SalesMansLibrary.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\SalesMansLibrary\obj\Release\SalesMansLibrary.pdb

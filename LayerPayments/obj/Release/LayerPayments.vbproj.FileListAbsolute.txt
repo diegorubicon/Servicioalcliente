@@ -1,0 +1,13 @@
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\bin\Release\LayerPayments.dll
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\bin\Release\LayerPayments.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\bin\Release\LayerPayments.xml
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\bin\Release\DataProvider.dll
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\bin\Release\DataProvider.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\bin\Release\DataProvider.xml
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\obj\Release\ResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\obj\Release\LayerPayments.Resources.resources
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\obj\Release\ResGen.read.1.tlog
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\obj\Release\ResGen.write.1.tlog
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\obj\Release\LayerPayments.dll
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\obj\Release\LayerPayments.xml
+C:\Desarrollo Local\ServicioalCliente\LayerPayments\obj\Release\LayerPayments.pdb

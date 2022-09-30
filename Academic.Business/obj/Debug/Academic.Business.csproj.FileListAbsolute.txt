@@ -1,0 +1,64 @@
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Academic.Business\bin\Debug\Academic.Business.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Academic.Business\bin\Debug\Academic.Business.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Academic.Business\bin\Debug\Academic.DataAccess.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Academic.Business\bin\Debug\Academic.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Academic.Business\bin\Debug\Generic.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Academic.Business\bin\Debug\Academic.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Academic.Business\bin\Debug\Academic.DataAccess.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Academic.Business\bin\Debug\Generic.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Academic.Business\obj\Debug\Academic.Business.csprojResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Academic.Business\obj\Debug\Academic.Business.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Academic.Business\obj\Debug\Academic.Business.pdb
+C:\Desarrollo Local\ServicioalCliente\Academic.Business\bin\Debug\Academic.Business.dll
+C:\Desarrollo Local\ServicioalCliente\Academic.Business\bin\Debug\Academic.Business.pdb
+C:\Desarrollo Local\ServicioalCliente\Academic.Business\bin\Debug\Academic.DataAccess.dll
+C:\Desarrollo Local\ServicioalCliente\Academic.Business\bin\Debug\Academic.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\Academic.Business\bin\Debug\Generic.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\Academic.Business\bin\Debug\Academic.DataAccess.pdb
+C:\Desarrollo Local\ServicioalCliente\Academic.Business\bin\Debug\Academic.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\Academic.Business\bin\Debug\Generic.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\Academic.Business\obj\Debug\Academic.Business.csprojResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\Academic.Business\obj\Debug\Academic.Business.dll
+C:\Desarrollo Local\ServicioalCliente\Academic.Business\obj\Debug\Academic.Business.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.Business\bin\Debug\Academic.Business.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.Business\bin\Debug\Academic.Business.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.Business\bin\Debug\Academic.DataAccess.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.Business\bin\Debug\Academic.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.Business\bin\Debug\Generic.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.Business\bin\Debug\Academic.DataAccess.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.Business\bin\Debug\Academic.DataAccess.dll.config
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.Business\bin\Debug\Academic.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.Business\bin\Debug\Generic.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.Business\obj\Debug\Academic.Business.csprojAssemblyReference.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.Business\obj\Debug\Academic.Business.csproj.CoreCompileInputs.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.Business\obj\Debug\Academic.Business.csproj.CopyComplete
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.Business\obj\Debug\Academic.Business.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Academic.Business\obj\Debug\Academic.Business.pdb
+C:\Diego\Production Developments\ServicioalCliente\Academic.Business\bin\Debug\Academic.Business.dll
+C:\Diego\Production Developments\ServicioalCliente\Academic.Business\bin\Debug\Academic.Business.pdb
+C:\Diego\Production Developments\ServicioalCliente\Academic.Business\bin\Debug\Academic.DataAccess.dll
+C:\Diego\Production Developments\ServicioalCliente\Academic.Business\bin\Debug\Academic.Entities.dll
+C:\Diego\Production Developments\ServicioalCliente\Academic.Business\bin\Debug\Generic.Entities.dll
+C:\Diego\Production Developments\ServicioalCliente\Academic.Business\bin\Debug\Academic.DataAccess.pdb
+C:\Diego\Production Developments\ServicioalCliente\Academic.Business\bin\Debug\Academic.DataAccess.dll.config
+C:\Diego\Production Developments\ServicioalCliente\Academic.Business\bin\Debug\Academic.Entities.pdb
+C:\Diego\Production Developments\ServicioalCliente\Academic.Business\bin\Debug\Generic.Entities.pdb
+C:\Diego\Production Developments\ServicioalCliente\Academic.Business\obj\Debug\Academic.Business.csprojAssemblyReference.cache
+C:\Diego\Production Developments\ServicioalCliente\Academic.Business\obj\Debug\Academic.Business.csproj.CoreCompileInputs.cache
+C:\Diego\Production Developments\ServicioalCliente\Academic.Business\obj\Debug\Academic.Business.csproj.CopyComplete
+C:\Diego\Production Developments\ServicioalCliente\Academic.Business\obj\Debug\Academic.Business.dll
+C:\Diego\Production Developments\ServicioalCliente\Academic.Business\obj\Debug\Academic.Business.pdb
+C:\Diego\src\ServicioalCliente\Academic.Business\bin\Debug\Academic.Business.dll
+C:\Diego\src\ServicioalCliente\Academic.Business\bin\Debug\Academic.Business.pdb
+C:\Diego\src\ServicioalCliente\Academic.Business\bin\Debug\Academic.DataAccess.dll
+C:\Diego\src\ServicioalCliente\Academic.Business\bin\Debug\Academic.Entities.dll
+C:\Diego\src\ServicioalCliente\Academic.Business\bin\Debug\Generic.Entities.dll
+C:\Diego\src\ServicioalCliente\Academic.Business\bin\Debug\Academic.DataAccess.pdb
+C:\Diego\src\ServicioalCliente\Academic.Business\bin\Debug\Academic.DataAccess.dll.config
+C:\Diego\src\ServicioalCliente\Academic.Business\bin\Debug\Academic.Entities.pdb
+C:\Diego\src\ServicioalCliente\Academic.Business\bin\Debug\Generic.Entities.pdb
+C:\Diego\src\ServicioalCliente\Academic.Business\obj\Debug\Academic.Business.csproj.AssemblyReference.cache
+C:\Diego\src\ServicioalCliente\Academic.Business\obj\Debug\Academic.Business.csproj.CoreCompileInputs.cache
+C:\Diego\src\ServicioalCliente\Academic.Business\obj\Debug\Academic.Business.csproj.CopyComplete
+C:\Diego\src\ServicioalCliente\Academic.Business\obj\Debug\Academic.Business.dll
+C:\Diego\src\ServicioalCliente\Academic.Business\obj\Debug\Academic.Business.pdb

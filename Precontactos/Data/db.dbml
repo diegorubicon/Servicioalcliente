@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CRM" Class="dbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.0.2;Initial Catalog=CRM;Persist Security Info=True;User ID=UserCRM" SettingsObjectName="TrackingContacts.My.MySettings" SettingsPropertyName="CRMConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.[pre-contactos]" Member="Contactos">
+    <Type Name="Contacto" Id="ID1">
+      <Column Name="id" AutoSync="Never" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="apellido_01" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="apellido_02" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="telefono_01" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="telefono_02" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="provincia" Member="id_provincia" Storage="_provincia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="lugar" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="origen" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="creado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="creado_por" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="sintelefono" Type="System.Int32" DbType="int" CanBeNull="false" />
+      <Column Name="NumLlamadas" Member="NumLlamada" Type="System.Int32" DbType="int" CanBeNull="false" />
+      <Column Name="referido_por" Type="System.String" DbType="VarChar(300)" CanBeNull="true" />
+      <Column Name="fecha" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Contacto_ListaItem" Member="ListaItems" Storage="_PrecontactoListas" ThisKey="id" OtherKey="id_precontacto" Type="ListaItem" />
+      <Association Name="Origen_Contacto" Member="Origen1" ThisKey="origen" OtherKey="origen" Type="Origen" IsForeignKey="true" />
+      <Association Name="provincia_Contacto" Member="provincia1" ThisKey="id_provincia" OtherKey="id_provincia" Type="provincia" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.origenes" Member="Origens">
+    <Type Name="Origen">
+      <Column Name="origen" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="descripcion" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Association Name="Origen_Contacto" Member="Contactos" Storage="_PreContacts" ThisKey="origen" OtherKey="origen" Type="Contacto" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tipos_estado_precontacto" Member="InteresStatus">
+    <Type Name="InteresStatus">
+      <Column Name="estado" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="descripcion" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Association Name="InteresStatus_ListaItem" Member="ListaItems" Storage="_PrecontactoListas" ThisKey="estado" OtherKey="estado" Type="ListaItem" />
+    </Type>
+  </Table>
+  <Table Name="dbo.provincias" Member="provincias">
+    <Type Name="provincia">
+      <Column Name="provincia" Member="id_provincia" Storage="_provincia" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="descripcion" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Association Name="provincia_Contacto" Member="Contactos" Storage="_PreContacts" ThisKey="id_provincia" OtherKey="id_provincia" Type="Contacto" />
+      <Association Name="provincia_cantone" Member="cantones" ThisKey="id_provincia" OtherKey="provincia" Type="cantone" />
+      <Association Name="provincia_Oportunida" Member="Oportunidades" ThisKey="id_provincia" OtherKey="id_provincia" Type="Oportunida" />
+    </Type>
+  </Table>
+  <Table Name="dbo.notas" Member="notas">
+    <Type Name="nota">
+      <Column Name="id" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id_precontacto" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="id_lista" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="observacion" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="id_InteresActual" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="id_EstadoActual" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fecha" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="creado_por" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="ListaItem_nota" Member="ListaItem" Storage="_PrecontactoLista" ThisKey="id_precontacto,id_lista" OtherKey="id_precontacto,id_lista" Type="ListaItem" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.precontactos_intereses" Member="ListaItems">
+    <Type Name="ListaItem">
+      <Column Name="id" Member="id_precontacto" Storage="_id" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="lista" Member="id_lista" Storage="_lista" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="interes" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="interes_especifico" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="creado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="creado_por" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="ListaItem_nota" Member="notas" ThisKey="id_precontacto,id_lista" OtherKey="id_precontacto,id_lista" Type="nota" />
+      <Association Name="ListaItem_Oportunida" Member="Oportunidad" Storage="_Oportunidades" ThisKey="id_precontacto,id_lista" OtherKey="id_precontacto,id_lista" Type="Oportunida" Cardinality="One" />
+      <Association Name="Contacto_ListaItem" Member="Contacto" Storage="_PreContact" ThisKey="id_precontacto" OtherKey="id" Type="Contacto" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="InteresStatus_ListaItem" Member="InteresStatus" ThisKey="estado" OtherKey="estado" Type="InteresStatus" IsForeignKey="true" />
+      <Association Name="lista_ListaItem" Member="list" ThisKey="id_lista" OtherKey="id_lista" Type="lista" IsForeignKey="true" />
+      <Association Name="InteresType_ListaItem" Member="InteresType" ThisKey="interes,id_lista" OtherKey="interes,lista" Type="InteresType" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.cantones" Member="cantones">
+    <Type Name="cantone">
+      <Column Name="provincia" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="canton" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="descripcion" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Association Name="cantone_distrito" Member="distritos" ThisKey="provincia,canton" OtherKey="provincia,canton" Type="distrito" />
+      <Association Name="cantone_Oportunida" Member="Oportunidades" ThisKey="provincia,canton" OtherKey="id_provincia,id_canton" Type="Oportunida" />
+      <Association Name="provincia_cantone" Member="provincia1" ThisKey="provincia" OtherKey="id_provincia" Type="provincia" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.distritos" Member="distritos">
+    <Type Name="distrito">
+      <Column Name="provincia" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="canton" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="distrito" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="descripcion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="distrito_Oportunida" Member="Oportunidades" ThisKey="provincia,canton,distrito" OtherKey="id_provincia,id_canton,id_distrito" Type="Oportunida" />
+      <Association Name="cantone_distrito" Member="cantone" ThisKey="provincia,canton" OtherKey="provincia,canton" Type="cantone" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Distribuidores" Member="Distribuidors">
+    <Type Name="Distribuidor">
+      <Column Name="id_distribuidor" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="apellido_01" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="apellido_02" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Association Name="Distribuidor_Oportunida" Member="Oportunidas" Storage="_Oportunidades" ThisKey="id_distribuidor" OtherKey="distribuidor" Type="Oportunida" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OportunidadEstados" Member="OportunidadEstados">
+    <Type Name="OportunidadEstado">
+      <Column Name="estado" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="descripcion" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Association Name="OportunidadEstado_Oportunida" Member="Oportunidades" ThisKey="estado" OtherKey="id_estado" Type="Oportunida" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Oportunidades" Member="Oportunidas">
+    <Type Name="Oportunida">
+      <Column Name="id" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id_precontacto" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="id_lista" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="identificacion" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="provincia" Member="id_provincia" Storage="_provincia" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="canton" Member="id_canton" Storage="_canton" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="distrito" Member="id_distrito" Storage="_distrito" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="direccion" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="distribuidor" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="estado" Member="id_estado" Storage="_estado" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="referencia" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="creado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Oportunida_OportunidadCierre" Member="cierre" ThisKey="id" OtherKey="id_oportunidad" Type="OportunidadCierre" Cardinality="One" />
+      <Association Name="Oportunida_DistribuidorHistorico" Member="DistribuidorHistoricos" ThisKey="id" OtherKey="id_oportunidad" Type="DistribuidorHistorico" />
+      <Association Name="Distribuidor_Oportunida" Member="Distribuidor1" ThisKey="distribuidor" OtherKey="id_distribuidor" Type="Distribuidor" IsForeignKey="true" />
+      <Association Name="OportunidadEstado_Oportunida" Member="estado" Storage="_OportunidadEstado" ThisKey="id_estado" OtherKey="estado" Type="OportunidadEstado" IsForeignKey="true" />
+      <Association Name="ListaItem_Oportunida" Member="ListaItem" Storage="_PrecontactoLista" ThisKey="id_precontacto,id_lista" OtherKey="id_precontacto,id_lista" Type="ListaItem" IsForeignKey="true" />
+      <Association Name="provincia_Oportunida" Member="ParentProvincia" ThisKey="id_provincia" OtherKey="id_provincia" Type="provincia" IsForeignKey="true" />
+      <Association Name="cantone_Oportunida" Member="ParentCanton" ThisKey="id_provincia,id_canton" OtherKey="provincia,canton" Type="cantone" IsForeignKey="true" />
+      <Association Name="distrito_Oportunida" Member="ParentDistrito" ThisKey="id_provincia,id_canton,id_distrito" OtherKey="provincia,canton,distrito" Type="distrito" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OportunidadCierres" Member="OportunidadCierres">
+    <Type Name="OportunidadCierre">
+      <Column Name="id_oportunidad" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="observacion" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="estado" Member="id_estado" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="referencia" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="creado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Oportunida_OportunidadCierre" Member="Oportunidad" ThisKey="id_oportunidad" OtherKey="id" Type="Oportunida" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="CierreEstado_OportunidadCierre" Member="estado" ThisKey="id_estado" OtherKey="estado" Type="CierreEstado" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CierreEstados" Member="CierreEstados">
+    <Type Name="CierreEstado">
+      <Column Name="estado" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="descripcion" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Association Name="CierreEstado_OportunidadCierre" Member="Cierres" ThisKey="estado" OtherKey="id_estado" Type="OportunidadCierre" />
+    </Type>
+  </Table>
+  <Table Name="dbo.historico_distribuidores" Member="DistribuidorHistoricos">
+    <Type Name="DistribuidorHistorico">
+      <Column Name="id_oportunidad" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="distribuidor" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="creado_el" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Oportunida_DistribuidorHistorico" Member="Oportunida" ThisKey="id_oportunidad" OtherKey="id" Type="Oportunida" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.listas" Member="listas">
+    <Type Name="lista">
+      <Column Name="lista" Member="id_lista" AutoSync="Never" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="descripcion" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Association Name="lista_ListaItem" Member="ListaItems" Storage="_Precontactos" ThisKey="id_lista" OtherKey="id_lista" Type="ListaItem" />
+      <Association Name="lista_InteresType" Member="InteresTypes" ThisKey="id_lista" OtherKey="lista" Type="InteresType" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tipos_de_interes" Member="InteresTypes">
+    <Type Name="InteresType">
+      <Column Name="lista" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="interes" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="descripcion" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Association Name="InteresType_ListaItem" Member="ListaItems" Storage="_PrecontactoListas" ThisKey="interes,lista" OtherKey="interes,id_lista" Type="ListaItem" />
+      <Association Name="lista_InteresType" Member="lista1" ThisKey="lista" OtherKey="id_lista" Type="lista" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.GetPreContactsByOrigin" Method="GetPreContactsByOrigin">
+    <Parameter Name="origen" Type="System.Int32" DbType="Int" />
+    <ElementType IdRef="ID1" />
+  </Function>
+</Database>

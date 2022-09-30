@@ -1,0 +1,15 @@
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Survey.Entities\bin\Debug\Survey.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Survey.Entities\bin\Debug\Survey.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Survey.Entities\obj\Debug\Survey.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\ServicioalCliente\Survey.Entities\obj\Debug\Survey.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\Survey.Entities\bin\Debug\Survey.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\Survey.Entities\bin\Debug\Survey.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\Survey.Entities\obj\Debug\Survey.Entities.csproj.CoreCompileInputs.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\Survey.Entities\obj\Debug\Survey.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\ServicioalCliente\Survey.Entities\obj\Debug\Survey.Entities.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\Survey.Entities\bin\Debug\Survey.Entities.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\Survey.Entities\bin\Debug\Survey.Entities.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\Survey.Entities\obj\Debug\Survey.Entities.csproj.CoreCompileInputs.cache
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\Survey.Entities\obj\Debug\Survey.Entities.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\Survey.Entities\obj\Debug\Survey.Entities.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente\Survey.Entities\obj\Debug\Survey.Entities.csprojAssemblyReference.cache

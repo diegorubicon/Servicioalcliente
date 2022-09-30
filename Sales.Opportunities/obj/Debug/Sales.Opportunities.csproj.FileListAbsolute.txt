@@ -1,0 +1,80 @@
+C:\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\Sales.Opportunities.dll
+C:\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\Sales.Opportunities.pdb
+C:\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\TerritorialDivision.BusinessLayer.dll
+C:\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\TerritorialDivision.DataAccess.dll
+C:\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\TerritorialDivision.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\TerritorialDivision.BusinessLayer.pdb
+C:\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\TerritorialDivision.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\TerritorialDivision.DataAccess.pdb
+C:\Desarrollo Local\ServicioalCliente\Sales.Opportunities\obj\Debug\Sales.Opportunities.csprojResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\Sales.Opportunities\obj\Debug\Sales.Opportunities.dll
+C:\Desarrollo Local\ServicioalCliente\Sales.Opportunities\obj\Debug\Sales.Opportunities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\Sales.Opportunities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\Sales.Opportunities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\DataToBusinessParserLib.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\TerritorialDivisionLib.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\TerritorialDivisionLib.Model.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\CustomORMLib.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\DataWarehouseLib.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\System.Data.SQLite.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\LogsLib.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\DataToBusinessParserLib.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\TerritorialDivisionLib.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\TerritorialDivisionLib.Model.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\CustomORMLib.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\DataWarehouseLib.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\DataWarehouseLib.dll.config
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\System.Data.SQLite.xml
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\System.Data.SQLite.dll.config
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\bin\Debug\LogsLib.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\obj\Debug\Sales.Opportunities.csproj.CoreCompileInputs.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\obj\Debug\Sales.Opportunities.csproj.CopyComplete
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\obj\Debug\Sales.Opportunities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\obj\Debug\Sales.Opportunities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Sales.Opportunities\obj\Debug\Sales.Opportunities.csprojAssemblyReference.cache
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\bin\Debug\Sales.Opportunities.dll
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\bin\Debug\Sales.Opportunities.pdb
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\bin\Debug\TerritorialDivisionLib.dll
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\bin\Debug\TerritorialDivisionLib.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\bin\Debug\DataToBusiness.dll
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\bin\Debug\MyORMLib.dll
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\bin\Debug\DataWarehouseLib.dll
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\bin\Debug\System.Data.SQLite.dll
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\bin\Debug\LogsLib.dll
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\bin\Debug\TerritorialDivisionLib.pdb
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\bin\Debug\TerritorialDivisionLib.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\bin\Debug\DataToBusiness.pdb
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\bin\Debug\MyORMLib.pdb
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\bin\Debug\DataWarehouseLib.pdb
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\bin\Debug\DataWarehouseLib.dll.config
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\bin\Debug\System.Data.SQLite.xml
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\bin\Debug\System.Data.SQLite.dll.config
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\bin\Debug\LogsLib.pdb
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\obj\Debug\Sales.Opportunities.csprojAssemblyReference.cache
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\obj\Debug\Sales.Opportunities.csproj.CoreCompileInputs.cache
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\obj\Debug\Sales.Opportunities.csproj.CopyComplete
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\obj\Debug\Sales.Opportunities.dll
+C:\Diego\Production Developments\ServicioalCliente\Sales.Opportunities\obj\Debug\Sales.Opportunities.pdb
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\obj\Debug\Sales.Opportunities.csproj.AssemblyReference.cache
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\obj\Debug\Sales.Opportunities.csproj.CoreCompileInputs.cache
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\obj\Debug\Sales.Opportunities.dll
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\obj\Debug\Sales.Opportunities.pdb
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\bin\Debug\Sales.Opportunities.dll
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\bin\Debug\Sales.Opportunities.pdb
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\bin\Debug\DataToBusinessParserLib.dll
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\bin\Debug\TerritorialDivisionLib.dll
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\bin\Debug\TerritorialDivisionLib.Model.dll
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\bin\Debug\CustomORMLib.dll
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\bin\Debug\DataWarehouseLib.dll
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\bin\Debug\System.Data.SQLite.dll
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\bin\Debug\LogsLib.dll
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\bin\Debug\DataToBusinessParserLib.pdb
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\bin\Debug\TerritorialDivisionLib.pdb
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\bin\Debug\TerritorialDivisionLib.Model.pdb
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\bin\Debug\CustomORMLib.pdb
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\bin\Debug\DataWarehouseLib.pdb
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\bin\Debug\DataWarehouseLib.dll.config
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\bin\Debug\System.Data.SQLite.xml
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\bin\Debug\System.Data.SQLite.dll.config
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\bin\Debug\LogsLib.pdb
+C:\Diego\src\ServicioalCliente\Sales.Opportunities\obj\Debug\Sales.Opportunities.csproj.CopyComplete

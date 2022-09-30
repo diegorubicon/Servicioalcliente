@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D80DECFE-19A2-4665-88C5-F56A6B06704E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Vendedores.DataAccess</RootNamespace>
+    <AssemblyName>Vendedores.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataIO.cs" />
+    <Compile Include="DataManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Clases .net\Personas\Personas.csproj">
+      <Project>{19048A83-D1B1-41D5-8C60-DFAA4E44DF3B}</Project>
+      <Name>Personas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common.Entities\Common.Entities.csproj">
+      <Project>{C73695BD-053F-4BA3-92BC-69AE18FDB828}</Project>
+      <Name>Common.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServicioalCliente\TerritorialDivision.Entities\TerritorialDivision.Entities.csproj">
+      <Project>{A3072618-E006-42D3-93F0-571BAB64B883}</Project>
+      <Name>TerritorialDivision.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServicioalCliente\Vendedores.Entities\Vendedores.Entities.csproj">
+      <Project>{D1697D73-C6AA-4CA0-B7CC-1A2641D43A2C}</Project>
+      <Name>Vendedores.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TerritorialDivision.DataAccess\TerritorialDivision.DataAccess.csproj">
+      <Project>{612D881C-F121-4F25-80B0-4B750A065E79}</Project>
+      <Name>TerritorialDivision.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ubicaciones\Ubicaciones.csproj">
+      <Project>{A0FFEAF3-CDCC-4721-BFF5-3EB52EDE8EEB}</Project>
+      <Name>Ubicaciones</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

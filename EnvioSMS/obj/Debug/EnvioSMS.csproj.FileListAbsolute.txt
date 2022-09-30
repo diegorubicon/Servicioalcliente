@@ -1,0 +1,5 @@
+C:\Desarrollo Local\ServicioalCliente\EnvioSMS\bin\Debug\EnvioSMS.dll.config
+C:\Desarrollo Local\ServicioalCliente\EnvioSMS\bin\Debug\EnvioSMS.dll
+C:\Desarrollo Local\ServicioalCliente\EnvioSMS\bin\Debug\EnvioSMS.pdb
+C:\Desarrollo Local\ServicioalCliente\EnvioSMS\obj\Debug\EnvioSMS.dll
+C:\Desarrollo Local\ServicioalCliente\EnvioSMS\obj\Debug\EnvioSMS.pdb

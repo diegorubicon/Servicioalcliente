@@ -1,0 +1,16 @@
+C:\Desarrollo Local\ServicioalCliente\SalesForce.Entities\bin\Debug\SalesForce.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\SalesForce.Entities\bin\Debug\SalesForce.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\SalesForce.Entities\bin\Debug\Generic.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\SalesForce.Entities\bin\Debug\Generic.Entities.pdb
+C:\Desarrollo Local\ServicioalCliente\SalesForce.Entities\obj\Debug\SalesForce.Entities.csprojResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\SalesForce.Entities\obj\Debug\SalesForce.Entities.dll
+C:\Desarrollo Local\ServicioalCliente\SalesForce.Entities\obj\Debug\SalesForce.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\SalesForce.Entities\bin\Debug\SalesForce.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\SalesForce.Entities\bin\Debug\SalesForce.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\SalesForce.Entities\bin\Debug\Generic.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\SalesForce.Entities\bin\Debug\Generic.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\SalesForce.Entities\obj\Debug\SalesForce.Entities.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\SalesForce.Entities\obj\Debug\SalesForce.Entities.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\SalesForce.Entities\obj\Debug\SalesForce.Entities.csprojAssemblyReference.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\SalesForce.Entities\obj\Debug\SalesForce.Entities.csproj.CoreCompileInputs.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\SalesForce.Entities\obj\Debug\SalesForce.Entities.csproj.CopyComplete

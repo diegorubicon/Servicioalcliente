@@ -1,0 +1,7 @@
+C:\Desarrollo Local\ServicioalCliente\ClosuresSalesLib\bin\Debug\ClosuresSalesLib.dll
+C:\Desarrollo Local\ServicioalCliente\ClosuresSalesLib\bin\Debug\ClosuresSalesLib.pdb
+C:\Desarrollo Local\ServicioalCliente\ClosuresSalesLib\obj\x86\Debug\ClosuresSalesLib.Properties.Resources.resources
+C:\Desarrollo Local\ServicioalCliente\ClosuresSalesLib\obj\x86\Debug\ClosuresSalesLib.csproj.GenerateResource.Cache
+C:\Desarrollo Local\ServicioalCliente\ClosuresSalesLib\obj\x86\Debug\ClosuresSalesLib.dll
+C:\Desarrollo Local\ServicioalCliente\ClosuresSalesLib\obj\x86\Debug\ClosuresSalesLib.pdb
+C:\Desarrollo Local\ServicioalCliente\ClosuresSalesLib\obj\x86\Debug\ClosuresSalesLib.csprojResolveAssemblyReference.cache

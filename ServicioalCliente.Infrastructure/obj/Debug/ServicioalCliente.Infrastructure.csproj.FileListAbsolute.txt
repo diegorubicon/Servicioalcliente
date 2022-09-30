@@ -1,0 +1,46 @@
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\ServicioalCliente.Infrastructure.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\ServicioalCliente.Infrastructure.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\AccessDataLib.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\ServicioalCliente.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\Dapper.SimpleCRUD.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\AutoMapper.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\Dapper.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\Serilog.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\Serilog.Sinks.File.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\AccessDataLib.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\ServicioalCliente.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\Dapper.SimpleCRUD.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\Dapper.SimpleCRUD.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\AutoMapper.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\Dapper.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\Serilog.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\Serilog.Sinks.File.pdb
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\Serilog.Sinks.File.xml
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\obj\Debug\ServicioalCliente.Infrastructure.csprojAssemblyReference.cache
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\obj\Debug\ServicioalCliente.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\obj\Debug\ServicioalCliente.Infrastructure.csproj.CopyComplete
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\obj\Debug\ServicioalCliente.Infrastructure.dll
+C:\Diego\Production Developments\ServicioalCliente\ServicioalCliente.Infrastructure\obj\Debug\ServicioalCliente.Infrastructure.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\ServicioalCliente.Infrastructure.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\ServicioalCliente.Infrastructure.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\AccessDataLib.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\ServicioalCliente.Model.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\Dapper.SimpleCRUD.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\AutoMapper.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\Dapper.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\Serilog.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\Serilog.Sinks.File.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\AccessDataLib.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\ServicioalCliente.Model.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\Dapper.SimpleCRUD.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\Dapper.SimpleCRUD.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\AutoMapper.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\Dapper.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\Serilog.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\Serilog.Sinks.File.pdb
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\bin\Debug\Serilog.Sinks.File.xml
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\obj\Debug\ServicioalCliente.Infrastructure.csproj.AssemblyReference.cache
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\obj\Debug\ServicioalCliente.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\obj\Debug\ServicioalCliente.Infrastructure.csproj.CopyComplete
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\obj\Debug\ServicioalCliente.Infrastructure.dll
+C:\Diego\src\ServicioalCliente\ServicioalCliente.Infrastructure\obj\Debug\ServicioalCliente.Infrastructure.pdb

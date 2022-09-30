@@ -1,0 +1,58 @@
+C:\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.dll
+C:\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.pdb
+C:\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Model.dll
+C:\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Repositories.AdoRepository.dll
+C:\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Repositories.Contracts.dll
+C:\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\ConnectionStringManager.dll
+C:\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Model.pdb
+C:\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Repositories.AdoRepository.pdb
+C:\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Repositories.Contracts.pdb
+C:\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\ConnectionStringManager.pdb
+C:\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\obj\Debug\AfterSales.csprojResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\obj\Debug\AfterSales.dll
+C:\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\obj\Debug\AfterSales.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Model.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Repositories.AdoRepository.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Repositories.Contracts.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\ConnectionStringManager.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Model.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Repositories.AdoRepository.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Repositories.Contracts.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\ConnectionStringManager.pdb
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\obj\Debug\AfterSales.csprojAssemblyReference.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\obj\Debug\AfterSales.csproj.CoreCompileInputs.cache
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\obj\Debug\AfterSales.csproj.CopyComplete
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\obj\Debug\AfterSales.dll
+C:\Docs\Desarrollo Local\ServicioalCliente\Clientes.BusinessLayer\AfterSales\obj\Debug\AfterSales.pdb
+C:\Diego\Production Developments\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.dll
+C:\Diego\Production Developments\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.pdb
+C:\Diego\Production Developments\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Model.dll
+C:\Diego\Production Developments\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Repositories.AdoRepository.dll
+C:\Diego\Production Developments\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Repositories.Contracts.dll
+C:\Diego\Production Developments\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\ConnectionStringManager.dll
+C:\Diego\Production Developments\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Model.pdb
+C:\Diego\Production Developments\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Repositories.AdoRepository.pdb
+C:\Diego\Production Developments\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Repositories.Contracts.pdb
+C:\Diego\Production Developments\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\ConnectionStringManager.pdb
+C:\Diego\Production Developments\ServicioalCliente\Clientes.BusinessLayer\AfterSales\obj\Debug\AfterSales.csprojAssemblyReference.cache
+C:\Diego\Production Developments\ServicioalCliente\Clientes.BusinessLayer\AfterSales\obj\Debug\AfterSales.csproj.CoreCompileInputs.cache
+C:\Diego\Production Developments\ServicioalCliente\Clientes.BusinessLayer\AfterSales\obj\Debug\AfterSales.csproj.CopyComplete
+C:\Diego\Production Developments\ServicioalCliente\Clientes.BusinessLayer\AfterSales\obj\Debug\AfterSales.dll
+C:\Diego\Production Developments\ServicioalCliente\Clientes.BusinessLayer\AfterSales\obj\Debug\AfterSales.pdb
+C:\Diego\src\ServicioalCliente\Clientes.BusinessLayer\AfterSales\obj\Debug\AfterSales.csproj.AssemblyReference.cache
+C:\Diego\src\ServicioalCliente\Clientes.BusinessLayer\AfterSales\obj\Debug\AfterSales.csproj.CoreCompileInputs.cache
+C:\Diego\src\ServicioalCliente\Clientes.BusinessLayer\AfterSales\obj\Debug\AfterSales.dll
+C:\Diego\src\ServicioalCliente\Clientes.BusinessLayer\AfterSales\obj\Debug\AfterSales.pdb
+C:\Diego\src\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.dll
+C:\Diego\src\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.pdb
+C:\Diego\src\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Model.dll
+C:\Diego\src\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Repositories.AdoRepository.dll
+C:\Diego\src\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Repositories.Contracts.dll
+C:\Diego\src\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\ConnectionStringManager.dll
+C:\Diego\src\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Model.pdb
+C:\Diego\src\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Repositories.AdoRepository.pdb
+C:\Diego\src\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\AfterSales.Repositories.Contracts.pdb
+C:\Diego\src\ServicioalCliente\Clientes.BusinessLayer\AfterSales\bin\Debug\ConnectionStringManager.pdb
+C:\Diego\src\ServicioalCliente\Clientes.BusinessLayer\AfterSales\obj\Debug\AfterSales.csproj.CopyComplete

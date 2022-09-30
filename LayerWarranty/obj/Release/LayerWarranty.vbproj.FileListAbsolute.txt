@@ -1,0 +1,13 @@
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\bin\Release\LayerWarranty.dll
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\bin\Release\LayerWarranty.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\bin\Release\LayerWarranty.xml
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\bin\Release\DataProvider.dll
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\bin\Release\DataProvider.pdb
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\bin\Release\DataProvider.xml
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\obj\Release\ResolveAssemblyReference.cache
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\obj\Release\LayerWarranty.Resources.resources
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\obj\Release\ResGen.read.1.tlog
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\obj\Release\ResGen.write.1.tlog
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\obj\Release\LayerWarranty.dll
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\obj\Release\LayerWarranty.xml
+C:\Desarrollo Local\ServicioalCliente\LayerWarranty\obj\Release\LayerWarranty.pdb

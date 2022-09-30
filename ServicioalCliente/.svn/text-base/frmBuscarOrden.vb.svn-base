@@ -1,0 +1,162 @@
+Public Class frmBuscarOrden
+
+    Public cliente As String
+    Public tipo As Integer = 1
+    Public LastSearch As Integer
+    Private Sub frmBuscarOrden_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        CargarOrdenes()
+        LastSearch = 0
+    End Sub
+    Private Sub CargarOrdenes()
+        Dim o As BusinessLogic.Orders
+        Dim item As ListViewItem
+        Dim i As Integer
+        Dim j As Integer
+        Dim f As String
+
+        Me.lvArticulos.Items.Clear()
+        o = New BusinessLogic.Orders
+        o.SetDataBaseLogon("sa", "", "kf-srv-01")
+        If tipo = 1 Then
+            o.OrderByClient(cliente, Me.ckOrdenesSaldo.Checked)
+        Else
+            o.GarantiaByClient(cliente)
+        End If
+        If o.OrdersCount > 0 Then
+            For i = 1 To o.OrdersCount
+                f = o.Factura(i)
+                For j = 1 To o.Articulos(i).Count
+                    item = New ListViewItem(o.Factura(i))
+                    item.SubItems.Add(o.Fecha(i))
+                    item.SubItems.Add(o.Articulos(i).Descripcion(j))
+                    item.SubItems.Add(o.MontoTotal(i))
+                    Me.lvArticulos.Items.Add(item)
+                Next
+            Next
+        End If
+    End Sub
+    Private Sub cmdSalir_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdSalir.Click
+        Me.Hide()
+    End Sub
+    Private Sub cmdSeleccionar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdSeleccionar.Click
+        If tipo = 1 Then
+            frmMain.txtFactura.Text = Me.lvArticulos.SelectedItems(0).Text
+            frmMain.Button1_Click(sender, Nothing)
+            Me.Close()
+        Else
+            frmMain.txtBoletaGarantia.Text = Me.lvArticulos.SelectedItems(0).Text
+            frmMain.cmdMostrarDatos_Click(sender, Nothing)
+            Me.Close()
+        End If
+    End Sub
+    Private Sub txtBuscarOrden_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtBuscarOrden.TextChanged
+        Dim o As BusinessLogic.Orders
+        Dim item As ListViewItem
+        Dim i As Integer
+        Dim j As Integer
+        Dim f As String
+        Dim addfact As Boolean
+        If Me.txtBuscarOrden.Text <> "" Then
+            Me.lvArticulos.Items.Clear()
+            LastSearch = 1
+            Try
+                o = New BusinessLogic.Orders
+                o.SetDataBaseLogon("sa", "", "kf-srv-01")
+                If tipo = 1 Then
+                    o.OrderByClient(cliente)
+                Else
+                    o.GarantiaByClient(cliente)
+                End If
+                If o.OrdersCount > 0 Then
+                    For i = 1 To o.OrdersCount
+                        f = o.Factura(i)
+                        addfact = False
+                        If Me.ckOrdenesSaldo.Checked Then
+                            If o.SaldoFactura(i) > 0 Then
+                                addfact = True
+                            Else
+                                addfact = False
+                            End If
+                        Else
+                            addfact = True
+                        End If
+                        If addfact Then
+                            If InStr(f, Me.txtBuscarOrden.Text, CompareMethod.Text) > 0 Then
+                                For j = 1 To o.Articulos(i).Count
+                                    item = New ListViewItem(o.Factura(i))
+                                    item.SubItems.Add(o.Fecha(i))
+                                    item.SubItems.Add(o.Articulos(i).Descripcion(j))
+                                    item.SubItems.Add(o.MontoTotal(i))
+                                    Me.lvArticulos.Items.Add(item)
+                                Next
+                            End If
+                        End If
+                    Next
+                End If
+            Catch ex As Exception
+                MsgBox("No se pudo completar la operacion", MsgBoxStyle.Critical)
+            End Try
+        Else
+            CargarOrdenes()
+        End If
+        
+    End Sub
+
+    Private Sub txtBuscarDescripcion_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtBuscarDescripcion.TextChanged
+        Dim o As BusinessLogic.Orders
+        Dim item As ListViewItem
+        Dim i As Integer
+        Dim j As Integer
+        Dim f As String
+        Dim addfact As Boolean
+        If Me.txtBuscarDescripcion.Text <> "" Then
+            LastSearch = 2
+            Me.lvArticulos.Items.Clear()
+            o = New BusinessLogic.Orders
+            o.SetDataBaseLogon("sa", "", "kf-srv-01")
+            If tipo = 1 Then
+                o.OrderByClient(cliente)
+            Else
+                o.GarantiaByClient(cliente)
+            End If
+            If o.OrdersCount > 0 Then
+                For i = 1 To o.OrdersCount
+                    f = o.Factura(i)
+                    addfact = False
+                    If Me.ckOrdenesSaldo.Checked Then
+                        If o.SaldoFactura(i) > 0 Then
+                            addfact = True
+                        Else
+                            addfact = False
+                        End If
+                    Else
+                        addfact = True
+                    End If
+                    If addfact Then
+                        For j = 1 To o.Articulos(i).Count
+                            f = o.Articulos(i).Descripcion(j)
+                            If InStr(f, Me.txtBuscarDescripcion.Text, CompareMethod.Text) > 0 Then
+                                item = New ListViewItem(o.Factura(i))
+                                item.SubItems.Add(o.Fecha(i))
+                                item.SubItems.Add(o.Articulos(i).Descripcion(j))
+                                item.SubItems.Add(o.MontoTotal(i))
+                                Me.lvArticulos.Items.Add(item)
+                            End If
+                        Next
+                    End If
+                Next
+            End If
+        Else
+            CargarOrdenes()
+        End If
+    End Sub
+
+    Private Sub ckOrdenesSaldo_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ckOrdenesSaldo.CheckedChanged
+        Select Case LastSearch
+            Case 0 : CargarOrdenes()
+            Case 1 : Me.txtBuscarOrden_TextChanged(sender, e)
+            Case 2 : Me.txtBuscarDescripcion_TextChanged(sender, e)
+
+        End Select
+    End Sub
+End Class

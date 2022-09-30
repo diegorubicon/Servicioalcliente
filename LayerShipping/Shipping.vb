@@ -1,0 +1,88 @@
+Public Class Shipping
+    Private data As ShippingAD
+    Private index As Integer
+    Private factura As String
+    Public Sub New(ByVal Bill As String)
+        data = New ShippingAD
+        factura = Bill
+    End Sub
+    Public Sub SetDataBaseLogon(ByRef User As String, ByRef Password As String, ByRef server As String)
+        data.Usuario = User
+        data.Password = Password
+        data.Servidor = server
+    End Sub
+    Public Sub SetConnection(ByRef cnn As SqlClient.SqlConnection)
+        data.Connection(cnn)
+    End Sub
+    Public Sub Load()
+        data.Read(factura)
+        index = 1
+    End Sub
+    Private Function ReturnStringOf(ByRef f As ShippingAD.TableShipping, Optional ByRef i As Short = 0) As Object
+        Dim j As Short
+        Try
+            If data.count > 0 Then
+                If i = 1 Then
+                    data.GetFirstRow()
+                    index = 1
+                End If
+                If (i = index) Or (i = 0) Then
+                    Return data.ValueAt(f)
+                Else
+                    For j = index To i - 1
+                        data.GetNextRow()
+                    Next j
+                    index = i
+                    Return data.ValueAt(f)
+                End If
+            Else
+                Return Nothing
+            End If
+        Catch ex As Exception
+            Return Nothing
+        End Try
+    End Function
+    Public Function Count() As Short
+        Return data.count
+    End Function
+    Public ReadOnly Property Guia(Optional ByVal Index As Short = 0) As String
+        Get
+            Dim obj As Object = ReturnStringOf(ShippingAD.TableShipping.Guia, Index)
+            If Not (obj Is Nothing) Then
+                Return Convert.ToString(obj)
+            Else
+                Return ""
+            End If
+        End Get
+    End Property
+    Public ReadOnly Property Fecha(Optional ByVal Index As Short = 0) As DateTime
+        Get
+            Dim obj As Object = ReturnStringOf(ShippingAD.TableShipping.Fecha, Index)
+            If Not (obj Is Nothing) Then
+                Return Convert.ToDateTime(obj)
+            Else
+                Return Today
+            End If
+        End Get
+    End Property
+    Public ReadOnly Property Transporte(Optional ByVal Index As Short = 0) As String
+        Get
+            Dim obj As Object = ReturnStringOf(ShippingAD.TableShipping.Transporte, Index)
+            If Not (obj Is Nothing) Then
+                Return Convert.ToString(obj)
+            Else
+                Return ""
+            End If
+        End Get
+    End Property
+    Public ReadOnly Property Sucursal(Optional ByVal Index As Short = 0) As String
+        Get
+            Dim obj As Object = ReturnStringOf(ShippingAD.TableShipping.Sucursal, Index)
+            If Not (obj Is Nothing) Then
+                Return Convert.ToString(obj)
+            Else
+                Return ""
+            End If
+        End Get
+    End Property
+End Class

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 10.375" name="DataMap">
+  <DataContextMoniker Name="/DataMapDataContext" />
+  <nestedChildShapes>
+    <classShape Id="6d938b08-efe7-4ce0-aeff-27f0f665fa70" absoluteBounds="2.5, 0.625, 2, 9.2706526692708326">
+      <DataClassMoniker Name="/DataMapDataContext/t_cliente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dd300cb9-894d-42a8-9352-31faee7f6947" absoluteBounds="2.5149999999999997, 1.085, 1.9700000000000002, 8.7106526692708321" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0b72639e-7f02-481b-b760-d2f0bd68ed3d" absoluteBounds="6.25, 4.375, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DataMapDataContext/provincia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f129fe71-398d-4946-8a8f-683f4e21a1bb" absoluteBounds="6.265, 4.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.25 : 5.45274983723958); (4.5 : 5.45274983723958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataMapDataContext/provincia/provincia_t_cliente" />
+      <nodes>
+        <classShapeMoniker Id="0b72639e-7f02-481b-b760-d2f0bd68ed3d" />
+        <classShapeMoniker Id="6d938b08-efe7-4ce0-aeff-27f0f665fa70" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8b08b7fa-e99f-4583-a79c-2e8ce33d1a0f" absoluteBounds="5.75, 0.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/DataMapDataContext/cantone" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e154233b-4476-4f30-b8a9-0d939ee11a17" absoluteBounds="5.765, 0.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.75 : 1.73640055338542); (4.5 : 1.73640055338542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataMapDataContext/cantone/cantone_t_cliente" />
+      <nodes>
+        <classShapeMoniker Id="8b08b7fa-e99f-4583-a79c-2e8ce33d1a0f" />
+        <classShapeMoniker Id="6d938b08-efe7-4ce0-aeff-27f0f665fa70" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7 : 4.375); (7 : 2.84780110677083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataMapDataContext/provincia/provincia_cantone" />
+      <nodes>
+        <classShapeMoniker Id="0b72639e-7f02-481b-b760-d2f0bd68ed3d" />
+        <classShapeMoniker Id="8b08b7fa-e99f-4583-a79c-2e8ce33d1a0f" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5627eed3-4554-4517-a779-b14b8e3bccc4" absoluteBounds="6.25, 7.625, 2, 2.5401025390625">
+      <DataClassMoniker Name="/DataMapDataContext/distrito" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4e313344-4227-4476-ac1c-17184a1d42df" absoluteBounds="6.265, 8.085, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.25 : 8.76032633463542); (6.05208083333333 : 8.76032633463542 : JumpStart); (5.88541416666667 : 8.76032633463542 : JumpEnd); (4.5 : 8.76032633463542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataMapDataContext/distrito/distrito_t_cliente" />
+      <nodes>
+        <classShapeMoniker Id="5627eed3-4554-4517-a779-b14b8e3bccc4" />
+        <classShapeMoniker Id="6d938b08-efe7-4ce0-aeff-27f0f665fa70" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.9687475 : 2.84780110677083); (5.9687475 : 9.49396693684896); (6.25 : 9.49396693684896)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataMapDataContext/cantone/cantone_distrito" />
+      <nodes>
+        <classShapeMoniker Id="8b08b7fa-e99f-4583-a79c-2e8ce33d1a0f" />
+        <classShapeMoniker Id="5627eed3-4554-4517-a779-b14b8e3bccc4" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="1f49eea3-e43e-4d59-a849-d0ef6f0cbb66" absoluteBounds="0.5, 3.375, 2, 1.9631982421875">
+      <DataClassMoniker Name="/DataMapDataContext/tipos_de_cliente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="45082354-05a4-434b-8329-722a64823199" absoluteBounds="0.51499999999999968, 3.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.46875 : 3.375); (1.46875 : 1.9999995); (2.5 : 1.9999995)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataMapDataContext/tipos_de_cliente/tipos_de_cliente_t_cliente" />
+      <nodes>
+        <classShapeMoniker Id="1f49eea3-e43e-4d59-a849-d0ef6f0cbb66" />
+        <classShapeMoniker Id="6d938b08-efe7-4ce0-aeff-27f0f665fa70" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="c3153a58-89cb-453b-b46f-f16d60966353" absoluteBounds="0.5, 6.125, 2, 1.9631982421875">
+      <DataClassMoniker Name="/DataMapDataContext/Tipos_de_estado_cliente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="365922c8-1ffd-43c6-b0ba-9798b187f5e2" absoluteBounds="0.51499999999999968, 6.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.46875 : 8.0881982421875); (1.46875 : 8.99192595572917); (2.5 : 8.99192595572917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataMapDataContext/Tipos_de_estado_cliente/Tipos_de_estado_cliente_t_cliente" />
+      <nodes>
+        <classShapeMoniker Id="c3153a58-89cb-453b-b46f-f16d60966353" />
+        <classShapeMoniker Id="6d938b08-efe7-4ce0-aeff-27f0f665fa70" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
